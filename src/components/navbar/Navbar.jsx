@@ -4,6 +4,12 @@ import './Navbar.scss'
 export default function Navbar() {
 
     return (
-        <div>Navbar</div>
+        <>
+            <div className='NavBar-Container'>
+                <div className='NavBar-home-button'></div>
+                <div className='NavBar-Title'>Workout Planner</div>
+
+            </div>
+        </>
     )
 }

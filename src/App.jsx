@@ -8,7 +8,6 @@ import Navbar from './components/navbar/Navbar.jsx'
 // Lazy Load Components
 // const Navbar = lazy(() => import('./components/navbar/Navbar.jsx'))
 
-
 function App() {
 
   return (
