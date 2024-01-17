@@ -11,6 +11,10 @@ export const homeDirectory = [
         title: 'custom',
         navigation: 'custom'
     },
+    {
+        title: 'about',
+        navigation: 'about'
+    },
 ]
 
 export const twelveWkDirectory = [

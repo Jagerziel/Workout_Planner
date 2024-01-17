@@ -1,8 +1,9 @@
 import React from 'react'
 import './HomeItem.scss'
 
-export default function HomeItem() {
+export default function HomeItem( { data } ) {
+  console.log(data)
   return (
-    <div className='HomeItem-container'>HomeItem</div>
+    <div className='HomeItem-container'>{data.title}</div>
   )
 }

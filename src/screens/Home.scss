@@ -1,6 +1,27 @@
 .Home-container {
-    // border: 2px solid red;
+    border: 2px solid red;
+    box-sizing: border-box;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.HomeItems-container {
+    // border: 2px solid green;
+    box-sizing: border-box;
+    justify-items: center;
+    margin-top: 2rem;
+    --s: 1;
+    --n: 2; /* number of rows*/
+    --m: 2; /* number of columns */
+    --g: 20px; /* control the gap */
+    --f: 1.5; /* control the scale factor */
+    display: grid;
+    max-width: calc(var(--m) * 154px + var(--g) * (var(--m) - 1));
+    gap: var(--g);
+    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);  
 }
