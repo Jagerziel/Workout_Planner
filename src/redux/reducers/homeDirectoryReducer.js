@@ -1,16 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { homeDirectory } from "../../data/data.js";
 
 export const homeDirectorySlice = createSlice({
     name: 'homeDirectory',
     initialState: {
-        data: {}
+        data: homeDirectory
     },
     reducers: {
         updateHomeDirectory: (state, action) => {
             state.data = action.payload
         },
         resetHomeDirectory: (state) => {
-            state.data = {}
+            state.data = homeDirectory
         }
     }
 })

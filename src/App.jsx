@@ -11,12 +11,15 @@ const TwelveWkPlan = lazy(() => import('./screens/TwelveWkPlan.jsx'))
 const Browse = lazy(() => import('./screens/Browse.jsx'))
 const Custom = lazy(() => import('./screens/Custom.jsx'))
 
-// const Navbar = lazy(() => import('./components/navbar/Navbar.jsx'))
+
+// State Management
+import { Provider } from 'react-redux'
+import { store } from './redux/store.js'
 
 function App() {
 
   return (
-    <>
+    <Provider store={ store }>
       <Navbar />
       <div className='Navbar-background'></div>
       <div className='App'>
@@ -27,7 +30,7 @@ function App() {
           <Route path="/custom" element={<Custom />} />
         </Routes>
       </div>
-    </>
+    </Provider>
   )
 }
 
