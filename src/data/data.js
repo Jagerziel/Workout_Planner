@@ -15,6 +15,10 @@ export const homeDirectory = [
         title: 'about',
         navigation: 'about'
     },
+    // {
+    //     title: 'TEST',
+    //     navigation: 'TEST'
+    // },
 ]
 
 export const twelveWkDirectory = [
