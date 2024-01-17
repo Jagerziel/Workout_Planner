@@ -4,15 +4,15 @@ export const homeDirectory = [
         navigation: 'twelvewkplan'
     },
     {
-        title: 'browse',
-        navigation: 'browse'
-    },
-    {
-        title: 'custom',
+        title: 'Custom Workout',
         navigation: 'custom'
     },
     {
-        title: 'about',
+        title: 'Browse Workouts',
+        navigation: 'browse'
+    },
+    {
+        title: 'About This Website',
         navigation: 'about'
     },
     // {

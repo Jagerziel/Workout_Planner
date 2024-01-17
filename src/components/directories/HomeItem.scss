@@ -3,4 +3,21 @@
     border-radius: 10px;
     width: 150px;
     height: 150px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.HomeItem-title {
+    padding: 10px;
+
+}
+
+.HomeItem-container:active {
+    border: 2px solid #a0a0a0;
+    color: #a0a0a0;
 }
