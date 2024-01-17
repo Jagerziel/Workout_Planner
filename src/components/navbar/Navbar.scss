@@ -2,7 +2,21 @@
     border: 2px solid var(--primary-color);
     width: 100%;
     height: 3.5rem;
-    text-align: center;
     box-sizing: border-box;
     font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.NavBar-home-button {
+    border: 2px solid var(--primary-color);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10px;
+}
+
+.NavBar-Title {
+    border: 2px solid red;
+    text-align: center;
 }

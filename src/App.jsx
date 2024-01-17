@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <div className='Navbar-background'></div>
       <div className='App'>
         Starting Page
       </div>
