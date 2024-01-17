@@ -10,10 +10,12 @@ export default function Home() {
 
   // console.log(homeDirectoryData)
   return (
-    <>
-      <div>Home</div>
+    <div className='Home-container'>
+      <div>
+        Home
+      </div>
       
-    </>
+    </div>
     
 
   )
