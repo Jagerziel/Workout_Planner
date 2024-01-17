@@ -1,4 +1,4 @@
-.HomeItem-container {
+.NavItem-container {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     width: 150px;
@@ -12,12 +12,16 @@
     font-weight: 600;
 }
 
-.HomeItem-title {
-    padding: 10px;
-
-}
-
-.HomeItem-container:active {
+.NavItem-container:active {
     border: 2px solid #a0a0a0;
     color: #a0a0a0;
+}
+
+.NavItem-container:hover {
+    background-color: #b0b0b059;
+}
+
+
+.NavItem-title {
+    padding: 10px;
 }

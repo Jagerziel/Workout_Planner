@@ -1,5 +1,4 @@
-import { lazy } from 'react'
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.scss'
 
 // Import Components
@@ -8,13 +7,7 @@ import Home from './screens/Home.jsx'
 import TwelveWkPlan from './screens/TwelveWkPlan.jsx'
 import Browse from './screens/Browse.jsx'
 import Custom from './screens/Custom.jsx'
-
-// Lazy Load Components
-// const Home = lazy(() => import('./screens/Home.jsx'))
-// const TwelveWkPlan = lazy(() => import('./screens/TwelveWkPlan.jsx'))
-// const Browse = lazy(() => import('./screens/Browse.jsx'))
-// const Custom = lazy(() => import('./screens/Custom.jsx'))
-
+import About from './screens/About.jsx'
 
 // State Management
 import { Provider } from 'react-redux'
@@ -33,6 +26,7 @@ function App() {
             <Route path="/twelvewkplan" element={<TwelveWkPlan />} />
             <Route path="/browse" element={<Browse />} />
             <Route path="/custom" element={<Custom />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
       </Provider>

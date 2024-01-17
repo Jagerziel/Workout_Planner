@@ -3,7 +3,7 @@ import React from 'react'
 // Import CSS
 import './Home.scss'
 // Import Components
-import HomeItem from '../components/directories/HomeItem.jsx';
+import NavItem from '../components/directories/NavItem.jsx';
 
 // State Management
 import { useSelector, useDispatch } from "react-redux";
@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className='Home-container'>
       <div className='HomeItems-container'>
-        {homeDirectoryData.map((data, index) => <HomeItem data={data} key={index} />)}
+        {homeDirectoryData.map((data, index) => <NavItem data={data} key={index} />)}
       </div>
       
     </div>

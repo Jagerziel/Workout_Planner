@@ -2,19 +2,19 @@
 import React from 'react'
 import { useNavigate, NavLink } from 'react-router-dom'
 // Import CSS
-import './HomeItem.scss'
+import './NavItem.scss'
 
 
 
-export default function HomeItem( { data } ) {
+export default function NavItem( { data } ) {
   const navigate = useNavigate();
   
   return (
     <div 
-      className='HomeItem-container'
+      className='NavItem-container'
       onClick={() => navigate(`${data.navigation}`)}
       >
-        <div className='HomeItem-title'>
+        <div className='NavItem-title'>
           {data.title}
         </div>
       </div>
