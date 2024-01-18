@@ -517,7 +517,7 @@ export const exerciseData = [
         sets: "4",
         note: "",
         description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
-        description02: "",
+        description02: "start with squatting to a high box, progressively lower, do NOT cave in knee on the way up or down",
         description03: "",
         description04: "",
         description05: "",
@@ -689,7 +689,7 @@ export const exerciseData = [
         circuit: false,
         completed: false,
     },
-        {
+    {
         id: 23, // corresponds to index
         title: "Standing hamstring curls",
         type: "lower", // warmup, upper, lower, core, agility, stretch
@@ -848,6 +848,305 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        completed: false,
+    },
+    {
+        id: 30, // corresponds to index
+        title: "1/2 kneel stretch rocking forward and back (Lower Body)",
+        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "2",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 31, // corresponds to index
+        title: "Hamstring scoop stretch (Lower Body)",
+        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "2",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 32, // corresponds to index
+        title: "Alt standing quad stretch (Lower Body)",
+        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "2",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 33, // corresponds to index
+        title: "Box jumps (max height)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6",
+        time: "n/a",
+        sets: "6",
+        note: "max height",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 34, // corresponds to index
+        title: "Box jumps (75% max height)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "4",
+        time: "n/a",
+        sets: "10",
+        note: "75% max height",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 35, // corresponds to index
+        title: "Skater jumps (lateral jumps)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6",
+        time: "n/a",
+        sets: "6",
+        note: "max distance",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 36, // corresponds to index
+        title: "Skater jumps (lateral jumps)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "3",
+        note: "75% of max distance each jump",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 37, // corresponds to index
+        title: "Vertical Jump (max height)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6",
+        time: "n/a",
+        sets: "6",
+        note: "max height",
+        description01: "load up position -> arms back, knees bent 25%",
+        description02: "when propelling forward -> swing hands in front of you in the direction you’re going to gain max distance, do NOT cave knees inwards",
+        description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 38, // corresponds to index
+        title: "Vertical Jump",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "4",
+        time: "n/a",
+        sets: "10-12",
+        note: "",
+        description01: "load up position -> arms back, knees bent 25%",
+        description02: "when propelling forward -> swing hands in front of you in the direction you’re going to gain max distance, do NOT cave knees inwards",
+        description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 39, // corresponds to index
+        title: "Supine heel taps (CC)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "45 seconds - 1 minute",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: true,
+        completed: false,
+    },
+    {
+        id: 40, // corresponds to index
+        title: "Plank alt from forearms to hands (CC)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "45 seconds - 1 minute",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: true,
+        completed: false,
+    },
+    {
+        id: 40, // corresponds to index
+        title: "V ups (CC)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "45 seconds - 1 minute",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: true,
+        completed: false,
+    },
+    {
+        id: 40, // corresponds to index
+        title: "Pike ups on hands (CC)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "45 seconds - 1 minute",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: true,
         completed: false,
     },
 ]
