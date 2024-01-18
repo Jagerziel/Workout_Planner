@@ -340,7 +340,7 @@ export const exerciseData = [
         img: [], // array
         video: "", // url
         addtl_reqs: "",
-        superset: true,
+        superset: false,
         circuit: false,
         completed: false,
     },
@@ -363,7 +363,7 @@ export const exerciseData = [
         img: [], // array
         video: "", // url
         addtl_reqs: "",
-        superset: true,
+        superset: false,
         circuit: false,
         completed: false,
     },
@@ -386,7 +386,7 @@ export const exerciseData = [
         img: [], // array
         video: "", // url
         addtl_reqs: "",
-        superset: true,
+        superset: false,
         circuit: false,
         completed: false,
     },
@@ -409,7 +409,444 @@ export const exerciseData = [
         img: [], // array
         video: "", // url
         addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 17, // corresponds to index
+        title: "Barbell back squats",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 18, // corresponds to index
+        title: "Barbell back squats",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 19, // corresponds to index
+        title: "Barbell deadlifts",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 20, // corresponds to index
+        title: "Barbell deadlifts",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 21, // corresponds to index
+        title: "Single leg squat to box",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 22, // corresponds to index
+        title: "Single leg squat to box",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 23, // corresponds to index
+        title: "Standing hamstring curls",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "use a band for additional resistance, but can also be done with no resistance",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 24, // corresponds to index
+        title: "Standing hamstring curls",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "use a band for additional resistance, but can also be done with no resistance",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 25, // corresponds to index
+        title: "Calf raises (SS)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
         superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 26, // corresponds to index
+        title: "Tibialis anterior raises (SS)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 27, // corresponds to index
+        title: "Calf raises (SS)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 28, // corresponds to index
+        title: "Tibialis anterior raises (SS)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+        {
+        id: 23, // corresponds to index
+        title: "Standing hamstring curls",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "use a band for additional resistance, but can also be done with no resistance",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 24, // corresponds to index
+        title: "Standing hamstring curls",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "use a band for additional resistance, but can also be done with no resistance",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 25, // corresponds to index
+        title: "Standing hip abduction with band around knees",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "use band around knees for resistance",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 26, // corresponds to index
+        title: "Standing hip abduction with band around knees",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "use band around knees for resistance",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 27, // corresponds to index
+        title: "Hamstring stretch (Lower Body)",
+        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 28, // corresponds to index
+        title: "Quad stretch (Lower Body)",
+        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 29, // corresponds to index
+        title: "Abductor stretch (Lower Body)",
+        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
         circuit: false,
         completed: false,
     },
