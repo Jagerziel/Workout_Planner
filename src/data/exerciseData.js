@@ -1703,8 +1703,282 @@ const exerciseData = [
         circuit: false,
         completed: false,
     },
-
-
+    {
+        id: 74, // corresponds to index
+        title: "Incline dumbbell press",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 75, // corresponds to index
+        title: "Incline dumbbell press",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 76, // corresponds to index
+        title: "Lat pulldowns",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "can perform weighted",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 77, // corresponds to index
+        title: "Lat pulldowns",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 78, // corresponds to index
+        title: "Overhead dumbbell press (SS)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 79, // corresponds to index
+        title: "Dumbbell bicep curls (SS)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 80, // corresponds to index
+        title: "Overhead dumbbell press (SS)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 81, // corresponds to index
+        title: "Dumbbell bicep curls (SS)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 82, // corresponds to index
+        title: "Machine rows (SS)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 83, // corresponds to index
+        title: "Close grip bench press (SS)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "alternative: diamond pushups",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 84, // corresponds to index
+        title: "Machine rows (SS)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 85, // corresponds to index
+        title: "Close grip bench press (SS)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "alternative: diamond pushups",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
 
 
 
