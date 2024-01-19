@@ -882,9 +882,9 @@ const exerciseData = [
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
-        reps: "4",
+        reps: "10",
         time: "n/a",
-        sets: "10",
+        sets: "4",
         note: "75% max height",
         description01: "",
         description02: "",
@@ -1381,8 +1381,328 @@ const exerciseData = [
         circuit: false,
         completed: false,
     },
-
-
+    {
+        id: 60, // corresponds to index
+        title: "Hack squat (machine)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 61, // corresponds to index
+        title: "Hack squat (machine)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 62, // corresponds to index
+        title: "Pylo switch squats",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "3",
+        note: "holding heavy kb to chest",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 63, // corresponds to index
+        title: "Pylo switch squats",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "3",
+        note: "no weight",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 64, // corresponds to index
+        title: "Single leg RDL",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 65, // corresponds to index
+        title: "Single leg RDL",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 66, // corresponds to index
+        title: "Single leg box jump (max height)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6",
+        time: "n/a",
+        sets: "6",
+        note: "max height",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 67, // corresponds to index
+        title: "Single leg box jump (75% max height)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12",
+        time: "n/a",
+        sets: "4",
+        note: "75% max height",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 68, // corresponds to index
+        title: "Single leg hops forward and back over a line",
+        type: "agility", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "3",
+        note: "holding heavy kbs in each hand",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 69, // corresponds to index
+        title: "Single leg hops forward and back over a line",
+        type: "agility", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "45 seconds to 60 seconds",
+        sets: "3",
+        note: "no weight",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 70, // corresponds to index
+        title: "Lateral box steps",
+        type: "agility", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "20",
+        time: "n/a",
+        sets: "3",
+        note: "band attached to 1 side, repeat both sides",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 71, // corresponds to index
+        title: "Lateral box steps",
+        type: "agility", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "45 to 60 seconds",
+        sets: "3",
+        note: "no band",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 72, // corresponds to index
+        title: "Hamstring floor slides",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 73, // corresponds to index
+        title: "Hamstring floor slides",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "3",
+        note: "bridge up, only negatives on the way down",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
 
 
 
