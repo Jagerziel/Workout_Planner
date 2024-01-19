@@ -2186,7 +2186,213 @@ const exerciseData = [
         circuit: false,
         completed: false,
     },
-
+    {
+        id: 95, // corresponds to index
+        title: "5-10-5 drill",
+        type: "agility", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "1",
+        time: "n/a",
+        sets: "12",
+        note: "max speed",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 96, // corresponds to index
+        title: "5-10-5 drill",
+        type: "agility", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "1",
+        time: "n/a",
+        sets: "20",
+        note: "75% of max speed",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 97, // corresponds to index
+        title: "Jump in box: long jump, skater jump to right, jump back, skater jump to left (CC)",
+        type: "agility", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6",
+        time: "n/a",
+        sets: "6",
+        note: "max distance",
+        description01: "load up position -> arms back, knees bent 25%",
+        description02: "when propelling forward -> swing hands in front of you in the direction you’re going to gain max distance, do NOT cave knees inwards",
+        description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: true,
+        completed: false,
+    },
+    {
+        id: 98, // corresponds to index
+        title: "Jump in box: long jump, skater jump to right, jump back, skater jump to left (CC)",
+        type: "agility", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12",
+        time: "n/a",
+        sets: "4",
+        note: "75% of max distance",
+        description01: "load up position -> arms back, knees bent 25%",
+        description02: "when propelling forward -> swing hands in front of you in the direction you’re going to gain max distance, do NOT cave knees inwards",
+        description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: true,
+        completed: false,
+    },
+    {
+        id: 99, // corresponds to index
+        title: "Single leg long jumps",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6",
+        time: "n/a",
+        sets: "6",
+        note: "max distance",
+        description01: "load up position -> arms back, knees bent 25%",
+        description02: "when propelling forward -> swing hands in front of you in the direction you’re going to gain max distance, do NOT cave knees inwards",
+        description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 100, // corresponds to index
+        title: "Single leg long jumps",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "10",
+        time: "n/a",
+        sets: "4",
+        note: "75% of max distance",
+        description01: "load up position -> arms back, knees bent 25%",
+        description02: "when propelling forward -> swing hands in front of you in the direction you’re going to gain max distance, do NOT cave knees inwards",
+        description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 101, // corresponds to index
+        title: "Box jump circuit: box jump - land right, box jump - land left, box jump - land back at start (CC)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6",
+        time: "n/a",
+        sets: "6",
+        note: "max height",
+        description01: "box jump and jump off to the left, next jump from the left onto the box and jump off on the other side to the right, next jump to the left onto the box and jump off back (to the starting position)",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: true,
+        completed: false,
+    },
+    {
+        id: 102, // corresponds to index
+        title: "Box jump circuit: box jump - land right, box jump - land left, box jump - land back at start (CC)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "10",
+        time: "n/a",
+        sets: "4",
+        note: "75% of max height",
+        description01: "box jump and jump off to the left, next jump from the left onto the box and jump off on the other side to the right, next jump to the left onto the box and jump off back (to the starting position)",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: true,
+        completed: false,
+    },
+    {
+        id: 103, // corresponds to index
+        title: "Lateral high knee shuffle",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "45 seconds to 1 minute",
+        sets: "3",
+        note: "move laterally for 5-6 feet back and forth",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
 
 
 
