@@ -1979,8 +1979,213 @@ const exerciseData = [
         circuit: false,
         completed: false,
     },
-
-
+    {
+        id: 86, // corresponds to index
+        title: "Goblet squats",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 87, // corresponds to index
+        title: "Goblet squats",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 88, // corresponds to index
+        title: "Walking lunges",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "dumbbells in each hand",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 89, // corresponds to index
+        title: "Walking lunges",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "leg", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "dumbbells in each hand",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 90, // corresponds to index
+        title: "Dumbbell deadlifts",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 91, // corresponds to index
+        title: "Dumbbell deadlifts",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 92, // corresponds to index
+        title: "Nordic curls",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "1-2 before failure",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 93, // corresponds to index
+        title: "Machine calf presses (SS)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 94, // corresponds to index
+        title: "Machine calf presses (SS)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15-20",
+        time: "n/a",
+        sets: "4",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: true,
+        circuit: false,
+        completed: false,
+    },
 
 
 
