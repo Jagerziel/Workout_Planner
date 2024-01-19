@@ -1,4 +1,6 @@
-export const exerciseData = [
+
+
+const exerciseData = [
     {
         id: 0, // corresponds to index
         title: "Rotator cuff warmups with band",
@@ -56,29 +58,6 @@ export const exerciseData = [
         time: "n/a",
         sets: "4",
         note: "",
-        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
-        description02: "",
-        description03: "",
-        description04: "",
-        description05: "",
-        img: [], // array
-        video: "", // url
-        addtl_reqs: "",
-        superset: false,
-        circuit: false,
-        completed: false,
-    },
-    {
-        id: 3, // corresponds to index
-        title: "Pullups",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
-        each: false, // true if one appendage (arms/legs), false if both
-        each_type: "n/a", // arm, leg, side, n/a
-        rep_type: "reps", // reps or time
-        reps: "6-8",
-        time: "n/a",
-        sets: "4",
-        note: "Can perform weighted",
         description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
         description02: "",
         description03: "",
@@ -392,7 +371,7 @@ export const exerciseData = [
     },
     {
         id: 16, // corresponds to index
-        title: "Tricep stretch (Upper Body)",
+        title: "Pullup Hangs (Upper Body)",
         type: "stretch", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
@@ -690,53 +669,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 23, // corresponds to index
-        title: "Standing hamstring curls",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
-        each: true, // true if one appendage (arms/legs), false if both
-        each_type: "leg", // arm, leg, side, n/a
-        rep_type: "reps", // reps or time
-        reps: "6-8",
-        time: "n/a",
-        sets: "4",
-        note: "use a band for additional resistance, but can also be done with no resistance",
-        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
-        description02: "",
-        description03: "",
-        description04: "",
-        description05: "",
-        img: [], // array
-        video: "", // url
-        addtl_reqs: "",
-        superset: false,
-        circuit: false,
-        completed: false,
-    },
-    {
-        id: 24, // corresponds to index
-        title: "Standing hamstring curls",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
-        each: true, // true if one appendage (arms/legs), false if both
-        each_type: "leg", // arm, leg, side, n/a
-        rep_type: "reps", // reps or time
-        reps: "15-20",
-        time: "n/a",
-        sets: "4",
-        note: "use a band for additional resistance, but can also be done with no resistance",
-        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
-        description02: "",
-        description03: "",
-        description04: "",
-        description05: "",
-        img: [], // array
-        video: "", // url
-        addtl_reqs: "",
-        superset: false,
-        circuit: false,
-        completed: false,
-    },
-    {
-        id: 25, // corresponds to index
+        id: 29, // corresponds to index
         title: "Standing hip abduction with band around knees",
         type: "lower", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -759,7 +692,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 26, // corresponds to index
+        id: 30, // corresponds to index
         title: "Standing hip abduction with band around knees",
         type: "lower", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -782,7 +715,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 27, // corresponds to index
+        id: 31, // corresponds to index
         title: "Hamstring stretch (Lower Body)",
         type: "stretch", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -805,7 +738,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 28, // corresponds to index
+        id: 32, // corresponds to index
         title: "Quad stretch (Lower Body)",
         type: "stretch", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -828,7 +761,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 29, // corresponds to index
+        id: 33, // corresponds to index
         title: "Abductor stretch (Lower Body)",
         type: "stretch", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -851,7 +784,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 30, // corresponds to index
+        id: 34, // corresponds to index
         title: "1/2 kneel stretch rocking forward and back (Lower Body)",
         type: "stretch", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -874,7 +807,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 31, // corresponds to index
+        id: 35, // corresponds to index
         title: "Hamstring scoop stretch (Lower Body)",
         type: "stretch", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -897,7 +830,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 32, // corresponds to index
+        id: 36, // corresponds to index
         title: "Alt standing quad stretch (Lower Body)",
         type: "stretch", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -920,7 +853,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 33, // corresponds to index
+        id: 37, // corresponds to index
         title: "Box jumps (max height)",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -943,7 +876,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 34, // corresponds to index
+        id: 38, // corresponds to index
         title: "Box jumps (75% max height)",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -966,7 +899,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 35, // corresponds to index
+        id: 39, // corresponds to index
         title: "Skater jumps (lateral jumps)",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: true, // true if one appendage (arms/legs), false if both
@@ -989,7 +922,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 36, // corresponds to index
+        id: 40, // corresponds to index
         title: "Skater jumps (lateral jumps)",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: true, // true if one appendage (arms/legs), false if both
@@ -1012,7 +945,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 37, // corresponds to index
+        id: 41, // corresponds to index
         title: "Vertical Jump (max height)",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -1035,7 +968,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 38, // corresponds to index
+        id: 42, // corresponds to index
         title: "Vertical Jump",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -1058,7 +991,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 39, // corresponds to index
+        id: 43, // corresponds to index
         title: "Supine heel taps (CC)",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -1081,7 +1014,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 40, // corresponds to index
+        id: 44, // corresponds to index
         title: "Plank alt from forearms to hands (CC)",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -1104,7 +1037,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 40, // corresponds to index
+        id: 45, // corresponds to index
         title: "V ups (CC)",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -1127,7 +1060,7 @@ export const exerciseData = [
         completed: false,
     },
     {
-        id: 40, // corresponds to index
+        id: 46, // corresponds to index
         title: "Pike ups on hands (CC)",
         type: "upper", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
@@ -1149,4 +1082,17 @@ export const exerciseData = [
         circuit: true,
         completed: false,
     },
+
+
+
+
+
+
+
+
+
+
+    
 ]
+
+console.log(`The last index should be: ${exerciseData.length - 1}`)
