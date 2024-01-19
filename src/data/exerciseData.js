@@ -1082,6 +1082,305 @@ const exerciseData = [
         circuit: true,
         completed: false,
     },
+    {
+        id: 47, // corresponds to index
+        title: "Plyo pushups",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "3",
+        note: "weighted or banded",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 48, // corresponds to index
+        title: "Plyo pushups",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "failure (aim for 12-15)",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 49, // corresponds to index
+        title: "TRX rows",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "3",
+        note: "feet on elevated surface",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 50, // corresponds to index
+        title: "TRX rows",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "3",
+        note: "feet on floor",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 51, // corresponds to index
+        title: "Band pull aparts (heavy band)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "3",
+        note: "palms facing upwards",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 52, // corresponds to index
+        title: "Band pull aparts",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "3",
+        note: "palms facing upwards",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 53, // corresponds to index
+        title: "Side lateral raises",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 54, // corresponds to index
+        title: "Side lateral raises",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "20-30",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 55, // corresponds to index
+        title: "Straight arm pulldown (with rope)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 56, // corresponds to index
+        title: "Straight arm pulldown (with rope)",
+        type: "upper", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 57, // corresponds to index
+        title: "Paloff walkouts (band or cable)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "6-8",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 58, // corresponds to index
+        title: "Paloff walkouts (band or cable)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 59, // corresponds to index
+        title: "Trunk rotations (band or cable)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12-15",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
 
 
 
@@ -1092,7 +1391,7 @@ const exerciseData = [
 
 
 
-    
+
 ]
 
 console.log(`The last index should be: ${exerciseData.length - 1}`)
