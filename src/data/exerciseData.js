@@ -2600,6 +2600,52 @@ const exerciseData = [
         circuit: false,
         completed: false,
     },
+    {
+        id: 113, // corresponds to index
+        title: "Walking lunge warmup (10ft, heavier weight)",
+        type: "warmup", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "5 laps",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 114, // corresponds to index
+        title: "Walking lunge warmup (15-20ft, lighter weight)",
+        type: "warmup", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "5 laps",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
 
 
 
