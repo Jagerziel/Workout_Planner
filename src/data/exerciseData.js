@@ -2393,6 +2393,213 @@ const exerciseData = [
         circuit: false,
         completed: false,
     },
+    {
+        id: 104, // corresponds to index
+        title: "Posterior pelvic tilt warmup",
+        type: "warmup", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "10 second holds",
+        sets: "10",
+        note: "10 second holds for 10 times",
+        description01: "Lay on back",
+        description02: "Bend both knees and keep feet on ground (hook-lying position)",
+        description03: "Try and flatten out your back as much as you can (you will feel core contraction)",
+        description04: "Hold for allotted time",
+        description05: "DO NOT suck in stomach, rather contract core/abs by trying to flatten out back (can tell by placing hands on stomach and checking for core contraction)",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 105, // corresponds to index
+        title: "Leg raises on ab bench",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "to failure",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 106, // corresponds to index
+        title: "Sit ups on decline ab bench",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "to failure",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 107, // corresponds to index
+        title: "Side planks (weight on hip)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 108, // corresponds to index
+        title: "Side planks",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "45 seconds - 1 minute",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 109, // corresponds to index
+        title: "Cable trunk rotations",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "12 - 15",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 110, // corresponds to index
+        title: "Cable trunk rotations",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: true, // true if one appendage (arms/legs), false if both
+        each_type: "side", // arm, leg, side, n/a
+        rep_type: "reps", // reps or time
+        reps: "15 - 20",
+        time: "n/a",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 111, // corresponds to index
+        title: "Kettlebell drags in plank position (heavier weight)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "30 seconds",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
+    {
+        id: 112, // corresponds to index
+        title: "Kettlebell drags in plank position (lighter weight)",
+        type: "core", // warmup, upper, lower, core, agility, stretch
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "45 seconds - 1 minute",
+        sets: "3",
+        note: "",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: [], // array
+        video: "", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        completed: false,
+    },
 
 
 
