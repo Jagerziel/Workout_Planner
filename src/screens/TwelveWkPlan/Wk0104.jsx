@@ -89,7 +89,7 @@ export default function Wk0104() {
                             </div> :
                             <div 
                                 className='Wk0116-workout-item-container'
-                                style={{display: data.show ? "flex" : "none"}}
+                                style={{display: data.show ? "grid" : "none"}}
                             >
                                 {
                                     data.workouts.map((workoutData, index) => 
