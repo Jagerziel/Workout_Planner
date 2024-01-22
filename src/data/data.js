@@ -24,19 +24,19 @@ export const homeDirectory = [
 export const twelveWkDirectory = [
     {
         title: '1 - 4',
-        navigation: 'weeks01-04'
+        navigation: 'wk0104'
     },
     {
         title: '5 - 8',
-        navigation: 'weeks05-08'
+        navigation: 'wk0508'
     },
     {
         title: '9 - 12',
-        navigation: 'weeks09-12'
+        navigation: 'wk0912'
     },
     {
         title: '13 - 16',
-        navigation: 'weeks03-16'
+        navigation: 'wk1316'
     },
 ]
 

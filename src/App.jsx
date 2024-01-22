@@ -5,6 +5,10 @@ import './App.scss'
 import Navbar from './components/navbar/Navbar.jsx'
 import Home from './screens/Home.jsx'
 import TwelveWkPlan from './screens/TwelveWkPlan.jsx'
+import Wk0104 from './screens/TwelveWkPlan/Wk0104.jsx'
+import Wk0508 from './screens/TwelveWkPlan/Wk0508.jsx'
+import Wk0912 from './screens/TwelveWkPlan/Wk0912.jsx'
+import Wk1316 from './screens/TwelveWkPlan/Wk1316.jsx'
 import Browse from './screens/Browse.jsx'
 import Custom from './screens/Custom.jsx'
 import About from './screens/About.jsx'
@@ -24,6 +28,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/twelvewkplan" element={<TwelveWkPlan />} />
+            <Route path="/twelvewkplan/wk0104" element={<Wk0104 />} />
+            <Route path="/twelvewkplan/wk0508" element={<Wk0508 />} />
+            <Route path="/twelvewkplan/wk0912" element={<Wk0912 />} />
+            <Route path="/twelvewkplan/wk1316" element={<Wk1316 />} />
             <Route path="/browse" element={<Browse />} />
             <Route path="/custom" element={<Custom />} />
             <Route path="/about" element={<About />} />
