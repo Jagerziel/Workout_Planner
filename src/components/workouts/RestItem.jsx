@@ -6,7 +6,9 @@ import './RestItem.scss'
 export default function RestItem() {
   return (
     <div className='RestItem-container'>
-        RestItem
+        <p className='RestItem-text'>
+            Today is a Rest Day!
+        </p>
     </div>
   )
 }

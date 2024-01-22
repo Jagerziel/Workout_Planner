@@ -9,11 +9,17 @@
 
 
 
-.Wk0116-workout-container {
-    
+.Wk0116-rest-item-container {
+    // border: 2px solid green;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Wk0116-workout-day {
     font-size: 1.3rem;
     font-weight: 600;
+    cursor: pointer;
 }

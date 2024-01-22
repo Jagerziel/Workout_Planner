@@ -1,3 +1,14 @@
 .RestItem-container {
     border: 2px solid white;
+    width: 340px;
+    border-radius: 7px;
+    padding: 7px;
+    user-select: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.RestItem-text {
+    font-weight: 600;
+    margin: 0;
 }
