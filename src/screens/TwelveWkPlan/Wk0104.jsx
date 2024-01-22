@@ -10,13 +10,14 @@ import './Wk0116.scss'
 
 // Import State Management
 
+
 export default function Wk0104() {
     const [ workoutIdx, setWorkoutIdx ] = useState([
         {
             title: "Day 1",
             workouts: [0,1,3,5,6,9,10,13,14,15,16],
             rest: false,
-            show: false,
+            show: true,
         },
         {
             title: "Day 2",
@@ -28,7 +29,7 @@ export default function Wk0104() {
             title: "Day 3",
             workouts: [],
             rest: true,
-            show: true,
+            show: false,
         },
         {
             title: "Day 4",
@@ -40,7 +41,7 @@ export default function Wk0104() {
             title: "Day 5",
             workouts: [],
             rest: true,
-            show: true,
+            show: false,
         },
         {
             title: "Day 6",
@@ -91,9 +92,9 @@ export default function Wk0104() {
                                 style={{display: data.show ? "flex" : "none"}}
                             >
                                 {
-                                    data.workouts.map((workout, index) => 
+                                    data.workouts.map((workoutData, index) => 
                                         <div key={index}> 
-                                            <WorkoutShellItem />
+                                            <WorkoutShellItem workoutData={ workoutData }/>
                                         </div>
                                     )
                                 }
