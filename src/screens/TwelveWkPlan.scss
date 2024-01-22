@@ -1,0 +1,110 @@
+.TwelveWkPlan-container {
+    // border: 2px solid red;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TwelveWkPlanItems-container {
+    // border: 2px solid green;
+    box-sizing: border-box;
+    justify-items: center;
+    --s: 1;
+    --n: 10; /* number of rows*/
+    --m: 10; /* number of columns */
+    --g: 20px; /* control the gap */
+    --f: 1.5; /* control the scale factor */
+    display: grid;
+    max-width: calc(var(--m) * 154px + var(--g) * (var(--m) - 1));
+    gap: var(--g);
+    width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);  
+}
+
+@media screen and (max-width: 1800px) {
+    .TwelveWkPlanItems-container {
+        --n: 9; /* number of rows*/
+        --m: 9; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .TwelveWkPlanItems-container {
+        --n: 8; /* number of rows*/
+        --m: 8; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .TwelveWkPlanItems-container {
+        --n: 7; /* number of rows*/
+        --m: 7; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .TwelveWkPlanItems-container {
+        --n: 6; /* number of rows*/
+        --m: 6; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .TwelveWkPlanItems-container {
+        --n: 5; /* number of rows*/
+        --m: 5; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .TwelveWkPlanItems-container {
+        --n: 4; /* number of rows*/
+        --m: 4; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .TwelveWkPlanItems-container {
+        --n: 3; /* number of rows*/
+        --m: 3; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    .TwelveWkPlanItems-container {
+        --n: 2; /* number of rows*/
+        --m: 2; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .TwelveWkPlanItems-container {
+        --n: 1; /* number of rows*/
+        --m: 1; /* number of columns */
+        --g: 20px; /* control the gap */
+        --f: 1.5; /* control the scale factor */
+    }
+}

@@ -13,8 +13,8 @@ import { useSelector, useDispatch } from "react-redux";
 export default function TwelveWkPlan() {
 
   return (
-    <div className='Home-container'>
-      <div className='HomeItems-container'>
+    <div className='TwelveWkPlan-container'>
+      <div className='TwelveWkPlanItems-container'>
         {twelveWkDirectory.map((data, index) => <NavItem data={data} key={index} />)}
       </div>
     </div>
