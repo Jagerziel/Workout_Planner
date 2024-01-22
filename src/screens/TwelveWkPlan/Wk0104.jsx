@@ -1,7 +1,15 @@
 // Import React
 import React from 'react'
+// Import Components
+import RestItem from '../../components/workouts/RestItem.jsx'
+import WorkoutShellItem from '../../components/workouts/WorkoutShellItem.jsx'
+// Import Data
+import { weekDayDirectory } from '../../data/data.js'
+
 // Import CSS
 import './Wk0116.scss'
+
+// Import State Management
 
 export default function Wk0104() {
     const workoutIdx = [
@@ -45,7 +53,18 @@ export default function Wk0104() {
     return (
         <div className='Wk0116-container'>
             <div className='Wk0116-title'>Weeks 1 - 4</div>
-            
+            {
+                weekDayDirectory.map(( data , index ) => (
+                    <div 
+                        className='Wk0116-workout-container'
+                        key={index}
+                    >
+                        <div className='Wk0116-workout-day'>
+                            {data.day}
+                        </div>
+                    </div>
+                ))
+            }
         </div>
     )
 }

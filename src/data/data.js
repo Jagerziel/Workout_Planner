@@ -44,44 +44,30 @@ export const weekDayDirectory = [
     {
         id: 0,
         day: "Day 1",
-        rest: false,
-        arr: [],
     },
     {
         id: 1,
         day: "Day 2",
-        rest: false,
-        arr: [],
     },
     {
         id: 2,
         day: "Day 3",
-        rest: false,
-        arr: [],
     },
     {
         id: 3,
         day: "Day 4",
-        rest: false,
-        arr: [],
     },
     {
         id: 4,
         day: "Day 5",
-        rest: false,
-        arr: [],
     },
     {
         id: 5,
         day: "Day 6",
-        rest: false,
-        arr: [],
     },
     {
         id: 6,
         day: "Day 7",
-        rest: false,
-        arr: [],
     }
 ]
 

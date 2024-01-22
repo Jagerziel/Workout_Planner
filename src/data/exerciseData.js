@@ -1,6 +1,4 @@
-
-
-const exerciseData = [
+export const exerciseData = [
     {
         id: 0, // corresponds to index
         title: "Rotator cuff warmups with band",
@@ -2878,4 +2876,4 @@ const exerciseData = [
     },
 ]
 
-console.log(`The last index should be: ${exerciseData.length - 1}`)
+// console.log(`The last index should be: ${exerciseData.length - 1}`)
