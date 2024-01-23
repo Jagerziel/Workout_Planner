@@ -9,9 +9,10 @@ import WorkoutShellItem from '../../components/workouts/WorkoutShellItem.jsx'
 import './Wk0116.scss'
 
 // Import State Management
-
+import { useSelector, useDispatch } from "react-redux";
 
 export default function Wk0104() {
+    
     const [ workoutIdx, setWorkoutIdx ] = useState([
         {
             title: "Day 1",
