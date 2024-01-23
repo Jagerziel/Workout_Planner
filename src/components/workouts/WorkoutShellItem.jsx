@@ -1,5 +1,8 @@
 // Import React
 import React, { useState } from 'react'
+// Import Components
+import WorkoutItem from './WorkoutItem'
+
 // Import CSS
 import './WorkoutShellItem.scss'
 
@@ -15,7 +18,7 @@ export default function WorkoutShellItem( { exerciseDataItem } ) {
                 backgroundColor: completed ? '#2e492f' : '',
             }}
         >
-            {`${exerciseDataItem.title}`}
+            <WorkoutItem exerciseDataItem={ exerciseDataItem }/>
             <div
                 className='WorkoutShellItem-completed-btn'
                 style={{
@@ -23,7 +26,7 @@ export default function WorkoutShellItem( { exerciseDataItem } ) {
                 }}
                 onClick={() => setCompleted(prev => !prev)}
             >
-            {completed ? 'Y' : 'N'}
+                {completed ? 'Y' : 'N'}
             </div>
         </div>
     )
