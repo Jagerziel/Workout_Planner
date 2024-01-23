@@ -12,7 +12,9 @@ import './Wk0116.scss'
 import { useSelector, useDispatch } from "react-redux";
 
 export default function Wk0104() {
-    
+
+    const exerciseData = useSelector((state) => state.exerciseData.data)
+
     const [ workoutIdx, setWorkoutIdx ] = useState([
         {
             title: "Day 1",
@@ -93,9 +95,9 @@ export default function Wk0104() {
                                 style={{display: data.show ? "grid" : "none"}}
                             >
                                 {
-                                    data.workouts.map((workoutData, index) => 
+                                    data.workouts.map((workoutsArr, index) => 
                                         <div key={index}> 
-                                            <WorkoutShellItem workoutData={ workoutData }/>
+                                            <WorkoutShellItem exerciseDataItem={ exerciseData[workoutsArr] }/>
                                         </div>
                                     )
                                 }
