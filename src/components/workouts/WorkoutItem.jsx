@@ -11,6 +11,7 @@ export default function WorkoutItem( { exerciseDataItem } ) {
     })
 
     const menuItems = ['desc', 'pics', 'video']
+    const menuItemNames = ['Description', 'Images', 'Video']
 
     function handleMenuSelection ( item ) {
         setMenu({
@@ -19,6 +20,12 @@ export default function WorkoutItem( { exerciseDataItem } ) {
             pics: item === 'pics' ? !menu[item] : false,
             video: item === 'video' ? !menu[item] : false,
         })
+    }
+
+    function handleContentSelected ( item ) {
+        return (
+            <div>{item}</div>
+        )
     }
     
     console.log(menu)
@@ -55,15 +62,19 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                             className='WorkoutItem-menu-button-text'
                             style={{color: menu[item] ? '#242424' : 'white'}}
                         >
-                            Hi
+                            {menuItemNames[index]}
                         </div>
                     </div>
                 ))}
             </div>
+            <div className='WorkoutItem-content-container'>
+
+            </div>
 
 
 
-            <div style={{height: '100px'}}></div>
+
+            <div style={{height: '40px'}}></div>
         </div>
     )
 }

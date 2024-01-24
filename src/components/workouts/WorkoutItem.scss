@@ -21,7 +21,7 @@
 }
 
 .WorkoutItem-note-container {
-    border: 1px solid red;
+    // border: 1px solid red;
     display: flex;
     justify-content: left;
     height: 50px;
@@ -39,7 +39,7 @@
 }
 
 .WorkoutItem-sets-container {
-    border: 1px solid red;
+    // border: 1px solid red;
     display: flex;
     justify-content: left;
     height: 25px;
@@ -57,7 +57,7 @@
 }
 
 .WorkoutItem-reps-container {
-    border: 1px solid red;
+    // border: 1px solid red;
     display: flex;
     justify-content: left;
     height: 25px;
@@ -75,7 +75,8 @@
 }
 
 .WorkoutItem-menu-container {
-    border: 2px solid red;
+    // border: 2px solid red;
+    margin: 5px 0 5px 0,
 }
 
 .WorkoutItem-menu-container {
@@ -96,4 +97,14 @@
 
 .WorkoutItem-menu-button-text {
     font-weight: 600;
+}
+
+.WorkoutItem-content-container {
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    
+    
 }
