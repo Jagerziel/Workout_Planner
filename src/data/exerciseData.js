@@ -407,7 +407,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/rrJIyZGlK8c?si=c8g9pZ83Vn0O1dFX", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -430,7 +430,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/rrJIyZGlK8c?si=c8g9pZ83Vn0O1dFX", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -453,7 +453,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/1ZXobu7JvvE?si=C0IHqC3xWiV0altN", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -476,7 +476,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/1ZXobu7JvvE?si=C0IHqC3xWiV0altN", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -499,7 +499,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/uJ4eA2wUXdw?si=qqMEz0aGhFfta7pH", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -523,7 +523,7 @@ export const exerciseData = [
         description05: "",
         img: [], // array
         video: "", // url
-        addtl_reqs: "",
+        addtl_reqs: "https://www.youtube.com/embed/uJ4eA2wUXdw?si=qqMEz0aGhFfta7pH",
         superset: false,
         circuit: false,
         completed: false,
@@ -545,7 +545,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/LaDKpYN9FDw?si=9yJP3TLn9zMLm2yd", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -568,7 +568,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/LaDKpYN9FDw?si=9yJP3TLn9zMLm2yd", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -591,7 +591,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/c5Kv6-fnTj8?si=2IOs4ZmAAJFP0tuu", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -614,7 +614,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/pn7DLqo-IKs?si=-aUWrs3lTb0UfIaz", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -637,7 +637,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/c5Kv6-fnTj8?si=2IOs4ZmAAJFP0tuu", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -660,7 +660,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/pn7DLqo-IKs?si=-aUWrs3lTb0UfIaz", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -683,7 +683,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/xTQRtgUr1wk?si=R5G0orzO-DWoAHe3", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -706,7 +706,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/xTQRtgUr1wk?si=R5G0orzO-DWoAHe3", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -729,7 +729,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/T_l0AyZywjU?si=az-6BQ3d5g7bd0ME", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -752,7 +752,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/FBO9-8nTbsM?si=AlIoohK2_OK6VGix", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -775,7 +775,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/NqxJdfQDt3c?si=FSygk0qelj77k-4i", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -798,7 +798,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/HxlWP5BG2EU?si=5743Yas9ABQ5S7xM", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -821,7 +821,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/OVAIQ23we-8?si=R0okWDz__aMDIGkN", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
