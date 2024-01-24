@@ -73,3 +73,27 @@
     justify-content: left;
     text-align: left;
 }
+
+.WorkoutItem-menu-container {
+    border: 2px solid red;
+}
+
+.WorkoutItem-menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.WorkoutItem-menu-button {
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 97px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.WorkoutItem-menu-button-text {
+    font-weight: 600;
+}

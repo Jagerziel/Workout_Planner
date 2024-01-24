@@ -3,8 +3,25 @@ import './WorkoutItem.scss'
 
 export default function WorkoutItem( { exerciseDataItem } ) {
 
+    const [ menu, setMenu ] = useState({
+        none: true,
+        desc: false,
+        pics: false,
+        video: false
+    })
 
+    const menuItems = ['desc', 'pics', 'video']
 
+    function handleMenuSelection ( item ) {
+        setMenu({
+            none: !menu[item] ? false : true,
+            desc: item === 'desc' ? !menu[item] : false,
+            pics: item === 'pics' ? !menu[item] : false,
+            video: item === 'video' ? !menu[item] : false,
+        })
+    }
+    
+    console.log(menu)
 
     return (
         <div className='WorkoutItem-container'>
@@ -21,13 +38,28 @@ export default function WorkoutItem( { exerciseDataItem } ) {
             </div>
             <div className='WorkoutItem-reps-container'>
                 <div className='WorkoutItem-reps-title'>{`${exerciseDataItem.rep_type === 'reps' ? 'Reps:' : 'Time:'}`}</div>
-                <div className='WorkoutItem-reps-content'>{`${exerciseDataItem.rep_type === 'reps' ? exerciseDataItem.reps : exerciseDataItem.time} ${exerciseDataItem.each ? `each ${exerciseDataItem.each_type}` : ""}`
-                
-                
-                
-                }</div>
+                <div className='WorkoutItem-reps-content'>{`${exerciseDataItem.rep_type === 'reps' ? exerciseDataItem.reps : exerciseDataItem.time} ${exerciseDataItem.each ? `each ${exerciseDataItem.each_type}` : ""}`}</div>
             </div>
-
+            <div className='WorkoutItem-menu-container'>
+                {menuItems.map((item, index) => (
+                    <div 
+                        key={index}
+                        className='WorkoutItem-menu-button'
+                        onClick={() => handleMenuSelection( item )}
+                        style={{
+                            border: `2px solid ${menu[item] ? `rgba(200, 200, 200, 0.47)` : '2px solid white'}`,
+                            backgroundColor: menu[item] ? `rgba(255, 255, 255, 0.87)` : '#242424'
+                        }}
+                    >
+                        <div 
+                            className='WorkoutItem-menu-button-text'
+                            style={{color: menu[item] ? '#242424' : 'white'}}
+                        >
+                            Hi
+                        </div>
+                    </div>
+                ))}
+            </div>
 
 
 
