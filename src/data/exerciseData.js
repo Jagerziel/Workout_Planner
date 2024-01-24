@@ -1143,7 +1143,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/yCuSGoe1gjY?si=xGEh1H7XXh918avs", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1166,7 +1166,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/yCuSGoe1gjY?si=xGEh1H7XXh918avs", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1189,7 +1189,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/MnDpmNYUjbc?si=sWq9xQnhAW5-ryf3", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1212,7 +1212,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/MnDpmNYUjbc?si=sWq9xQnhAW5-ryf3", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1235,7 +1235,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/dPsTJOO4HCs?si=ySQkBCvOI1uX4kI1", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1258,7 +1258,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/dPsTJOO4HCs?si=ySQkBCvOI1uX4kI1", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1281,7 +1281,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/aXTKdnCIyWA?si=HguEm0uWwjLQwcmE", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1304,7 +1304,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/aXTKdnCIyWA?si=HguEm0uWwjLQwcmE", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1327,7 +1327,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/VGZPPlJsPlY?si=JpX5iDO2RfmshRxd", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1350,7 +1350,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/VGZPPlJsPlY?si=JpX5iDO2RfmshRxd", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1373,7 +1373,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: "https://www.youtube.com/embed/u2MfrzcJFY0?si=7kjTkIzKRNfy_ryA", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
