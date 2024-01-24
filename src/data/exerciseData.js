@@ -538,7 +538,7 @@ export const exerciseData = [
         reps: "6-8",
         time: "n/a",
         sets: "4",
-        note: "use a band for additional resistance, but can also be done with no resistance",
+        note: "use a band for add'l resistance, but can also be done with no resistance",
         description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
         description02: "",
         description03: "",

@@ -19,3 +19,21 @@
     padding: 0;
     margin: 0;
 }
+
+.WorkoutItem-note-container {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: left;
+    height: 50px;
+}
+
+.WorkoutItem-note-title {
+    font-weight: bold;
+}
+
+.WorkoutItem-note-content {
+    padding-left: 5px;
+    overflow-y: scroll;
+    justify-content: left;
+    text-align: left;
+}
