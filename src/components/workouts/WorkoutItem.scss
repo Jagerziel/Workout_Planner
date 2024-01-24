@@ -106,6 +106,7 @@
     aspect-ratio: 4/2.5;
     padding: 10px;
     overflow-y: scroll;
+    margin-bottom: 10px;
 }
 
 .WorkoutItem-content-desc-bullet {
@@ -117,4 +118,36 @@
 .WorkoutItem-content-desc-content {
     text-align: left;
     font-size: 0.8rem;
+}
+
+.WorkoutItem-type-container {
+    // border: 2px solid red;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.WorkoutItem-type-subcontainer {
+    // border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WorkoutItem-type-circle {
+    height: 15px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.WorkoutItem-type-title {
+    // border: 2px solid rgb(251, 0, 0);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    font-weight: 600;
+    margin-top: 3px;
 }

@@ -106,7 +106,31 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                     : <div></div> 
                 }
             </div>
-            <div style={{height: '40px'}}></div>
+            <div className='WorkoutItem-type-container'>
+                <div className='WorkoutItem-type-subcontainer'>
+                    <div 
+                        className='WorkoutItem-type-circle'
+                        style={{
+                            border: `2px solid white`,
+                            backgroundColor: exerciseDataItem.superset ? 'rgb(33, 198, 33)' : '#242424'
+                        }}
+                    ></div>
+                    <div className='WorkoutItem-type-title'>
+                        <div style={{color: exerciseDataItem.superset ? 'rgb(33, 198, 33)' : 'white'}}>Superset</div>
+                    </div>
+                    <div style={{paddingLeft: '15px'}}></div>
+                    <div 
+                        className='WorkoutItem-type-circle'
+                        style={{
+                            border: `2px solid white`,
+                            backgroundColor: exerciseDataItem.circuit ? 'rgb(255, 0, 0)' : '#242424'
+                        }}
+                    ></div>
+                    <div className='WorkoutItem-type-title'>
+                        <div style={{color: exerciseDataItem.circuit ? 'rgb(255, 0, 0)' : 'white' }}>Circuit</div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
