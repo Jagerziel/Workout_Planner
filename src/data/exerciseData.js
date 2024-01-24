@@ -16,7 +16,7 @@ export const exerciseData = [
         description04: "",
         description05: "",
         img: [], // array
-        video: "", // url
+        video: `https://www.youtube.com/embed/HqZmvA3MDMU?si=xG-ntbzCyUfui6NS`, // url
         addtl_reqs: "",
         superset: false,
         circuit: false,

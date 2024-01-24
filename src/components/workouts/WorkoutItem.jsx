@@ -67,7 +67,10 @@ export default function WorkoutItem( { exerciseDataItem } ) {
             </div>
             <div 
                 className='WorkoutItem-content-container'
-                style={{display: menu.none ? 'none' : 'block'}}
+                style={{
+                    display: menu.none ? 'none' : 'block',
+                    overflow: menu.video ? 'hidden' : 'scroll'
+                }}
             >
                 {
                     menu.desc ? 
@@ -102,7 +105,9 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                 }
                 {
                     menu.video ? 
-                    <div>VIDEO</div> 
+                    <div>
+                        <iframe width="300" height="" src={exerciseDataItem.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div> 
                     : <div></div> 
                 }
             </div>
