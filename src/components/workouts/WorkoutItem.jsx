@@ -22,13 +22,7 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         })
     }
 
-    function handleContentSelected ( item ) {
-        return (
-            <div>{item}</div>
-        )
-    }
-    
-    console.log(menu)
+    // console.log(menu)
 
     return (
         <div className='WorkoutItem-container'>
@@ -54,7 +48,7 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                         className='WorkoutItem-menu-button'
                         onClick={() => handleMenuSelection( item )}
                         style={{
-                            border: `2px solid ${menu[item] ? `rgba(200, 200, 200, 0.47)` : '2px solid white'}`,
+                            border: `2px solid ${menu[item] ? `rgba(200, 200, 200, 0.47)` : 'white'}`,
                             backgroundColor: menu[item] ? `rgba(255, 255, 255, 0.87)` : '#242424'
                         }}
                     >
@@ -68,12 +62,24 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                 ))}
             </div>
             <div className='WorkoutItem-content-container'>
-
+                {
+                    menu.desc ? 
+                    <div className='WorkoutItem-content-desc-container'>
+                        DESC
+                    </div> 
+                    : <div></div> 
+                }
+                {
+                    menu.pics ? 
+                    <div>PICS</div> 
+                    : <div></div> 
+                }
+                {
+                    menu.video ? 
+                    <div>VIDEO</div> 
+                    : <div></div> 
+                }
             </div>
-
-
-
-
             <div style={{height: '40px'}}></div>
         </div>
     )
