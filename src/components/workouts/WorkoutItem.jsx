@@ -13,7 +13,7 @@ export default function WorkoutItem( { exerciseDataItem } ) {
             </div>
             <div className='WorkoutItem-note-container'>
                 <div className='WorkoutItem-note-title'>Note:</div>
-                <div className='WorkoutItem-note-content'>{exerciseDataItem.note}</div>
+                <div className='WorkoutItem-note-content'>{exerciseDataItem.note === "" ? 'n/a' : exerciseDataItem.note}</div>
             </div>
 
 
