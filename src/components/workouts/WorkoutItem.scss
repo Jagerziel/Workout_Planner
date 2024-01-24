@@ -29,11 +29,47 @@
 
 .WorkoutItem-note-title {
     font-weight: bold;
+    width: 50px;
 }
 
 .WorkoutItem-note-content {
     padding-left: 5px;
-    overflow-y: scroll;
+    justify-content: left;
+    text-align: left;
+}
+
+.WorkoutItem-sets-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: left;
+    height: 25px;
+}
+
+.WorkoutItem-sets-title {
+    font-weight: bold;
+    width: 50px;
+}
+
+.WorkoutItem-sets-content {
+    padding-left: 5px;
+    justify-content: left;
+    text-align: left;
+}
+
+.WorkoutItem-reps-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: left;
+    height: 25px;
+}
+
+.WorkoutItem-reps-title {
+    font-weight: bold;
+    width: 50px;
+}
+
+.WorkoutItem-reps-content {
+    padding-left: 5px;
     justify-content: left;
     text-align: left;
 }
