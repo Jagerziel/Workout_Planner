@@ -10,6 +10,8 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         video: false
     })
 
+    const [ overflow, setOverflow ] = useState(false)
+
     const menuItems = ['desc', 'pics', 'video']
     const menuItemNames = ['Description', 'Images', 'Video']
 
@@ -21,6 +23,8 @@ export default function WorkoutItem( { exerciseDataItem } ) {
             video: item === 'video' ? !menu[item] : false,
         })
     }
+
+
 
     // console.log(menu)
 
@@ -61,12 +65,34 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                     </div>
                 ))}
             </div>
-            <div className='WorkoutItem-content-container'>
+            <div 
+                className='WorkoutItem-content-container'
+                style={{display: menu.none ? 'none' : 'block'}}
+            >
                 {
                     menu.desc ? 
-                    <div className='WorkoutItem-content-desc-container'>
-                        DESC
-                    </div> 
+                    <div className='WorkoutItem-content-subcontainer'>
+                        <div style={{display: exerciseDataItem.description01 === "" ? "none" : "flex"}}>
+                            <div className='WorkoutItem-content-desc-bullet'>-</div>
+                            <div className='WorkoutItem-content-desc-content'>{exerciseDataItem.description01}</div>
+                        </div> 
+                        <div style={{display: exerciseDataItem.description02 === "" ? "none" : "flex"}}>
+                            <div className='WorkoutItem-content-desc-bullet'>-</div>
+                            <div className='WorkoutItem-content-desc-content'>{exerciseDataItem.description02}</div>
+                        </div> 
+                        <div style={{display: exerciseDataItem.description03 === "" ? "none" : "flex"}}>
+                            <div className='WorkoutItem-content-desc-bullet'>-</div>
+                            <div className='WorkoutItem-content-desc-content'>{exerciseDataItem.description03}</div>
+                        </div> 
+                        <div style={{display: exerciseDataItem.description02 === "" ? "none" : "flex"}}>
+                            <div className='WorkoutItem-content-desc-bullet'>-</div>
+                            <div className='WorkoutItem-content-desc-content'>{exerciseDataItem.description02}</div>
+                        </div> 
+                        <div style={{display: exerciseDataItem.description02 === "" ? "none" : "flex"}}>
+                            <div className='WorkoutItem-content-desc-bullet'>-</div>
+                            <div className='WorkoutItem-content-desc-content'>{exerciseDataItem.description02}</div>
+                        </div> 
+                    </div>
                     : <div></div> 
                 }
                 {

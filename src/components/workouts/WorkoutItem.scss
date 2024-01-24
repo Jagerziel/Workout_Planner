@@ -104,8 +104,17 @@
     border-radius: 7px;
     width: 100%;
     aspect-ratio: 4/2.5;
+    padding: 10px;
+    overflow-y: scroll;
 }
 
-.WorkoutItem-content-desc-container {
+.WorkoutItem-content-desc-bullet {
+    padding: 0 7px 0 0px;
+    font-size: 0.8rem;
 
+}
+
+.WorkoutItem-content-desc-content {
+    text-align: left;
+    font-size: 0.8rem;
 }
