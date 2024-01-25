@@ -20,13 +20,13 @@ export default function Wk0104() {
             title: "Day 1",
             workouts: [0,1,3,5,6,9,10,13,14,15,16],
             rest: false,
-            show: true,
+            show: false,
         },
         {
             title: "Day 2",
             workouts: [17,19,21,23,25,26,29,31,32,33],
             rest: false,
-            show: true,
+            show: false,
         },
         {
             title: "Day 3",

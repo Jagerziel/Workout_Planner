@@ -591,7 +591,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Gv-E6PEGl3QkIDIW3q_1yyMvWpH-6DJuVw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzyNxzWjDBQNVQp5YUhFcOhZFjK6BMTCqIg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjWfbrJJOUlDrggUVSrWD0wEV3IagKrjpoaA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/c5Kv6-fnTj8?si=2IOs4ZmAAJFP0tuu", // url
         addtl_reqs: "",
         superset: true,
@@ -614,7 +614,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAyT1ydsqFAfVAlm7XYPnlBpC9p5sAowYl5A&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXgw9OSVaUct55vaWLVz5Y141AsecPjnkYrQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/pn7DLqo-IKs?si=-aUWrs3lTb0UfIaz", // url
         addtl_reqs: "",
         superset: true,
@@ -637,7 +637,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Gv-E6PEGl3QkIDIW3q_1yyMvWpH-6DJuVw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzyNxzWjDBQNVQp5YUhFcOhZFjK6BMTCqIg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjWfbrJJOUlDrggUVSrWD0wEV3IagKrjpoaA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/c5Kv6-fnTj8?si=2IOs4ZmAAJFP0tuu", // url
         addtl_reqs: "",
         superset: true,
@@ -660,7 +660,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAyT1ydsqFAfVAlm7XYPnlBpC9p5sAowYl5A&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXgw9OSVaUct55vaWLVz5Y141AsecPjnkYrQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/pn7DLqo-IKs?si=-aUWrs3lTb0UfIaz", // url
         addtl_reqs: "",
         superset: true,
@@ -683,7 +683,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCwn4bm8DR0l0W1sGasxbdOlIm3ZHKuBCDGQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/xTQRtgUr1wk?si=R5G0orzO-DWoAHe3", // url
         addtl_reqs: "",
         superset: false,
@@ -706,7 +706,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCwn4bm8DR0l0W1sGasxbdOlIm3ZHKuBCDGQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/xTQRtgUr1wk?si=R5G0orzO-DWoAHe3", // url
         addtl_reqs: "",
         superset: false,
@@ -729,7 +729,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodfeLjt0snoucYwNSOqYsafEBnrx04RvD1A&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62XWkSiJJ_3KASf5N_UlKFjWJ0qCn5kQNlTP7Ft_1uVnpXM6SUg9_qJEj1JY-E0y1epI&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/T_l0AyZywjU?si=az-6BQ3d5g7bd0ME", // url
         addtl_reqs: "",
         superset: false,
@@ -752,7 +752,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDeasJMEKVB15vFTFq7uuVpRx1zZaqc4WNRQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/FBO9-8nTbsM?si=AlIoohK2_OK6VGix", // url
         addtl_reqs: "",
         superset: false,
@@ -775,7 +775,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh1V5ruvH92e2pE5b8vrn6c_NIjtLNepHOlg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNoVEEaoNt7MlJQCPQKPoOXDkSVDoNE-_BrA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/NqxJdfQDt3c?si=FSygk0qelj77k-4i", // url
         addtl_reqs: "",
         superset: false,
@@ -798,7 +798,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj0lYjIl8NvCyFY31qK4qWwmUp9ZbqwGcKBw&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/HxlWP5BG2EU?si=5743Yas9ABQ5S7xM", // url
         addtl_reqs: "",
         superset: false,
@@ -821,7 +821,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://cdn.shopify.com/s/files/1/1585/6091/files/Standing_Hamstring_Scoops_480x480.png?v=1667586588"], // array
         video: "https://www.youtube.com/embed/OVAIQ23we-8?si=R0okWDz__aMDIGkN", // url
         addtl_reqs: "",
         superset: false,
@@ -844,7 +844,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNYhIo3GVbtZKZ6mOYd2_hF3JYg3_ofqIvJw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLf2XlOTB-mMfHHRZGjqDNLSL-mfsxBDG12w&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/FBO9-8nTbsM?si=IDcRkH5olFRUwlSz", // url
         addtl_reqs: "",
         superset: false,
@@ -867,7 +867,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkq4nt1hrwAhh0YmTasZaHabrWGMOYIROQA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_qfRg0EWdZZeA_YhsqRswwoJmJiulLKB-cA&usqp=CAU", "https://www.fitpro.com/blog/wp-content/uploads/2021/11/E6832_556785.jpg"], // array
         video: "https://www.youtube.com/embed/52r_Ul5k03g?si=C-OLfL3fS4C6phNq", // url
         addtl_reqs: "",
         superset: false,
@@ -890,7 +890,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkq4nt1hrwAhh0YmTasZaHabrWGMOYIROQA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_qfRg0EWdZZeA_YhsqRswwoJmJiulLKB-cA&usqp=CAU", "https://www.fitpro.com/blog/wp-content/uploads/2021/11/E6832_556785.jpg"], // array
         video: "https://www.youtube.com/embed/52r_Ul5k03g?si=C-OLfL3fS4C6phNq", // url
         addtl_reqs: "",
         superset: false,
@@ -913,7 +913,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/02/Skater.gif", "https://www.mensjournal.com/.image/t_share/MTk2MTM2ODA3MTkzNTg1MTU3/skater.jpg"], // array
         video: "https://www.youtube.com/embed/CaN4zfIPyXU?si=ZNLSAioKdpVCY5rT", // url
         addtl_reqs: "",
         superset: false,
@@ -936,7 +936,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/02/Skater.gif", "https://www.mensjournal.com/.image/t_share/MTk2MTM2ODA3MTkzNTg1MTU3/skater.jpg"], // array
         video: "https://www.youtube.com/embed/CaN4zfIPyXU?si=ZNLSAioKdpVCY5rT", // url
         addtl_reqs: "",
         superset: false,
@@ -959,7 +959,7 @@ export const exerciseData = [
         description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://i.pinimg.com/originals/a0/1e/76/a01e76dad4ba0e9f17d04f90f6c888db.gif"], // array
         video: "https://www.youtube.com/embed/j260zYfRz8Q?si=fpstV2Kl9UH_bQq-", // url
         addtl_reqs: "",
         superset: false,
@@ -968,21 +968,21 @@ export const exerciseData = [
     },
     {
         id: 42, // corresponds to index
-        title: "Vertical Jump",
+        title: "Vertical Jump (high reps)",
         type: "core", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
-        reps: "4",
+        reps: "10-12",
         time: "n/a",
-        sets: "10-12",
+        sets: "4",
         note: "",
         description01: "load up position -> arms back, knees bent 25%",
         description02: "when propelling forward -> swing hands in front of you in the direction you’re going to gain max distance, do NOT cave knees inwards",
         description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://i.pinimg.com/originals/a0/1e/76/a01e76dad4ba0e9f17d04f90f6c888db.gif"], // array
         video: "https://www.youtube.com/embed/j260zYfRz8Q?si=fpstV2Kl9UH_bQq-", // url
         addtl_reqs: "",
         superset: false,
@@ -1005,7 +1005,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: [""], // array
         video: "https://www.youtube.com/embed/2TrlYF7rZHk?si=ebGdF9aq28shg4u0", // url
         addtl_reqs: "",
         superset: false,
