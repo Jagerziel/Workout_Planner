@@ -246,7 +246,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJ9GVRDP3VH0ocFVxdKFDN_PL3jkyX9oZAA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYrS9qBlGbUkbEKYUhYRZQTzLjXSsp6D8qQ&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYT8weEUsffYFhhcAEcTtb6XndzT3CCq3eRA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/jR7Y5YcugYc?si=mnCh-jtDxHrkBOvH", // url
         addtl_reqs: "",
         superset: true,
@@ -269,7 +269,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRptc_RyPe2E0JCnQuuL2SdZisi7XHYu_Yydw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR79Synwoat8tFgqs6TDaB5m1CJODiMb_p3Hg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaTPmAp_mR1_dNaW37_f_gLIKY7NkenVMRsw&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/6gvmcqr226U?si=g6_wkuzp3b1YLmIJ", // url
         addtl_reqs: "",
         superset: true,
@@ -292,7 +292,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJ9GVRDP3VH0ocFVxdKFDN_PL3jkyX9oZAA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYrS9qBlGbUkbEKYUhYRZQTzLjXSsp6D8qQ&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYT8weEUsffYFhhcAEcTtb6XndzT3CCq3eRA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/jR7Y5YcugYc?si=mnCh-jtDxHrkBOvH", // url
         addtl_reqs: "",
         superset: true,
@@ -315,7 +315,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkS6sMo70e8TJ7t_GwQNx2TK8K-zeZ2vbkcw&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ2ecLvNDCwlm8F0jGRWeV2yPi3_peVZPrjA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/tatrv67rou8?si=R0CpbKr5RGzffxoe", // url
         addtl_reqs: "",
         superset: false,
@@ -338,7 +338,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-sFbkXUDmy00yPzBIyVPC9kpsO0J7lwcqA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwj_LHVvLojFQUNs2vdQJqPLp7J3SNScdPog&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/-9NIE9j4h3I?si=BG316jtdLzd2vEHc", // url
         addtl_reqs: "",
         superset: false,
@@ -361,7 +361,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4cGhTmyCXVPgdlNvu4FByrFj1c6OZilyL_A&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/zzvDO56B0HE?si=PcRZN0kKSIN-WF-g", // url
         addtl_reqs: "",
         superset: false,
@@ -384,7 +384,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-3XgqTkqpqRuPjY7gKAARL_zcydzJI7fhw&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/3CEmHJXbNpc?si=siszp7hvWaFn4GzY", // url
         addtl_reqs: "",
         superset: false,
@@ -407,7 +407,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6ZikrlLe0DsP9KjUZvNaubEFfG_HSiFc9g&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXgA0seFmVmL4bBa_lKey3eBWuALUU3SKoQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/rrJIyZGlK8c?si=c8g9pZ83Vn0O1dFX", // url
         addtl_reqs: "",
         superset: false,
@@ -430,7 +430,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6ZikrlLe0DsP9KjUZvNaubEFfG_HSiFc9g&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXgA0seFmVmL4bBa_lKey3eBWuALUU3SKoQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/rrJIyZGlK8c?si=c8g9pZ83Vn0O1dFX", // url
         addtl_reqs: "",
         superset: false,
@@ -453,7 +453,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxik80ubBNAq8l7y8SDS1csLPGPyCv1UOv6Q&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KlxMnhJpFRGQMHGU7EKbKHmFxDtYm9EwHA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/1ZXobu7JvvE?si=C0IHqC3xWiV0altN", // url
         addtl_reqs: "",
         superset: false,
@@ -476,7 +476,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6ZikrlLe0DsP9KjUZvNaubEFfG_HSiFc9g&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXgA0seFmVmL4bBa_lKey3eBWuALUU3SKoQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/1ZXobu7JvvE?si=C0IHqC3xWiV0altN", // url
         addtl_reqs: "",
         superset: false,
@@ -499,7 +499,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqgeVPmYkIaV6kYRMGa-z8irJ9I5pgEbDohA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLyEo1cMcDaURYcIhtMxmEyULzGF5KVRFaPA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/uJ4eA2wUXdw?si=qqMEz0aGhFfta7pH", // url
         addtl_reqs: "",
         superset: false,
@@ -522,7 +522,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqgeVPmYkIaV6kYRMGa-z8irJ9I5pgEbDohA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLyEo1cMcDaURYcIhtMxmEyULzGF5KVRFaPA&usqp=CAU"], // array
         video: "", // url
         addtl_reqs: "https://www.youtube.com/embed/uJ4eA2wUXdw?si=qqMEz0aGhFfta7pH",
         superset: false,
@@ -545,7 +545,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYso7oE25004jSe03uQAJkea0L9koNVNxAJA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72GbRnMunJ2cy64PpIPrjQuJGyD0UDIqZgQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/LaDKpYN9FDw?si=9yJP3TLn9zMLm2yd", // url
         addtl_reqs: "",
         superset: false,
@@ -568,7 +568,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYso7oE25004jSe03uQAJkea0L9koNVNxAJA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72GbRnMunJ2cy64PpIPrjQuJGyD0UDIqZgQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/LaDKpYN9FDw?si=9yJP3TLn9zMLm2yd", // url
         addtl_reqs: "",
         superset: false,

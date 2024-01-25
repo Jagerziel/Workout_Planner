@@ -139,6 +139,9 @@
     // border: 2px solid green;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .WorkoutItem-img-item {
@@ -151,6 +154,7 @@
     position: absolute;
     z-index: 1;
     top: 40%;
+    left: 0;
     cursor: pointer;
 }
 
