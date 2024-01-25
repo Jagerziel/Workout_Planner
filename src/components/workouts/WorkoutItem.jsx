@@ -15,7 +15,7 @@ export default function WorkoutItem( { exerciseDataItem } ) {
     })
 
     const [ imgArr, setImgArr ] = useState({
-        currIdx: 1,
+        currIdx: 0,
         imgArrMaxIdx: exerciseDataItem.img.length - 1
     })
 
@@ -32,7 +32,8 @@ export default function WorkoutItem( { exerciseDataItem } ) {
     }
 
     function handleArrow ( direction ) {
-        console.log(direction)
+        if ( direction ===  'left') setImgArr({...imgArr, currIdx: imgArr.currIdx - 1})
+        if ( direction ===  'right') setImgArr({...imgArr, currIdx: imgArr.currIdx + 1})
     }
 
     // console.log(menu)
