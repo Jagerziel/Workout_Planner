@@ -200,7 +200,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFWQTqW6mcSBtrkYaYCJEH_TOxiJ5CpbhCw&usqp=CAU"], // array
         video: "", // url
         addtl_reqs: "https://www.youtube.com/embed/av7-8igSXTs?si=zxeJRjtA1F1ybRyn",
         superset: true,
@@ -223,7 +223,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRptc_RyPe2E0JCnQuuL2SdZisi7XHYu_Yydw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR79Synwoat8tFgqs6TDaB5m1CJODiMb_p3Hg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaTPmAp_mR1_dNaW37_f_gLIKY7NkenVMRsw&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/6gvmcqr226U?si=g6_wkuzp3b1YLmIJ", // url
         addtl_reqs: "",
         superset: true,
