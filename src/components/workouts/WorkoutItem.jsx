@@ -109,11 +109,14 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                 }
                 {
                     menu.pics ? 
-                    <div>
+                    <div className='WorkoutItem-img-container'>
                         {
                             exerciseDataItem.img.length > 0 ?
-                            <div>
-
+                            <div className='WorkoutItem-img-subcontainer'>
+                                <img 
+                                    src={exerciseDataItem.img[imgArr.currIdx]}
+                                    className='WorkoutItem-img-item'
+                                />
                                 {/* <ArrowImg direction={'left'}/> */}
                             </div> :
                             <div>Pictures Temporarily Unavailable</div>
