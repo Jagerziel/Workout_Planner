@@ -15,8 +15,8 @@ export default function WorkoutItem( { exerciseDataItem } ) {
     })
 
     const [ imgArr, setImgArr ] = useState({
-        currIdx: 0,
-        imgArrLen: exerciseDataItem.img.length
+        currIdx: 1,
+        imgArrMaxIdx: exerciseDataItem.img.length - 1
     })
 
     const menuItems = ['desc', 'pics', 'video']
@@ -31,8 +31,8 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         })
     }
 
-    function handleArrow () {
-
+    function handleArrow ( direction ) {
+        console.log(direction)
     }
 
     // console.log(menu)
@@ -117,8 +117,19 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                                     src={exerciseDataItem.img[imgArr.currIdx]}
                                     className='WorkoutItem-img-item'
                                 />
-                                <div className='WorkoutItem-img-arrow-left-container'>
+                                <div 
+                                    className='WorkoutItem-img-arrow-left-container'
+                                    onClick={() => handleArrow('left')}
+                                    style={{display: imgArr.currIdx === 0 ? 'none' : 'block'}}
+                                >
                                     <ArrowImg direction={'left'}/>
+                                </div>
+                                <div 
+                                    className='WorkoutItem-img-arrow-right-container'
+                                    onClick={() => handleArrow('right')}
+                                    style={{display: imgArr.currIdx === imgArr.imgArrMaxIdx ? 'none' : 'block'}}
+                                >
+                                    <ArrowImg direction={'right'}/>
                                 </div>
                             </div> :
                             <div>Pictures Temporarily Unavailable</div>

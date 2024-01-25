@@ -149,6 +149,14 @@
     cursor: pointer;
 }
 
+.WorkoutItem-img-arrow-right-container {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    right: 0;
+    cursor: pointer;
+}
+
 
 .WorkoutItem-type-container {
     // border: 2px solid red;
