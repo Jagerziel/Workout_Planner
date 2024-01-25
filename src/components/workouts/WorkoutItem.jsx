@@ -117,7 +117,9 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                                     src={exerciseDataItem.img[imgArr.currIdx]}
                                     className='WorkoutItem-img-item'
                                 />
-                                {/* <ArrowImg direction={'left'}/> */}
+                                <div className='WorkoutItem-img-arrow-left-container'>
+                                    <ArrowImg direction={'left'}/>
+                                </div>
                             </div> :
                             <div>Pictures Temporarily Unavailable</div>
 

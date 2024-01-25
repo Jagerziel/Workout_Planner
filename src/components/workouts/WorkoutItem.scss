@@ -127,6 +127,7 @@
     padding: 0;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .WorkoutItem-img-subcontainer {
@@ -135,11 +136,17 @@
     width: 100%;
 }
 
-
 .WorkoutItem-img-item {
     object-fit: contain;
     max-height: 100%;
     max-width: 100%;
+}
+
+.WorkoutItem-img-arrow-left-container {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    cursor: pointer;
 }
 
 
