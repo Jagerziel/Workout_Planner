@@ -8,13 +8,17 @@
     font-weight: 600;
 }
 
-
-
-
 .Wk0116-workout-day {
     font-size: 1.3rem;
     font-weight: 600;
     cursor: pointer;
+}
+
+.Wk0116-workout-container {
+    // border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Wk0116-rest-item-container {
@@ -40,7 +44,7 @@
     --g: 10px; /* control the gap */
     --f: 1.5; /* control the scale factor */
     display: grid;
-    // max-width: calc(var(--m) * 354px + var(--g) * (var(--m) - 1));
+    max-width: calc(var(--m) * 340px + (var(--g)) * (var(--m) - 1));
     gap: var(--g);
     // width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
     height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
