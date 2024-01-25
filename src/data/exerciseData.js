@@ -1005,7 +1005,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [""], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbg2Us_PkvpK2L6citQvOrCxxcNBjw841doA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/2TrlYF7rZHk?si=ebGdF9aq28shg4u0", // url
         addtl_reqs: "",
         superset: false,
@@ -1028,7 +1028,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://64.media.tumblr.com/3e0a70013f9789686589bbac8bf8fd21/c4ad2d732b0d143d-bf/s1280x1920/1bb063b0b37bba0c4073a94ee88bd1330ebd830a.gif","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9-SPAlT2d19damlqYhajLk8ptIvIxrHri2Q&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/5OT5fzjufIQ?si=kuWyRwZDPkymV1Vj", // url
         addtl_reqs: "",
         superset: false,
@@ -1051,7 +1051,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://hips.hearstapps.com/hmg-prod/images/workouts/2016/08/vupfull-1472154765.gif","https://fitnessvolt.com/wp-content/uploads/2018/04/Muscles-Worked-During-V-Ups-750x267.jpg"], // array
         video: "https://www.youtube.com/embed/7UVgs18Y1P4?si=Re0PUttyOaRosrWj", // url
         addtl_reqs: "",
         superset: false,
@@ -1074,7 +1074,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/08/pike-push-up.gif", "https://i.pinimg.com/736x/c2/d8/8f/c2d88f171366cfb37822b3bc813288c7.jpg"], // array
         video: "https://www.youtube.com/embed/sposDXWEB0A?si=fjircbErtPYE3LPO", // url
         addtl_reqs: "",
         superset: false,
@@ -1097,7 +1097,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2023/06/plyometric-push-ups.gif", "https://i.pinimg.com/originals/0f/34/3e/0f343e5f49ee783888500700e162f631.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-xBtwjYfhyHM7tmPfBTVG517hxeSP5BxPSA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/Y-uF4F3mQIs?si=vxX1-aPE_Z46emur", // url
         addtl_reqs: "",
         superset: false,
@@ -1120,7 +1120,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2023/06/plyometric-push-ups.gif", "https://i.pinimg.com/originals/0f/34/3e/0f343e5f49ee783888500700e162f631.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-xBtwjYfhyHM7tmPfBTVG517hxeSP5BxPSA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/Y-uF4F3mQIs?si=vxX1-aPE_Z46emur", // url
         addtl_reqs: "",
         superset: false,
@@ -1143,7 +1143,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.trxtraining.com/cdn/shop/articles/low-row-43122676__resized.jpg?v=1645121082", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSiRpesF1FhNRnfFEIUV7NGqwHgPShs7b4A&usqp=CAU", "https://www.fitfatherproject.com/wp-content/uploads/2018/05/back-arm-muscles-226x300.jpg"], // array
         video: "https://www.youtube.com/embed/yCuSGoe1gjY?si=xGEh1H7XXh918avs", // url
         addtl_reqs: "",
         superset: false,
@@ -1166,7 +1166,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.trxtraining.com/cdn/shop/articles/low-row-43122676__resized.jpg?v=1645121082", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSiRpesF1FhNRnfFEIUV7NGqwHgPShs7b4A&usqp=CAU", "https://www.fitfatherproject.com/wp-content/uploads/2018/05/back-arm-muscles-226x300.jpg"], // array
         video: "https://www.youtube.com/embed/yCuSGoe1gjY?si=xGEh1H7XXh918avs", // url
         addtl_reqs: "",
         superset: false,
@@ -1189,7 +1189,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/08/band-pull-apart.gif", "https://focusedonfit.com/s/uploads/2014/01/Band-Pull-Aparts.jpg"], // array
         video: "https://www.youtube.com/embed/MnDpmNYUjbc?si=sWq9xQnhAW5-ryf3", // url
         addtl_reqs: "",
         superset: false,
@@ -1212,7 +1212,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/08/band-pull-apart.gif", "https://focusedonfit.com/s/uploads/2014/01/Band-Pull-Aparts.jpg"], // array
         video: "https://www.youtube.com/embed/MnDpmNYUjbc?si=sWq9xQnhAW5-ryf3", // url
         addtl_reqs: "",
         superset: false,
@@ -1235,7 +1235,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1492638807121-H3Q9V0YU7HX1Z9HJ48EQ/Standing+Dumbbell+Lateral+Raises"], // array
         video: "https://www.youtube.com/embed/dPsTJOO4HCs?si=ySQkBCvOI1uX4kI1", // url
         addtl_reqs: "",
         superset: false,
@@ -1258,7 +1258,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1492638807121-H3Q9V0YU7HX1Z9HJ48EQ/Standing+Dumbbell+Lateral+Raises"], // array
         video: "https://www.youtube.com/embed/dPsTJOO4HCs?si=ySQkBCvOI1uX4kI1", // url
         addtl_reqs: "",
         superset: false,
@@ -1281,7 +1281,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/05/Cable-Straight-Arm-Pulldown.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAwfjJ-zB8e6bN1vR9El8vhA_d5fSgZxonPw&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/aXTKdnCIyWA?si=HguEm0uWwjLQwcmE", // url
         addtl_reqs: "",
         superset: false,
@@ -1304,7 +1304,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/05/Cable-Straight-Arm-Pulldown.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAwfjJ-zB8e6bN1vR9El8vhA_d5fSgZxonPw&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/aXTKdnCIyWA?si=HguEm0uWwjLQwcmE", // url
         addtl_reqs: "",
         superset: false,
@@ -1327,7 +1327,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ZkARW7Ku-ZdP8_OCWYzAFRaejjqtORBZBA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/VGZPPlJsPlY?si=JpX5iDO2RfmshRxd", // url
         addtl_reqs: "",
         superset: false,
@@ -1350,7 +1350,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ZkARW7Ku-ZdP8_OCWYzAFRaejjqtORBZBA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/VGZPPlJsPlY?si=JpX5iDO2RfmshRxd", // url
         addtl_reqs: "",
         superset: false,
@@ -1373,7 +1373,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://cdn.shopify.com/s/files/1/2422/2563/files/developing-punching-power-using-science-part-2-trunk-cable-twist.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt1ohbD_aM7N0qpAOt2knyYNesQn9uZV7sGQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/u2MfrzcJFY0?si=7kjTkIzKRNfy_ryA", // url
         addtl_reqs: "",
         superset: false,
