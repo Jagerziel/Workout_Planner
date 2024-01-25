@@ -14,6 +14,12 @@ export default function ArrowImg( { direction } ) {
   }
 
   const styles = {
+    ArrowImgContainer: {
+      backgroundColor: '#242424',
+      borderRadius: '50%',
+      height: '30px',
+      aspectRatio: '1/1'
+    },
     ArrowImg: {
       height: '30px',
       aspectRatio: '1/1',
@@ -22,7 +28,9 @@ export default function ArrowImg( { direction } ) {
     }
   }
   return (
-    <div>
+    <div
+      style={styles.ArrowImgContainer}
+    >
       <img 
         src={right_arrow} 
         alt='Image Not Available'
