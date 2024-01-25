@@ -15,7 +15,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ['https://www.whyiexercise.com/images/rotator.cuff.exercises.routine.jpg',
+        'https://www.builtlean.com/wp-content/uploads/2016/04/RotatorCuffAnatomy.jpg'], // array
         video: `https://www.youtube.com/embed/HqZmvA3MDMU?si=xG-ntbzCyUfui6NS`, // url
         addtl_reqs: "",
         superset: false,

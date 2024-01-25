@@ -1,8 +1,12 @@
+// Import React
 import React, { useState } from 'react'
+// Import Components
+import ArrowImg from '../img_components/ArrowImg.jsx'
+// Import CSS
 import './WorkoutItem.scss'
 
 export default function WorkoutItem( { exerciseDataItem } ) {
-
+    // Handle menu
     const [ menu, setMenu ] = useState({
         none: true,
         desc: false,
@@ -10,7 +14,10 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         video: false
     })
 
-    const [ overflow, setOverflow ] = useState(false)
+    const [ imgArr, setImgArr ] = useState({
+        currIdx: 0,
+        imgArrLen: exerciseDataItem.img.length
+    })
 
     const menuItems = ['desc', 'pics', 'video']
     const menuItemNames = ['Description', 'Images', 'Video']
@@ -24,7 +31,9 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         })
     }
 
+    function handleArrow () {
 
+    }
 
     // console.log(menu)
 
@@ -100,7 +109,17 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                 }
                 {
                     menu.pics ? 
-                    <div>PICS</div> 
+                    <div>
+                        {
+                            exerciseDataItem.img.length > 0 ?
+                            <div>
+
+                                {/* <ArrowImg direction={'left'}/> */}
+                            </div> :
+                            <div>Pictures Temporarily Unavailable</div>
+
+                        }
+                    </div>
                     : <div></div> 
                 }
                 {
