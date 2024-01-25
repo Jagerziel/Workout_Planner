@@ -115,7 +115,12 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                     : <div></div> 
                 }
             </div>
-            <div className='WorkoutItem-type-container'>
+            <div 
+                className='WorkoutItem-type-container'
+                style={{
+                    marginTop: menu.none ? '10px' : '0px'
+                }}
+            >
                 <div className='WorkoutItem-type-subcontainer'>
                     <div 
                         className='WorkoutItem-type-circle'
