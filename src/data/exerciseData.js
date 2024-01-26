@@ -2431,7 +2431,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://musclemagfitness.com/wp-content/uploads/leg-raise-exercise.gif", "https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1495662000746-85YPM72P83MSPCTHLSOH/Lying+Flat+Bench+Leg+Raises"], // array
+        img: ["https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1495662000746-85YPM72P83MSPCTHLSOH/Lying+Flat+Bench+Leg+Raises"], // array
         video: "https://www.youtube.com/embed/_fVql2cFAyY?si=m-UROCKGddDPGNN8", // url
         addtl_reqs: "",
         superset: false,
@@ -2477,8 +2477,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://www.mensjournal.com/.image/t_share/MTk2MTM1ODk5MDc2MTc0OTkz/mj0419_bp_sideplank_01.jpg", "https://fitliferegime.com/wp-content/uploads/2021/11/Muscles-Worked-During-Side-Plank-Exercises.webp"], // array
+        video: "https://www.youtube.com/embed/EgOCyChP_Vk?si=3j3Ut-VC_WSBdfM1", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2486,7 +2486,7 @@ export const exerciseData = [
     },
     {
         id: 108, // corresponds to index
-        title: "Side planks",
+        title: "Side planks (longer duration)",
         type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
@@ -2500,8 +2500,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://i.pinimg.com/736x/49/95/6d/49956d33299c5ba46a0764c2a339a8bd.jpg", "https://fitliferegime.com/wp-content/uploads/2021/11/Muscles-Worked-During-Side-Plank-Exercises.webp"], // array
+        video: "https://www.youtube.com/embed/N_s9em1xTqU?si=I8ZX3kA3r_jtn6H4", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2509,7 +2509,7 @@ export const exerciseData = [
     },
     {
         id: 109, // corresponds to index
-        title: "Cable trunk rotations",
+        title: "Cable trunk rotations (low reps)",
         type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
@@ -2523,8 +2523,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://cdn.shopify.com/s/files/1/2422/2563/files/developing-punching-power-using-science-part-2-trunk-cable-twist.gif", "https://cdn.shopify.com/s/files/1/1633/7705/files/rotational_exercises_480x480.png?v=1616171474"], // array
+        video: "https://www.youtube.com/embed/IHIEp_2D_Dg?si=0Dv8R86CR2g52hmU", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2532,7 +2532,7 @@ export const exerciseData = [
     },
     {
         id: 110, // corresponds to index
-        title: "Cable trunk rotations",
+        title: "Cable trunk rotations (high reps)",
         type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
@@ -2546,8 +2546,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://cdn.shopify.com/s/files/1/2422/2563/files/developing-punching-power-using-science-part-2-trunk-cable-twist.gif", "https://cdn.shopify.com/s/files/1/1633/7705/files/rotational_exercises_480x480.png?v=1616171474"], // array
+        video: "https://www.youtube.com/embed/IHIEp_2D_Dg?si=0Dv8R86CR2g52hmU", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2569,8 +2569,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://as2.ftcdn.net/v2/jpg/00/99/43/87/1000_F_99438783_dxzDJgJHvYHuu8ggpjTzLzkigb4htgHN.jpg"], // array
+        video: "https://www.youtube.com/embed/uWn2uvYl-lY?si=nZvRnFe8y4f0e48G", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2592,8 +2592,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://as2.ftcdn.net/v2/jpg/00/99/43/87/1000_F_99438783_dxzDJgJHvYHuu8ggpjTzLzkigb4htgHN.jpg"], // array
+        video: "https://www.youtube.com/embed/uWn2uvYl-lY?si=nZvRnFe8y4f0e48G", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
