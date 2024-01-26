@@ -1396,7 +1396,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/02/Sled-Hack-Squat.gif","https://fitnessvolt.com/wp-content/uploads/2019/08/hack-squat.jpg"], // array
         video: "https://www.youtube.com/embed/u_1a0nWG7vQ?si=wNpawcqq9aZ4xJlI", // url
         addtl_reqs: "",
         superset: false,
@@ -1419,7 +1419,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/02/Sled-Hack-Squat.gif","https://fitnessvolt.com/wp-content/uploads/2019/08/hack-squat.jpg"], // array
         video: "https://www.youtube.com/embed/u_1a0nWG7vQ?si=wNpawcqq9aZ4xJlI", // url
         addtl_reqs: "",
         superset: false,
@@ -1442,7 +1442,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/05/Split-Squat.gif", "https://media.post.rvohealth.io/wp-content/uploads/sites/2/2019/05/PLYO_LUNGE.gif"], // array
         video: "https://www.youtube.com/embed/UXqMC9dABc4?si=MlBS8m-Ac4g0Ot3P", // url
         addtl_reqs: "",
         superset: false,
@@ -1465,7 +1465,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/05/Split-Squat.gif", "https://media.post.rvohealth.io/wp-content/uploads/sites/2/2019/05/PLYO_LUNGE.gif"], // array
         video: "https://www.youtube.com/embed/UXqMC9dABc4?si=MlBS8m-Ac4g0Ot3P", // url
         addtl_reqs: "",
         superset: false,
@@ -1488,7 +1488,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/05/Kettlebell-Single-Leg-Deadlift.gif", "https://cdn.shopify.com/s/files/1/2350/9323/files/single_leg_RDL_1abbd6db-d404-4313-8bfb-f2ea75824160_600x600.png?v=1677034960"], // array
         video: "https://www.youtube.com/embed/lI8-igvsnVQ?si=PoTaO3L08l9zSuI6", // url
         addtl_reqs: "",
         superset: false,
@@ -1511,7 +1511,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/05/Kettlebell-Single-Leg-Deadlift.gif", "https://cdn.shopify.com/s/files/1/2350/9323/files/single_leg_RDL_1abbd6db-d404-4313-8bfb-f2ea75824160_600x600.png?v=1677034960"], // array
         video: "https://www.youtube.com/embed/lI8-igvsnVQ?si=PoTaO3L08l9zSuI6", // url
         addtl_reqs: "",
         superset: false,
@@ -1534,7 +1534,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/02/Single-Leg-Box-Jump.gif", "https://i.pinimg.com/736x/f1/14/9f/f1149f53520d4f13f45cb6befc3ca746.jpg"], // array
         video: "https://www.youtube.com/embed/mhoxSr6Z_LI?si=skXr-DZtup0lNM-O", // url
         addtl_reqs: "",
         superset: false,
@@ -1557,7 +1557,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/02/Single-Leg-Box-Jump.gif", "https://i.pinimg.com/736x/f1/14/9f/f1149f53520d4f13f45cb6befc3ca746.jpg"], // array
         video: "https://www.youtube.com/embed/mhoxSr6Z_LI?si=skXr-DZtup0lNM-O", // url
         addtl_reqs: "",
         superset: false,
@@ -1580,7 +1580,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://workoutlabs.com/wp-content/uploads/watermarked/Single_Leg_Hops-1.png"], // array
         video: "https://www.youtube.com/embed/JpblDR5bXo4?si=riMthtmSvfYZZCcN", // url
         addtl_reqs: "",
         superset: false,
@@ -1603,7 +1603,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://workoutlabs.com/wp-content/uploads/watermarked/Single_Leg_Hops-1.png"], // array
         video: "https://www.youtube.com/embed/JpblDR5bXo4?si=riMthtmSvfYZZCcN", // url
         addtl_reqs: "",
         superset: false,
@@ -1612,7 +1612,7 @@ export const exerciseData = [
     },
     {
         id: 70, // corresponds to index
-        title: "Lateral box steps",
+        title: "Lateral box steps (reps)",
         type: "agility", // warmup, upper, lower, core, agility, stretch
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
@@ -1626,7 +1626,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.exercises.com.au/wp-content/uploads/2015/11/Lateral-step-ups-1.png"], // array
         video: "https://www.youtube.com/embed/jA9gQEJ9Zro?si=V68knVkxV0pNREKX", // url
         addtl_reqs: "",
         superset: false,
@@ -1635,7 +1635,7 @@ export const exerciseData = [
     },
     {
         id: 71, // corresponds to index
-        title: "Lateral box steps",
+        title: "Lateral box steps (timed)",
         type: "agility", // warmup, upper, lower, core, agility, stretch
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
@@ -1649,7 +1649,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.exercises.com.au/wp-content/uploads/2015/11/Lateral-step-ups-1.png"], // array
         video: "https://www.youtube.com/embed/jA9gQEJ9Zro?si=V68knVkxV0pNREKX", // url
         addtl_reqs: "",
         superset: false,
@@ -1672,7 +1672,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2021/08/sliding-leg-curl-with-towel.gif", "https://i.pinimg.com/originals/26/9e/64/269e64b874b888c75ec329741f5a8e2c.jpg"], // array
         video: "https://www.youtube.com/embed/Dlazt593cuA?si=fg5se5xsqr4URa_n", // url
         addtl_reqs: "",
         superset: false,
