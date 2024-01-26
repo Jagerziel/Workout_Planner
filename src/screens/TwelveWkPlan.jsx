@@ -7,9 +7,6 @@ import NavItem from '../components/directories/NavItem.jsx';
 // Import Data
 import { twelveWkDirectory } from '../data/data.js';
 
-// State Management 
-import { useSelector, useDispatch } from "react-redux";
-
 export default function TwelveWkPlan() {
 
   return (

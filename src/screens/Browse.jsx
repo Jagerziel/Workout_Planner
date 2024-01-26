@@ -2,8 +2,13 @@
 import React, {useEffect, useState} from 'react'
 // Import CSS
 import './Browse.scss'
+// Import Redux
+import { useSelector, useDispatch } from "react-redux";
 
 export default function Browse() {
+  // Redux: Workout Data
+  const exerciseData = useSelector((state) => state.exerciseData.data)
+
   const [ menu, setMenu ] = useState([
     {
       title: 'All',
@@ -49,6 +54,8 @@ export default function Browse() {
 
   const [ menuLastIdx, setMenuLastIdx ] = useState(0)
 
+  const [ filteredExerciseData, setFilteredExerciseData ] = useState(exerciseData)
+
   function handleMenuSelection ( menuData, idx ) {
     // Returns if button is clicked when already selected
     if (idx === menuLastIdx) return
@@ -78,7 +85,18 @@ export default function Browse() {
     setMenuLastIdx(idx)
     // Set the menu to the updated menu
     setMenu(updatedMenu)
+    // Filter exercises
+    filterExercises(exerciseData, menuData.tag)
   }
+
+  function filterExercises ( exercises, tag ) {
+    const filteredData = exercises.filter((data) => {
+      if (data.type === tag) return data
+    })
+    setFilteredExerciseData(filteredData)
+  }
+
+  console.log(filteredExerciseData.length)
 
   return (
     <div className='Browse-container'>
