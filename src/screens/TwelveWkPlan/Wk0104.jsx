@@ -70,6 +70,12 @@ export default function Wk0104() {
                     >
                         <div 
                             className='Wk0116-workout-day'
+                            style={{
+                                margin: data.show ? '0 0 5px 0' : '0 0 15px 0',
+                                border: `3px solid ${data.show ? 'rgba(140, 140, 140, 0.47)' : 'rgba(255, 255, 255, 0.37)'}`,
+                                backgroundColor: data.show ? 'rgba(255, 255, 255, 0.87)' : 'rgba(255, 255, 255, 0.47)'
+
+                            }}
                             onClick={() => {
                                 let shallowData = workoutIdx
                                 shallowData[index].show = !shallowData[index].show

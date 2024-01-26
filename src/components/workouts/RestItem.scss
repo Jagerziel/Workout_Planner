@@ -1,9 +1,12 @@
 .RestItem-container {
     border: 2px solid white;
+    box-sizing: border-box;
     width: 340px;
     border-radius: 7px;
     padding: 7px;
     user-select: none;
+    margin: 10px 0px 15px 0px;
+
 }
 
 .RestItem-text {
