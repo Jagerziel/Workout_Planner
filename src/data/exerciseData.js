@@ -2325,7 +2325,7 @@ export const exerciseData = [
     },
     {
         id: 101, // corresponds to index
-        title: "Box jump circuit: box jump - land right, box jump - land left, box jump - land back at start (CC)",
+        title: "Box jump circuit (max height) (CC)",
         type: "lower", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
@@ -2333,7 +2333,7 @@ export const exerciseData = [
         reps: "6",
         time: "n/a",
         sets: "6",
-        note: "max height",
+        note: "box jump - land right, box jump - land left, box jump - land back at start ",
         description01: "box jump and jump off to the left, next jump from the left onto the box and jump off on the other side to the right, next jump to the left onto the box and jump off back (to the starting position)",
         description02: "",
         description03: "",
@@ -2348,7 +2348,7 @@ export const exerciseData = [
     },
     {
         id: 102, // corresponds to index
-        title: "Box jump circuit: box jump - land right, box jump - land left, box jump - land back at start (CC)",
+        title: "Box jump circuit (75% of max height) (CC)",
         type: "lower", // warmup, upper, lower, core, agility, stretch
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
@@ -2356,7 +2356,7 @@ export const exerciseData = [
         reps: "10",
         time: "n/a",
         sets: "4",
-        note: "75% of max height",
+        note: "box jump - land right, box jump - land left, box jump - land back at start",
         description01: "box jump and jump off to the left, next jump from the left onto the box and jump off on the other side to the right, next jump to the left onto the box and jump off back (to the starting position)",
         description02: "",
         description03: "",
