@@ -154,7 +154,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFWQTqW6mcSBtrkYaYCJEH_TOxiJ5CpbhCw&usqp=CAU"], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/05/barbell-curl.gif", "https://www.dmoose.com/cdn/shop/articles/2_73c5a35b-aa8c-45ff-8ef1-8d074ed9c16d.jpg?v=1648742110", "https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://s3assets.skimble.com/assets/1786025/image_iphone.jpg"], // array
         video: "https://www.youtube.com/embed/av7-8igSXTs?si=zxeJRjtA1F1ybRyn", // url
         addtl_reqs: "",
         superset: true,
@@ -200,9 +200,9 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFWQTqW6mcSBtrkYaYCJEH_TOxiJ5CpbhCw&usqp=CAU"], // array
-        video: "", // url
-        addtl_reqs: "https://www.youtube.com/embed/av7-8igSXTs?si=zxeJRjtA1F1ybRyn",
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/05/barbell-curl.gif", "https://www.dmoose.com/cdn/shop/articles/2_73c5a35b-aa8c-45ff-8ef1-8d074ed9c16d.jpg?v=1648742110", "https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://s3assets.skimble.com/assets/1786025/image_iphone.jpg"], // array
+        video: "https://www.youtube.com/embed/av7-8igSXTs?si=zxeJRjtA1F1ybRyn", // url
+        addtl_reqs: "",
         superset: true,
         circuit: false,
         completed: false,
@@ -1695,7 +1695,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2021/08/sliding-leg-curl-with-towel.gif", "https://i.pinimg.com/originals/26/9e/64/269e64b874b888c75ec329741f5a8e2c.jpg"], // array
         video: "https://www.youtube.com/embed/Dlazt593cuA?si=fg5se5xsqr4URa_n", // url
         addtl_reqs: "",
         superset: false,
@@ -1718,8 +1718,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/02/Incline-Dumbbell-Press.gif", "https://fitnessvolt.com/wp-content/uploads/2019/04/Incline-Dumbbell-Press-750x555.jpg"], // array
+        video: "https://www.youtube.com/embed/B09ZkYsnKko?si=ogNW8DAphnTxanE7", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1741,8 +1741,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/02/Incline-Dumbbell-Press.gif", "https://fitnessvolt.com/wp-content/uploads/2019/04/Incline-Dumbbell-Press-750x555.jpg"], // array
+        video: "https://www.youtube.com/embed/B09ZkYsnKko?si=ogNW8DAphnTxanE7", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1764,8 +1764,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://liftingfaq.com/wp-content/uploads/2023/06/wide-grip-lat-pulldown.gif", "https://fitnessvolt.com/wp-content/uploads/2023/07/lat-pulldown-750x584.png"], // array
+        video: "https://www.youtube.com/embed/trZQjegcRx0?si=hdXUnvvI0G0V5FnO", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1787,8 +1787,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://liftingfaq.com/wp-content/uploads/2023/06/wide-grip-lat-pulldown.gif", "https://fitnessvolt.com/wp-content/uploads/2023/07/lat-pulldown-750x584.png"], // array
+        video: "https://www.youtube.com/embed/trZQjegcRx0?si=hdXUnvvI0G0V5FnO", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -1810,8 +1810,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/09/Standing-Dumbbell-Overhead-Press.gif", "https://newlife.com.cy/wp-content/uploads/2019/12/22371301-Dumbbell-Seated-Shoulder-Press-female_Shoulders_720.gif", "https://www.bodybuildingmealplan.com/wp-content/uploads/Dumbbell-Shoulder-Exercises-Overhead-Press.png", "https://fitliferegime.com/wp-content/uploads/2021/12/Muscle-Worked-During-Dumbbell-Shoulder-Press-1.jpg"], // array
+        video: "https://www.youtube.com/embed/Did01dFR3Lk?si=fmMaqyReDymgAtlg", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -1833,8 +1833,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFWQTqW6mcSBtrkYaYCJEH_TOxiJ5CpbhCw&usqp=CAU"], // array
+        video: "https://www.youtube.com/embed/av7-8igSXTs?si=zxeJRjtA1F1ybRyn", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -1856,8 +1856,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/09/Standing-Dumbbell-Overhead-Press.gif", "https://newlife.com.cy/wp-content/uploads/2019/12/22371301-Dumbbell-Seated-Shoulder-Press-female_Shoulders_720.gif", "https://www.bodybuildingmealplan.com/wp-content/uploads/Dumbbell-Shoulder-Exercises-Overhead-Press.png", "https://fitliferegime.com/wp-content/uploads/2021/12/Muscle-Worked-During-Dumbbell-Shoulder-Press-1.jpg"], // array
+        video: "https://www.youtube.com/embed/Did01dFR3Lk?si=fmMaqyReDymgAtlg", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -1879,8 +1879,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFWQTqW6mcSBtrkYaYCJEH_TOxiJ5CpbhCw&usqp=CAU"], // array
+        video: "https://www.youtube.com/embed/av7-8igSXTs?si=zxeJRjtA1F1ybRyn", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -1902,8 +1902,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://i.pinimg.com/originals/3b/19/fd/3b19fd3ba0efec4c4021d3a58dbdba91.gif", "https://fitnessvolt.com/wp-content/uploads/2023/07/Close-Grip-Row-Muscles-Worked-750x375.jpg"], // array
+        video: "https://www.youtube.com/embed/GZbfZ033f74?si=2kEJvd9VuSDTyThO", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -1925,8 +1925,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://liftingfaq.com/wp-content/uploads/2022/08/close-grip-bench-press-movement.gif", "https://qph.cf2.quoracdn.net/main-qimg-7ce41db3565f1fcb6adf94c394254868-lq"], // array
+        video: "https://www.youtube.com/embed/wxVRe9pmJdk?si=UfEXDkLnY-b6NsP1", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -1948,8 +1948,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://i.pinimg.com/originals/3b/19/fd/3b19fd3ba0efec4c4021d3a58dbdba91.gif", "https://fitnessvolt.com/wp-content/uploads/2023/07/Close-Grip-Row-Muscles-Worked-750x375.jpg"], // array
+        video: "https://www.youtube.com/embed/GZbfZ033f74?si=2kEJvd9VuSDTyThO", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -1971,8 +1971,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://liftingfaq.com/wp-content/uploads/2022/08/close-grip-bench-press-movement.gif", "https://qph.cf2.quoracdn.net/main-qimg-7ce41db3565f1fcb6adf94c394254868-lq"], // array
+        video: "https://www.youtube.com/embed/wxVRe9pmJdk?si=UfEXDkLnY-b6NsP1", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
