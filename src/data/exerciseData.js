@@ -39,7 +39,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5YX9AsUS_GDxjAGSWVAkJx-QyeJ5lXgBXTg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XEJOFQCu5BYcfosjb7rD7OD8HTfW-LMnVQ&usqp=CAU"], // array
+        img: ["https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XEJOFQCu5BYcfosjb7rD7OD8HTfW-LMnVQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/jRUC6IVav30?si=kKASVz4bWEPKtuZB", // url
         addtl_reqs: "",
         superset: false,
@@ -62,7 +62,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5YX9AsUS_GDxjAGSWVAkJx-QyeJ5lXgBXTg&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XEJOFQCu5BYcfosjb7rD7OD8HTfW-LMnVQ&usqp=CAU"], // array
+        img: ["https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XEJOFQCu5BYcfosjb7rD7OD8HTfW-LMnVQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/jRUC6IVav30?si=kKASVz4bWEPKtuZB", // url
         addtl_reqs: "",
         superset: false,
@@ -85,7 +85,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3i5H_xoD0f1tRFpNMXPSWPi6f9RFnR-iEM2aqfjimGeisSfu3x0w7bdWMB7ZdXsk7j1U&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREyv4VHxqNIZDBxPR9SvJEqM-bsqg6Qv5dXQMO6bu2fV61n1H5pEJKvV3KWIgmQnnuwMI&usqp=CAU"], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/11/pull-up.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3i5H_xoD0f1tRFpNMXPSWPi6f9RFnR-iEM2aqfjimGeisSfu3x0w7bdWMB7ZdXsk7j1U&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREyv4VHxqNIZDBxPR9SvJEqM-bsqg6Qv5dXQMO6bu2fV61n1H5pEJKvV3KWIgmQnnuwMI&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/XB_7En-zf_M?si=JIPiDd1Fbjy3Q5Ks", // url
         addtl_reqs: "",
         superset: false,
@@ -108,7 +108,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3i5H_xoD0f1tRFpNMXPSWPi6f9RFnR-iEM2aqfjimGeisSfu3x0w7bdWMB7ZdXsk7j1U&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREyv4VHxqNIZDBxPR9SvJEqM-bsqg6Qv5dXQMO6bu2fV61n1H5pEJKvV3KWIgmQnnuwMI&usqp=CAU"], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/11/pull-up.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3i5H_xoD0f1tRFpNMXPSWPi6f9RFnR-iEM2aqfjimGeisSfu3x0w7bdWMB7ZdXsk7j1U&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREyv4VHxqNIZDBxPR9SvJEqM-bsqg6Qv5dXQMO6bu2fV61n1H5pEJKvV3KWIgmQnnuwMI&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/XB_7En-zf_M?si=JIPiDd1Fbjy3Q5Ks", // url
         addtl_reqs: "",
         superset: false,
@@ -131,7 +131,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDlOcIJ98mpTE_FMCqwet7MdsP8G9RX8zgw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL4ghDb-2aDsbHJ2_cc2aJwnq3mRPkxiJdnw&usqp=CAU"], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/07/Barbell-Standing-Military-Press.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDlOcIJ98mpTE_FMCqwet7MdsP8G9RX8zgw&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/yEbczj_FGyI?si=HLYDQMgIJAGDqs9v", // url
         addtl_reqs: "",
         superset: true,
@@ -154,7 +154,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFWQTqW6mcSBtrkYaYCJEH_TOxiJ5CpbhCw&usqp=CAU"], // array
+        img: ["https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFWQTqW6mcSBtrkYaYCJEH_TOxiJ5CpbhCw&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/av7-8igSXTs?si=zxeJRjtA1F1ybRyn", // url
         addtl_reqs: "",
         superset: true,
@@ -177,7 +177,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDlOcIJ98mpTE_FMCqwet7MdsP8G9RX8zgw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL4ghDb-2aDsbHJ2_cc2aJwnq3mRPkxiJdnw&usqp=CAU"], // array
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/07/Barbell-Standing-Military-Press.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDlOcIJ98mpTE_FMCqwet7MdsP8G9RX8zgw&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/yEbczj_FGyI?si=HLYDQMgIJAGDqs9v", // url
         addtl_reqs: "",
         superset: true,
@@ -200,7 +200,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFWQTqW6mcSBtrkYaYCJEH_TOxiJ5CpbhCw&usqp=CAU"], // array
+        img: ["https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQex1t6_KyOvu3CHfe6icu6_9yWKesXxJdCyw&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFWQTqW6mcSBtrkYaYCJEH_TOxiJ5CpbhCw&usqp=CAU"], // array
         video: "", // url
         addtl_reqs: "https://www.youtube.com/embed/av7-8igSXTs?si=zxeJRjtA1F1ybRyn",
         superset: true,
@@ -246,7 +246,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJ9GVRDP3VH0ocFVxdKFDN_PL3jkyX9oZAA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYrS9qBlGbUkbEKYUhYRZQTzLjXSsp6D8qQ&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYT8weEUsffYFhhcAEcTtb6XndzT3CCq3eRA&usqp=CAU"], // array
+        img: ["https://images.squarespace-cdn.com/content/v1/6353f4f464317c577068d4f5/06da8005-c24c-4ebb-8166-34229b8111c7/Barbell-Reverse-Grip-Skullcrusher-1.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJ9GVRDP3VH0ocFVxdKFDN_PL3jkyX9oZAA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYrS9qBlGbUkbEKYUhYRZQTzLjXSsp6D8qQ&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYT8weEUsffYFhhcAEcTtb6XndzT3CCq3eRA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/jR7Y5YcugYc?si=mnCh-jtDxHrkBOvH", // url
         addtl_reqs: "",
         superset: true,
@@ -292,7 +292,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJ9GVRDP3VH0ocFVxdKFDN_PL3jkyX9oZAA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYrS9qBlGbUkbEKYUhYRZQTzLjXSsp6D8qQ&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYT8weEUsffYFhhcAEcTtb6XndzT3CCq3eRA&usqp=CAU"], // array
+        img: ["https://images.squarespace-cdn.com/content/v1/6353f4f464317c577068d4f5/06da8005-c24c-4ebb-8166-34229b8111c7/Barbell-Reverse-Grip-Skullcrusher-1.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJ9GVRDP3VH0ocFVxdKFDN_PL3jkyX9oZAA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYrS9qBlGbUkbEKYUhYRZQTzLjXSsp6D8qQ&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYT8weEUsffYFhhcAEcTtb6XndzT3CCq3eRA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/jR7Y5YcugYc?si=mnCh-jtDxHrkBOvH", // url
         addtl_reqs: "",
         superset: true,
@@ -407,7 +407,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6ZikrlLe0DsP9KjUZvNaubEFfG_HSiFc9g&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXgA0seFmVmL4bBa_lKey3eBWuALUU3SKoQ&usqp=CAU"], // array
+        img: ["https://codahosted.io/docs/toQ738vXc0/blobs/bl-XSExo-oZTa/c05e276e16fd9514738dde20372561a358e7deba5594d27e4d840e2c8fb32396c58a2a2efc7ebe331c0e581dcffcab1b03007de93a092fc615fb6bb27ffcfe358291165b78e937f72c24da6c41fbdf3c0fa335207a4f3705ef2b85f07e677bc36ce36c1d", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6ZikrlLe0DsP9KjUZvNaubEFfG_HSiFc9g&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXgA0seFmVmL4bBa_lKey3eBWuALUU3SKoQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/rrJIyZGlK8c?si=c8g9pZ83Vn0O1dFX", // url
         addtl_reqs: "",
         superset: false,
@@ -430,7 +430,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6ZikrlLe0DsP9KjUZvNaubEFfG_HSiFc9g&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXgA0seFmVmL4bBa_lKey3eBWuALUU3SKoQ&usqp=CAU"], // array
+        img: ["https://codahosted.io/docs/toQ738vXc0/blobs/bl-XSExo-oZTa/c05e276e16fd9514738dde20372561a358e7deba5594d27e4d840e2c8fb32396c58a2a2efc7ebe331c0e581dcffcab1b03007de93a092fc615fb6bb27ffcfe358291165b78e937f72c24da6c41fbdf3c0fa335207a4f3705ef2b85f07e677bc36ce36c1d", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6ZikrlLe0DsP9KjUZvNaubEFfG_HSiFc9g&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXgA0seFmVmL4bBa_lKey3eBWuALUU3SKoQ&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/rrJIyZGlK8c?si=c8g9pZ83Vn0O1dFX", // url
         addtl_reqs: "",
         superset: false,
@@ -453,7 +453,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxik80ubBNAq8l7y8SDS1csLPGPyCv1UOv6Q&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KlxMnhJpFRGQMHGU7EKbKHmFxDtYm9EwHA&usqp=CAU"], // array
+        img: ["https://newlife.com.cy/wp-content/uploads/2018/12/22141301-Barbell-Deadlift-female_Hips_720.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxik80ubBNAq8l7y8SDS1csLPGPyCv1UOv6Q&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KlxMnhJpFRGQMHGU7EKbKHmFxDtYm9EwHA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/1ZXobu7JvvE?si=C0IHqC3xWiV0altN", // url
         addtl_reqs: "",
         superset: false,
@@ -499,7 +499,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqgeVPmYkIaV6kYRMGa-z8irJ9I5pgEbDohA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLyEo1cMcDaURYcIhtMxmEyULzGF5KVRFaPA&usqp=CAU"], // array
+        img: ["https://image.pngaaa.com/121/3371121-middle.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqgeVPmYkIaV6kYRMGa-z8irJ9I5pgEbDohA&usqp=CAU" ], // array
         video: "https://www.youtube.com/embed/uJ4eA2wUXdw?si=qqMEz0aGhFfta7pH", // url
         addtl_reqs: "",
         superset: false,
@@ -545,7 +545,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYso7oE25004jSe03uQAJkea0L9koNVNxAJA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72GbRnMunJ2cy64PpIPrjQuJGyD0UDIqZgQ&usqp=CAU"], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYso7oE25004jSe03uQAJkea0L9koNVNxAJA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/LaDKpYN9FDw?si=9yJP3TLn9zMLm2yd", // url
         addtl_reqs: "",
         superset: false,
@@ -568,7 +568,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYso7oE25004jSe03uQAJkea0L9koNVNxAJA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72GbRnMunJ2cy64PpIPrjQuJGyD0UDIqZgQ&usqp=CAU"], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYso7oE25004jSe03uQAJkea0L9koNVNxAJA&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/LaDKpYN9FDw?si=9yJP3TLn9zMLm2yd", // url
         addtl_reqs: "",
         superset: false,
