@@ -1,0 +1,71 @@
+.Browse-container {
+    border: 2px solid red;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Browse-menu-container {
+    border: 2px solid white;
+    box-sizing: border-box;
+    --m: 6; /* number of columns */
+    --g: 10px; /* control the gap */
+    width: calc(var(--m) * 340px + (var(--g)) * (var(--m) - 1));
+}
+
+.Browse-workout-container {
+    border: 2px solid white;
+    box-sizing: border-box;
+    --m: 6; /* number of columns */
+    --g: 10px; /* control the gap */
+    width: calc(var(--m) * 340px + (var(--g)) * (var(--m) - 1));
+}
+
+@media screen and (max-width: 2150px) {
+    .Browse-menu-container {
+        --m: 5; /* number of columns */
+    }
+    .Browse-workout-container {
+        --m: 5; /* number of columns */
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .Browse-menu-container {
+        --m: 4; /* number of columns */
+    }
+    .Browse-workout-container {
+        --m: 4; /* number of columns */
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .Browse-menu-container {
+        --m: 3; /* number of columns */
+    }
+    .Browse-workout-container {
+        --m: 3; /* number of columns */
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .Browse-menu-container {
+        --m: 2; /* number of columns */
+    }
+    .Browse-workout-container {
+        --m: 2; /* number of columns */
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Browse-menu-container {
+        --m: 1; /* number of columns */
+    }
+    .Browse-workout-container {
+        --m: 1; /* number of columns */
+    }
+}
+
+
+
