@@ -2,7 +2,7 @@ export const exerciseData = [
     {
         id: 0, // corresponds to index
         title: "Rotator cuff warmups with band",
-        type: "warmup", // warmup, upper, lower, core, stretch
+        type: "warmup", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage, false if both
         each_type: "arm", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -26,7 +26,7 @@ export const exerciseData = [
     {
         id: 1, // corresponds to index
         title: "Dumbbell flat bench press",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -49,7 +49,7 @@ export const exerciseData = [
     {
         id: 2, // corresponds to index
         title: "Dumbbell flat bench press",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -72,7 +72,7 @@ export const exerciseData = [
     {
         id: 3, // corresponds to index
         title: "Pullups",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -95,7 +95,7 @@ export const exerciseData = [
     {
         id: 4, // corresponds to index
         title: "Pullups",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -118,7 +118,7 @@ export const exerciseData = [
     {
         id: 5, // corresponds to index
         title: "Overhead Barbell Press (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -141,7 +141,7 @@ export const exerciseData = [
     {
         id: 6, // corresponds to index
         title: "Bicep Curls (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -164,7 +164,7 @@ export const exerciseData = [
     {
         id: 7, // corresponds to index
         title: "Overhead Barbell Press (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -187,7 +187,7 @@ export const exerciseData = [
     {
         id: 8, // corresponds to index
         title: "Bicep Curls (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -210,7 +210,7 @@ export const exerciseData = [
     {
         id: 9, // corresponds to index
         title: "Bent over dumbbell rows (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -233,7 +233,7 @@ export const exerciseData = [
     {
         id: 10, // corresponds to index
         title: "Skull crushers (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -256,7 +256,7 @@ export const exerciseData = [
     {
         id: 11, // corresponds to index
         title: "Bent over dumbbell rows (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -279,7 +279,7 @@ export const exerciseData = [
     {
         id: 12, // corresponds to index
         title: "Skull crushers (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -302,7 +302,7 @@ export const exerciseData = [
     {
         id: 13, // corresponds to index
         title: "Pec stretch (Upper Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "arm", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -325,7 +325,7 @@ export const exerciseData = [
     {
         id: 14, // corresponds to index
         title: "Bicep stretch (Upper Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "arm", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -348,7 +348,7 @@ export const exerciseData = [
     {
         id: 15, // corresponds to index
         title: "Tricep stretch (Upper Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "arm", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -371,7 +371,7 @@ export const exerciseData = [
     {
         id: 16, // corresponds to index
         title: "Pullup Hangs (Upper Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -394,7 +394,7 @@ export const exerciseData = [
     {
         id: 17, // corresponds to index
         title: "Barbell back squats",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -417,7 +417,7 @@ export const exerciseData = [
     {
         id: 18, // corresponds to index
         title: "Barbell back squats",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -440,7 +440,7 @@ export const exerciseData = [
     {
         id: 19, // corresponds to index
         title: "Barbell deadlifts",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -463,7 +463,7 @@ export const exerciseData = [
     {
         id: 20, // corresponds to index
         title: "Barbell deadlifts",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -486,7 +486,7 @@ export const exerciseData = [
     {
         id: 21, // corresponds to index
         title: "Single leg squat to box",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -509,7 +509,7 @@ export const exerciseData = [
     {
         id: 22, // corresponds to index
         title: "Single leg squat to box",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -532,7 +532,7 @@ export const exerciseData = [
     {
         id: 23, // corresponds to index
         title: "Standing hamstring curls",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -555,7 +555,7 @@ export const exerciseData = [
     {
         id: 24, // corresponds to index
         title: "Standing hamstring curls",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -578,7 +578,7 @@ export const exerciseData = [
     {
         id: 25, // corresponds to index
         title: "Calf raises (SS)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -601,7 +601,7 @@ export const exerciseData = [
     {
         id: 26, // corresponds to index
         title: "Tibialis anterior raises (SS)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -624,7 +624,7 @@ export const exerciseData = [
     {
         id: 27, // corresponds to index
         title: "Calf raises (SS)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -647,7 +647,7 @@ export const exerciseData = [
     {
         id: 28, // corresponds to index
         title: "Tibialis anterior raises (SS)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -670,7 +670,7 @@ export const exerciseData = [
     {
         id: 29, // corresponds to index
         title: "Standing hip abduction with band around knees",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -693,7 +693,7 @@ export const exerciseData = [
     {
         id: 30, // corresponds to index
         title: "Standing hip abduction with band around knees",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -716,7 +716,7 @@ export const exerciseData = [
     {
         id: 31, // corresponds to index
         title: "Hamstring stretch (Lower Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -739,7 +739,7 @@ export const exerciseData = [
     {
         id: 32, // corresponds to index
         title: "Quad stretch (Lower Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -762,7 +762,7 @@ export const exerciseData = [
     {
         id: 33, // corresponds to index
         title: "Abductor stretch (Lower Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -785,7 +785,7 @@ export const exerciseData = [
     {
         id: 34, // corresponds to index
         title: "1/2 kneel stretch rocking forward and back (Lower Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -808,7 +808,7 @@ export const exerciseData = [
     {
         id: 35, // corresponds to index
         title: "Hamstring scoop stretch (Lower Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -831,7 +831,7 @@ export const exerciseData = [
     {
         id: 36, // corresponds to index
         title: "Alt standing quad stretch (Lower Body)",
-        type: "stretch", // warmup, upper, lower, core, agility, stretch
+        type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -854,7 +854,7 @@ export const exerciseData = [
     {
         id: 37, // corresponds to index
         title: "Box jumps (max height)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -877,7 +877,7 @@ export const exerciseData = [
     {
         id: 38, // corresponds to index
         title: "Box jumps (75% max height)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -900,7 +900,7 @@ export const exerciseData = [
     {
         id: 39, // corresponds to index
         title: "Skater jumps (lateral jumps)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -923,7 +923,7 @@ export const exerciseData = [
     {
         id: 40, // corresponds to index
         title: "Skater jumps (lateral jumps)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -946,7 +946,7 @@ export const exerciseData = [
     {
         id: 41, // corresponds to index
         title: "Vertical Jump (max height)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -969,7 +969,7 @@ export const exerciseData = [
     {
         id: 42, // corresponds to index
         title: "Vertical Jump (high reps)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -992,7 +992,7 @@ export const exerciseData = [
     {
         id: 43, // corresponds to index
         title: "Supine heel taps (CC)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -1015,7 +1015,7 @@ export const exerciseData = [
     {
         id: 44, // corresponds to index
         title: "Plank alt from forearms to hands (CC)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -1038,7 +1038,7 @@ export const exerciseData = [
     {
         id: 45, // corresponds to index
         title: "V ups (CC)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -1061,7 +1061,7 @@ export const exerciseData = [
     {
         id: 46, // corresponds to index
         title: "Pike ups on hands (CC)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -1084,7 +1084,7 @@ export const exerciseData = [
     {
         id: 47, // corresponds to index
         title: "Plyo pushups",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1107,7 +1107,7 @@ export const exerciseData = [
     {
         id: 48, // corresponds to index
         title: "Plyo pushups",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1130,7 +1130,7 @@ export const exerciseData = [
     {
         id: 49, // corresponds to index
         title: "TRX rows",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1153,7 +1153,7 @@ export const exerciseData = [
     {
         id: 50, // corresponds to index
         title: "TRX rows",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1176,7 +1176,7 @@ export const exerciseData = [
     {
         id: 51, // corresponds to index
         title: "Band pull aparts (heavy band)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1199,7 +1199,7 @@ export const exerciseData = [
     {
         id: 52, // corresponds to index
         title: "Band pull aparts",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1222,7 +1222,7 @@ export const exerciseData = [
     {
         id: 53, // corresponds to index
         title: "Side lateral raises",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1245,7 +1245,7 @@ export const exerciseData = [
     {
         id: 54, // corresponds to index
         title: "Side lateral raises",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1268,7 +1268,7 @@ export const exerciseData = [
     {
         id: 55, // corresponds to index
         title: "Straight arm pulldown (with rope)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1291,7 +1291,7 @@ export const exerciseData = [
     {
         id: 56, // corresponds to index
         title: "Straight arm pulldown (with rope)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1314,7 +1314,7 @@ export const exerciseData = [
     {
         id: 57, // corresponds to index
         title: "Paloff walkouts (band or cable)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1337,7 +1337,7 @@ export const exerciseData = [
     {
         id: 58, // corresponds to index
         title: "Paloff walkouts (band or cable)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1360,7 +1360,7 @@ export const exerciseData = [
     {
         id: 59, // corresponds to index
         title: "Trunk rotations (band or cable)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1383,7 +1383,7 @@ export const exerciseData = [
     {
         id: 60, // corresponds to index
         title: "Hack squat (machine)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1406,7 +1406,7 @@ export const exerciseData = [
     {
         id: 61, // corresponds to index
         title: "Hack squat (machine)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1429,7 +1429,7 @@ export const exerciseData = [
     {
         id: 62, // corresponds to index
         title: "Plyo switch squats",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1452,7 +1452,7 @@ export const exerciseData = [
     {
         id: 63, // corresponds to index
         title: "Plyo switch squats",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1475,7 +1475,7 @@ export const exerciseData = [
     {
         id: 64, // corresponds to index
         title: "Single leg RDL",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1498,7 +1498,7 @@ export const exerciseData = [
     {
         id: 65, // corresponds to index
         title: "Single leg RDL",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1521,7 +1521,7 @@ export const exerciseData = [
     {
         id: 66, // corresponds to index
         title: "Single leg box jump (max height)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1544,7 +1544,7 @@ export const exerciseData = [
     {
         id: 67, // corresponds to index
         title: "Single leg box jump (75% max height)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1567,7 +1567,7 @@ export const exerciseData = [
     {
         id: 68, // corresponds to index
         title: "Single leg hops forward and back over a line",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -1590,7 +1590,7 @@ export const exerciseData = [
     {
         id: 69, // corresponds to index
         title: "Single leg hops forward and back over a line",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -1613,7 +1613,7 @@ export const exerciseData = [
     {
         id: 70, // corresponds to index
         title: "Lateral box steps (reps)",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1636,7 +1636,7 @@ export const exerciseData = [
     {
         id: 71, // corresponds to index
         title: "Lateral box steps (timed)",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -1659,7 +1659,7 @@ export const exerciseData = [
     {
         id: 72, // corresponds to index
         title: "Hamstring floor slides",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1682,7 +1682,7 @@ export const exerciseData = [
     {
         id: 73, // corresponds to index
         title: "Hamstring floor slides",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1705,7 +1705,7 @@ export const exerciseData = [
     {
         id: 74, // corresponds to index
         title: "Incline dumbbell press",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1728,7 +1728,7 @@ export const exerciseData = [
     {
         id: 75, // corresponds to index
         title: "Incline dumbbell press",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1751,7 +1751,7 @@ export const exerciseData = [
     {
         id: 76, // corresponds to index
         title: "Lat pulldowns",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1774,7 +1774,7 @@ export const exerciseData = [
     {
         id: 77, // corresponds to index
         title: "Lat pulldowns",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1797,7 +1797,7 @@ export const exerciseData = [
     {
         id: 78, // corresponds to index
         title: "Overhead dumbbell press (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1820,7 +1820,7 @@ export const exerciseData = [
     {
         id: 79, // corresponds to index
         title: "Dumbbell bicep curls (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1843,7 +1843,7 @@ export const exerciseData = [
     {
         id: 80, // corresponds to index
         title: "Overhead dumbbell press (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1866,7 +1866,7 @@ export const exerciseData = [
     {
         id: 81, // corresponds to index
         title: "Dumbbell bicep curls (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1889,7 +1889,7 @@ export const exerciseData = [
     {
         id: 82, // corresponds to index
         title: "Machine rows (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1912,7 +1912,7 @@ export const exerciseData = [
     {
         id: 83, // corresponds to index
         title: "Close grip bench press (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1935,7 +1935,7 @@ export const exerciseData = [
     {
         id: 84, // corresponds to index
         title: "Machine rows (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1958,7 +1958,7 @@ export const exerciseData = [
     {
         id: 85, // corresponds to index
         title: "Close grip bench press (SS)",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1980,8 +1980,8 @@ export const exerciseData = [
     },
     {
         id: 86, // corresponds to index
-        title: "Goblet squats",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        title: "Goblet squats (low reps)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -1994,8 +1994,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/01/Dumbbell-Goblet-Squat.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/heel-elevated-goblet-squat.gif", "https://homeworkouts.org/wp-content/uploads/anim-kettlebell-goblet-squats.gif", "https://anabolicaliens.com/cdn/shop/articles/5fbc1c1889a1d8fc84f5808b_dumbbell-goblet-squat.png?v=1641750308", "https://sportscienceinsider.com/wp-content/uploads/2023/09/What-muscles-do-goblet-squats-work.png"], // array
+        video: "https://www.youtube.com/embed/CkFzgR55gho?si=VU-3WP9-6hE6bT5B", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2003,8 +2003,8 @@ export const exerciseData = [
     },
     {
         id: 87, // corresponds to index
-        title: "Goblet squats",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        title: "Goblet squats (high reps)",
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2017,8 +2017,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/01/Dumbbell-Goblet-Squat.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/heel-elevated-goblet-squat.gif", "https://homeworkouts.org/wp-content/uploads/anim-kettlebell-goblet-squats.gif", "https://anabolicaliens.com/cdn/shop/articles/5fbc1c1889a1d8fc84f5808b_dumbbell-goblet-squat.png?v=1641750308", "https://sportscienceinsider.com/wp-content/uploads/2023/09/What-muscles-do-goblet-squats-work.png"], // array
+        video: "https://www.youtube.com/embed/CkFzgR55gho?si=VU-3WP9-6hE6bT5B", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2027,7 +2027,7 @@ export const exerciseData = [
     {
         id: 88, // corresponds to index
         title: "Walking lunges",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2040,8 +2040,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/09/dumbbell-lunges.gif", "https://vuaphaluoi.com/wp-content/uploads/2022/05/Bai-tap-Dumbbell-Walking-Lunge.jpg", "https://fitnessvolt.com/wp-content/uploads/2019/01/Lunges.jpg"], // array
+        video: "https://www.youtube.com/embed/eFWCn5iEbTU?si=NjJ1aziEplTmLr-G", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2050,7 +2050,7 @@ export const exerciseData = [
     {
         id: 89, // corresponds to index
         title: "Walking lunges",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2063,8 +2063,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/09/dumbbell-lunges.gif", "https://vuaphaluoi.com/wp-content/uploads/2022/05/Bai-tap-Dumbbell-Walking-Lunge.jpg", "https://fitnessvolt.com/wp-content/uploads/2019/01/Lunges.jpg"], // array
+        video: "https://www.youtube.com/embed/eFWCn5iEbTU?si=NjJ1aziEplTmLr-G", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2073,7 +2073,7 @@ export const exerciseData = [
     {
         id: 90, // corresponds to index
         title: "Dumbbell deadlifts",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2086,8 +2086,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://newlife.com.cy/wp-content/uploads/2019/12/03001301-Dumbbell-Deadlift_Back_360.gif", "https://anabolicaliens.com/cdn/shop/articles/5e595712f146e8e14db4ca6f_dumbbell-romanian-deadlift-exercise-anabolic-aliens-p-500.png?v=1644927440", "https://sportscienceinsider.com/wp-content/uploads/2023/05/How-To-DB-Deadlift-1024x512.png"], // array
+        video: "https://www.youtube.com/embed/lJ3QwaXNJfw?si=W-Ml15hm9tYeRzC3", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2096,7 +2096,7 @@ export const exerciseData = [
     {
         id: 91, // corresponds to index
         title: "Dumbbell deadlifts",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2109,8 +2109,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://newlife.com.cy/wp-content/uploads/2019/12/03001301-Dumbbell-Deadlift_Back_360.gif", "https://anabolicaliens.com/cdn/shop/articles/5e595712f146e8e14db4ca6f_dumbbell-romanian-deadlift-exercise-anabolic-aliens-p-500.png?v=1644927440", "https://sportscienceinsider.com/wp-content/uploads/2023/05/How-To-DB-Deadlift-1024x512.png"], // array
+        video: "https://www.youtube.com/embed/lJ3QwaXNJfw?si=W-Ml15hm9tYeRzC3", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2119,7 +2119,7 @@ export const exerciseData = [
     {
         id: 92, // corresponds to index
         title: "Nordic curls",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2132,8 +2132,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/08/self-assisted-inverse-leg-curl.gif", "https://fitnessprogramer.com/wp-content/uploads/2021/06/Nordic-Hamstring-Curl.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2022/08/reverse-nordic-curl.gif", "https://fitnessvolt.com/wp-content/uploads/2020/03/nordic-ham-curl.jpg", "https://i.pinimg.com/736x/ea/c9/b7/eac9b75eadbe69c30a197dab0b6f4794.jpg"], // array
+        video: "https://www.youtube.com/embed/v_Egn_3CCsM?si=L_mDR42uyRgD6ZTK", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2142,7 +2142,7 @@ export const exerciseData = [
     {
         id: 93, // corresponds to index
         title: "Machine calf presses (SS)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2155,8 +2155,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2022/02/Seated-Calf-Press-on-Leg-Press-Machine.gif", "https://fitnessprogramer.com/wp-content/uploads/2021/05/Leg-Press-Calf-Raise.gif", "https://www.sfitness.co.za/sitepad-data/uploads/2020/12/ezgif.com-gif-maker-16.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2023/03/leg-press-calf-raise-benefits.png", "https://www.fscsportsclub.com/wp-content/uploads/sites/7807/2021/06/calf-raise-leg-press.jpg"], // array
+        video: "https://www.youtube.com/embed/Hu8i9d_IgpM?si=JP-SHno8FGPthaE5", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -2165,7 +2165,7 @@ export const exerciseData = [
     {
         id: 94, // corresponds to index
         title: "Machine calf presses (SS)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2178,8 +2178,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2022/02/Seated-Calf-Press-on-Leg-Press-Machine.gif", "https://fitnessprogramer.com/wp-content/uploads/2021/05/Leg-Press-Calf-Raise.gif", "https://www.sfitness.co.za/sitepad-data/uploads/2020/12/ezgif.com-gif-maker-16.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2023/03/leg-press-calf-raise-benefits.png", "https://www.fscsportsclub.com/wp-content/uploads/sites/7807/2021/06/calf-raise-leg-press.jpg"], // array
+        video: "https://www.youtube.com/embed/Hu8i9d_IgpM?si=JP-SHno8FGPthaE5", // url
         addtl_reqs: "",
         superset: true,
         circuit: false,
@@ -2188,7 +2188,7 @@ export const exerciseData = [
     {
         id: 95, // corresponds to index
         title: "5-10-5 drill",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2211,7 +2211,7 @@ export const exerciseData = [
     {
         id: 96, // corresponds to index
         title: "5-10-5 drill",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2234,7 +2234,7 @@ export const exerciseData = [
     {
         id: 97, // corresponds to index
         title: "Jump in box: long jump, skater jump to right, jump back, skater jump to left (CC)",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2257,7 +2257,7 @@ export const exerciseData = [
     {
         id: 98, // corresponds to index
         title: "Jump in box: long jump, skater jump to right, jump back, skater jump to left (CC)",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2280,7 +2280,7 @@ export const exerciseData = [
     {
         id: 99, // corresponds to index
         title: "Single leg long jumps",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2303,7 +2303,7 @@ export const exerciseData = [
     {
         id: 100, // corresponds to index
         title: "Single leg long jumps",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2326,7 +2326,7 @@ export const exerciseData = [
     {
         id: 101, // corresponds to index
         title: "Box jump circuit (max height) (CC)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2349,7 +2349,7 @@ export const exerciseData = [
     {
         id: 102, // corresponds to index
         title: "Box jump circuit (75% of max height) (CC)",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2372,7 +2372,7 @@ export const exerciseData = [
     {
         id: 103, // corresponds to index
         title: "Lateral high knee shuffle",
-        type: "lower", // warmup, upper, lower, core, agility, stretch
+        type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -2395,7 +2395,7 @@ export const exerciseData = [
     {
         id: 104, // corresponds to index
         title: "Posterior pelvic tilt warmup",
-        type: "warmup", // warmup, upper, lower, core, agility, stretch
+        type: "warmup", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -2418,7 +2418,7 @@ export const exerciseData = [
     {
         id: 105, // corresponds to index
         title: "Leg raises on ab bench",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2441,7 +2441,7 @@ export const exerciseData = [
     {
         id: 106, // corresponds to index
         title: "Sit ups on decline ab bench",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2464,7 +2464,7 @@ export const exerciseData = [
     {
         id: 107, // corresponds to index
         title: "Side planks (weight on hip)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -2487,7 +2487,7 @@ export const exerciseData = [
     {
         id: 108, // corresponds to index
         title: "Side planks",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -2510,7 +2510,7 @@ export const exerciseData = [
     {
         id: 109, // corresponds to index
         title: "Cable trunk rotations",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2533,7 +2533,7 @@ export const exerciseData = [
     {
         id: 110, // corresponds to index
         title: "Cable trunk rotations",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "side", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2556,7 +2556,7 @@ export const exerciseData = [
     {
         id: 111, // corresponds to index
         title: "Kettlebell drags in plank position (heavier weight)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -2579,7 +2579,7 @@ export const exerciseData = [
     {
         id: 112, // corresponds to index
         title: "Kettlebell drags in plank position (lighter weight)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "time", // reps or time
@@ -2602,7 +2602,7 @@ export const exerciseData = [
     {
         id: 113, // corresponds to index
         title: "Walking lunge warmup (10ft, heavier weight)",
-        type: "warmup", // warmup, upper, lower, core, agility, stretch
+        type: "warmup", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2625,7 +2625,7 @@ export const exerciseData = [
     {
         id: 114, // corresponds to index
         title: "Walking lunge warmup (15-20ft, lighter weight)",
-        type: "warmup", // warmup, upper, lower, core, agility, stretch
+        type: "warmup", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2648,7 +2648,7 @@ export const exerciseData = [
     {
         id: 115, // corresponds to index
         title: "Jump to pull-up, drop to pushup",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2671,7 +2671,7 @@ export const exerciseData = [
     {
         id: 116, // corresponds to index
         title: "Jump to pull-up, drop to pushup",
-        type: "agility", // warmup, upper, lower, core, agility, stretch
+        type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2694,7 +2694,7 @@ export const exerciseData = [
     {
         id: 117, // corresponds to index
         title: "Dumbbell deadlift to overhead press",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2717,7 +2717,7 @@ export const exerciseData = [
     {
         id: 118, // corresponds to index
         title: "Dumbbell deadlift to overhead press",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2740,7 +2740,7 @@ export const exerciseData = [
     {
         id: 119, // corresponds to index
         title: "Cable row to tricep pushdown",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2763,7 +2763,7 @@ export const exerciseData = [
     {
         id: 120, // corresponds to index
         title: "Cable row to tricep pushdown",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2786,7 +2786,7 @@ export const exerciseData = [
     {
         id: 121, // corresponds to index
         title: "Anti-rotation holds into lunge",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2809,7 +2809,7 @@ export const exerciseData = [
     {
         id: 122, // corresponds to index
         title: "Anti-rotation holds into lunge",
-        type: "upper", // warmup, upper, lower, core, agility, stretch
+        type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2832,7 +2832,7 @@ export const exerciseData = [
     {
         id: 123, // corresponds to index
         title: "Turkish getup (5x4)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
@@ -2855,7 +2855,7 @@ export const exerciseData = [
     {
         id: 124, // corresponds to index
         title: "Turkish getup (3x6)",
-        type: "core", // warmup, upper, lower, core, agility, stretch
+        type: "core", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
