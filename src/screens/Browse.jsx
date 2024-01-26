@@ -47,8 +47,37 @@ export default function Browse() {
     }
   ])
 
-  function handleMenuSelection ( tag ) {
-    console.log(tag)
+  const [ menuLastIdx, setMenuLastIdx ] = useState(0)
+
+  function handleMenuSelection ( menuData, idx ) {
+    // Returns if button is clicked when already selected
+    if (idx === menuLastIdx) return
+    // Maps through menu to replace the last index object (selected: false) and the newly selected object (selected: true) so the selection is updated and only one item can be selected at a time
+    const updatedMenu = menu.map((obj, index) => {
+      if (index === menuLastIdx) {
+        return (
+          {
+            "title": menu[menuLastIdx].title,
+            "tag": menu[menuLastIdx].tag,
+            "selected": false
+          }
+        )
+      } else if (idx !== index) {
+        return obj
+      } else {
+        return (
+          {
+            "title": menuData.title,
+            "tag": menuData.tag,
+            "selected": true
+          }
+        )
+      }
+    })
+    // Set new last index
+    setMenuLastIdx(idx)
+    // Set the menu to the updated menu
+    setMenu(updatedMenu)
   }
 
   return (
@@ -59,7 +88,8 @@ export default function Browse() {
             menu.map((menuData, index) => 
               <div 
                 className='Browse-menu-item-container'
-                onClick={() => handleMenuSelection(menuData.tag)}
+                key={index}
+                onClick={() => handleMenuSelection(menuData, index)}
               >
                 <div className='Browse-menu-item-title'>{menuData.title}</div>
               </div>
@@ -67,9 +97,9 @@ export default function Browse() {
           }
         </div>
       </div>
-      {/* <div className='Browse-workout-container'>
+      <div className='Browse-workout-container'>
         PLACEHOLDER FOR WORKOUTS
-      </div> */}
+      </div>
     </div>
   )
 }
