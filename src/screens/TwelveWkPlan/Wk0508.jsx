@@ -25,7 +25,7 @@ export default function Wk0508() {
             title: "Day 2",
             workouts: [86,88,90,92,93,26,31,32,33],
             rest: false,
-            show: true,
+            show: false,
         },
         {
             title: "Day 3",
@@ -43,7 +43,7 @@ export default function Wk0508() {
             title: "Day 5",
             workouts: [104,105,106,107,109,111],
             rest: false,
-            show: false,
+            show: true,
         },
         {
             title: "Day 6",

@@ -2187,7 +2187,7 @@ export const exerciseData = [
     },
     {
         id: 95, // corresponds to index
-        title: "5-10-5 drill",
+        title: "5-10-5 drill (max speed)",
         type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
@@ -2201,8 +2201,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://i.pinimg.com/1200x/e4/68/d0/e468d091b4942602541ce74457c04a92.jpg", "https://experiencelife.lifetime.life/wp-content/uploads/2021/04/change-direction-5-10-5.jpg"], // array
+        video: "https://www.youtube.com/embed/873enchzUKw?si=4oEFw2dS4nrJ-eIZ", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2210,7 +2210,7 @@ export const exerciseData = [
     },
     {
         id: 96, // corresponds to index
-        title: "5-10-5 drill",
+        title: "5-10-5 drill (75% max speed)",
         type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
@@ -2224,8 +2224,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://i.pinimg.com/1200x/e4/68/d0/e468d091b4942602541ce74457c04a92.jpg", "https://experiencelife.lifetime.life/wp-content/uploads/2021/04/change-direction-5-10-5.jpg"], // array
+        video: "https://www.youtube.com/embed/873enchzUKw?si=4oEFw2dS4nrJ-eIZ", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2247,7 +2247,7 @@ export const exerciseData = [
         description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2021/08/broad-jump-1024x472.png", "https://fitnessprogramer.com/wp-content/uploads/2021/02/Skater.gif", "https://fitnessprogramer.com/wp-content/uploads/2021/05/Backward-Jumping.gif"], // array
         video: "", // url
         addtl_reqs: "",
         superset: false,
@@ -2270,7 +2270,7 @@ export const exerciseData = [
         description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2021/08/broad-jump-1024x472.png", "https://fitnessprogramer.com/wp-content/uploads/2021/02/Skater.gif", "https://fitnessprogramer.com/wp-content/uploads/2021/05/Backward-Jumping.gif"], // array
         video: "", // url
         addtl_reqs: "",
         superset: false,
@@ -2293,8 +2293,8 @@ export const exerciseData = [
         description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://i.pinimg.com/originals/75/6e/d7/756ed7ac92e1c1b4aeda571a1b69be04.gif"], // array
+        video: "https://www.youtube.com/embed/aS63F9Z1mpQ?si=KFbfSoAY2Ch-LZYU", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2316,8 +2316,8 @@ export const exerciseData = [
         description03: "landing -> arms return back to going behind the body, knees do NOT cave inwards, soft landing",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://i.pinimg.com/originals/75/6e/d7/756ed7ac92e1c1b4aeda571a1b69be04.gif"], // array
+        video: "https://www.youtube.com/embed/aS63F9Z1mpQ?si=KFbfSoAY2Ch-LZYU", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2339,8 +2339,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2015/07/The-Box-Jump.gif", "https://i.pinimg.com/originals/6e/61/b5/6e61b563d42c36a026a208e7f1c10891.gif", "https://www.fitpro.com/blog/wp-content/uploads/2021/11/E6832_556785.jpg"], // array
+        video: "https://www.youtube.com/embed/NBY9-kTuHEk?si=G_ylalsUFaNM6YyJ", // url
         addtl_reqs: "",
         superset: false,
         circuit: true,
@@ -2362,8 +2362,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2015/07/The-Box-Jump.gif", "https://i.pinimg.com/originals/6e/61/b5/6e61b563d42c36a026a208e7f1c10891.gif", "https://www.fitpro.com/blog/wp-content/uploads/2021/11/E6832_556785.jpg"], // array
+        video: "https://www.youtube.com/embed/NBY9-kTuHEk?si=G_ylalsUFaNM6YyJ", // url
         addtl_reqs: "",
         superset: false,
         circuit: true,
@@ -2385,8 +2385,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://media1.popsugar-assets.com/files/thumbor/JreegQZ7w8cThfIrJmdrxOd-OLw/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2021/02/03/007/n/45061871/ab7fe105601b2d6fe59d68.37201505_02_LATERAL_H/i/Lateral-High-Knees.gif"], // array
+        video: "https://www.youtube.com/embed/Dx2fYecr7Zs?si=twgZktNw232zDvdx", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2408,8 +2408,8 @@ export const exerciseData = [
         description03: "Try and flatten out your back as much as you can (you will feel core contraction)",
         description04: "Hold for allotted time",
         description05: "DO NOT suck in stomach, rather contract core/abs by trying to flatten out back (can tell by placing hands on stomach and checking for core contraction)",
-        img: [], // array
-        video: "", // url
+        img: ["https://homeworkouts.org/wp-content/uploads/anim-pelvic-tilt.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvRPN92AU1tk_N6puJC3HuAxkFvKaKLQB8_w&usqp=CAU"], // array
+        video: "https://www.youtube.com/embed/D00Ixukw8bw?si=GrV-4FYJ4fcVLA0S", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2431,8 +2431,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://musclemagfitness.com/wp-content/uploads/leg-raise-exercise.gif", "https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1495662000746-85YPM72P83MSPCTHLSOH/Lying+Flat+Bench+Leg+Raises"], // array
+        video: "https://www.youtube.com/embed/_fVql2cFAyY?si=m-UROCKGddDPGNN8", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2454,8 +2454,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/05/Decline-Sit-up.gif", "https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1492688250467-B8T5SYBY1FD7F9EEL0BO/Decline+Sit+Ups"], // array
+        video: "https://www.youtube.com/embed/W1pnuoe1SOQ?si=NfoQ9qUoA3NhCFw5", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
