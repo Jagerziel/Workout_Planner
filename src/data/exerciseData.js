@@ -338,7 +338,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-sFbkXUDmy00yPzBIyVPC9kpsO0J7lwcqA&usqp=CAU", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwj_LHVvLojFQUNs2vdQJqPLp7J3SNScdPog&usqp=CAU"], // array
+        img: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwj_LHVvLojFQUNs2vdQJqPLp7J3SNScdPog&usqp=CAU"], // array
         video: "https://www.youtube.com/embed/-9NIE9j4h3I?si=BG316jtdLzd2vEHc", // url
         addtl_reqs: "",
         superset: false,

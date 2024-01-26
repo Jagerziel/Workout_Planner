@@ -18,7 +18,7 @@ export default function Navbar() {
                     loading="lazy" 
                 /> 
             </div>
-            <div className='NavBar-Title'>Workout Planner</div>
+            <h1 className='NavBar-Title'>Workout Planner</h1>
         </div>
     )
 }
