@@ -90,6 +90,11 @@ export default function Browse() {
                 className='Browse-menu-item-container'
                 key={index}
                 onClick={() => handleMenuSelection(menuData, index)}
+                style={{
+                  border: `3px solid ${menuData.selected ? '#242424' : '#cacaca91'}`,
+                  backgroundColor: menuData.selected ? 'rgba(255, 255, 255, 0.87)' : '#242424',
+                  color: menuData.selected ? 'rgba(0, 0, 0, 1)' : 'rgba(255, 255, 255, 1)'
+                }}
               >
                 <div className='Browse-menu-item-title'>{menuData.title}</div>
               </div>
