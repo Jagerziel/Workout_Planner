@@ -2026,7 +2026,7 @@ export const exerciseData = [
     },
     {
         id: 88, // corresponds to index
-        title: "Walking lunges",
+        title: "Walking lunges (weight, low reps)",
         type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
@@ -2049,7 +2049,7 @@ export const exerciseData = [
     },
     {
         id: 89, // corresponds to index
-        title: "Walking lunges",
+        title: "Walking lunges (weight, high reps)",
         type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
         each: true, // true if one appendage (arms/legs), false if both
         each_type: "leg", // arm, leg, side, n/a
@@ -2615,8 +2615,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/09/dumbbell-lunges.gif", "https://vuaphaluoi.com/wp-content/uploads/2022/05/Bai-tap-Dumbbell-Walking-Lunge.jpg", "https://fitnessvolt.com/wp-content/uploads/2019/01/Lunges.jpg"], // array
+        video: "https://www.youtube.com/embed/eFWCn5iEbTU?si=NjJ1aziEplTmLr-G", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2638,8 +2638,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2023/09/dumbbell-lunges.gif", "https://vuaphaluoi.com/wp-content/uploads/2022/05/Bai-tap-Dumbbell-Walking-Lunge.jpg", "https://fitnessvolt.com/wp-content/uploads/2019/01/Lunges.jpg"], // array
+        video: "https://www.youtube.com/embed/eFWCn5iEbTU?si=NjJ1aziEplTmLr-G", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2661,7 +2661,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/11/pull-up-vs-push-up.jpg", "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pull-up.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2023/04/close-grip-push-up.gif"], // array
         video: "", // url
         addtl_reqs: "",
         superset: false,
@@ -2684,7 +2684,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://www.inspireusafoundation.org/wp-content/uploads/2022/11/pull-up-vs-push-up.jpg", "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pull-up.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2023/04/close-grip-push-up.gif"], // array
         video: "", // url
         addtl_reqs: "",
         superset: false,
@@ -2707,8 +2707,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://media1.popsugar-assets.com/files/thumbor/Z2V5Z8lT0EmsxyH06vcDxDYsmpU=/fit-in/1456x1456/filters:format_auto():extract_cover():upscale()/2014/01/15/928/n/1922729/f9cf606cbc6a9acb_SQUAT-CURL-AND-PRESS.jpg"], // array
+        video: "https://www.youtube.com/embed/QLRZSxP3jIQ?si=qRz7Gf80PpZn6-fS", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2730,8 +2730,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://media1.popsugar-assets.com/files/thumbor/Z2V5Z8lT0EmsxyH06vcDxDYsmpU=/fit-in/1456x1456/filters:format_auto():extract_cover():upscale()/2014/01/15/928/n/1922729/f9cf606cbc6a9acb_SQUAT-CURL-AND-PRESS.jpg"], // array
+        video: "https://www.youtube.com/embed/QLRZSxP3jIQ?si=qRz7Gf80PpZn6-fS", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2753,7 +2753,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://i.pinimg.com/originals/3b/19/fd/3b19fd3ba0efec4c4021d3a58dbdba91.gif", "https://newlife.com.cy/wp-content/uploads/2019/11/02001301-Cable-Pushdown-with-rope-attachment_Upper-Arms_360.gif"], // array
         video: "", // url
         addtl_reqs: "",
         superset: false,
@@ -2776,7 +2776,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
+        img: ["https://i.pinimg.com/originals/3b/19/fd/3b19fd3ba0efec4c4021d3a58dbdba91.gif", "https://newlife.com.cy/wp-content/uploads/2019/11/02001301-Cable-Pushdown-with-rope-attachment_Upper-Arms_360.gif"], // array
         video: "", // url
         addtl_reqs: "",
         superset: false,
@@ -2799,8 +2799,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://i.ytimg.com/vi/Ukba7W-h2wQ/mqdefault.jpg"], // array
+        video: "https://www.youtube.com/embed/AvRKPf_Z9Kw?si=gH8-uvoxmkt8UrGw", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2822,8 +2822,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://i.ytimg.com/vi/Ukba7W-h2wQ/mqdefault.jpg"], // array
+        video: "https://www.youtube.com/embed/AvRKPf_Z9Kw?si=gH8-uvoxmkt8UrGw", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2845,8 +2845,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/04/Turkish-Get-Up-Squat-style.gif", "https://fitnessvolt.com/wp-content/uploads/2022/02/Turkish-Get-Muscles-Worked-750x591.jpg"], // array
+        video: "https://www.youtube.com/embed/sgd8n917Zv0?si=Rbjmz3OVIdQKBqgF", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
@@ -2868,8 +2868,8 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: [], // array
-        video: "", // url
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/04/Turkish-Get-Up-Squat-style.gif", "https://fitnessvolt.com/wp-content/uploads/2022/02/Turkish-Get-Muscles-Worked-750x591.jpg"], // array
+        video: "https://www.youtube.com/embed/sgd8n917Zv0?si=Rbjmz3OVIdQKBqgF", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
