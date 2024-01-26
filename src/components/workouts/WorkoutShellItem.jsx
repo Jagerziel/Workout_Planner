@@ -16,7 +16,7 @@ export default function WorkoutShellItem( { exerciseDataItem } ) {
         <div 
             className='WorkoutShellItem-container'
             style={{
-                border: completed ? '2px solid green' : '2px solid white',
+                border: completed ? '2px solid rgb(31,120,50)' : '2px solid white',
                 backgroundColor: completed ? '#2e492f' : '',
             }}
         >
@@ -25,7 +25,7 @@ export default function WorkoutShellItem( { exerciseDataItem } ) {
                 className='WorkoutShellItem-completed-btn'
                 style={{
                     backgroundColor: completed ? '#242424' : '#242424',
-                    border: `2px solid ${completed ? 'green' : 'white'}`
+                    border: `2px solid ${completed ? 'rgb(31,180,50)' : 'rgb(255,0,0)'}`
                 }}
                 onClick={() => setCompleted(prev => !prev)}
             >
