@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 // Import Components
 import RestItem from '../../components/workouts/RestItem.jsx'
 import WorkoutShellItem from '../../components/workouts/WorkoutShellItem.jsx'
-// Import Data
 
 // Import CSS
 import './Wk0116.scss'
@@ -60,7 +59,6 @@ export default function Wk0104() {
         },
     ])
 
-
     return (
         <div className='Wk0116-container'>
             <div className='Wk0116-title'>Weeks 1 - 4</div>
@@ -76,9 +74,7 @@ export default function Wk0104() {
                                 let shallowData = workoutIdx
                                 shallowData[index].show = !shallowData[index].show
                                 setWorkoutIdx([...shallowData])
-                            }
-                            }
-                        
+                            }} 
                         >
                             {`${data.title} (${data.show ? ' - ' : ' + '})`}
                         </div>
