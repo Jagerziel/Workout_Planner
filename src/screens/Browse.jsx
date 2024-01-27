@@ -108,6 +108,9 @@ export default function Browse() {
 
   return (
     <div className='Browse-container'>
+      <div className='Browse-title'>
+        Browse Workouts
+      </div>
       <div className='Browse-menu-container'>
         <div className='Browse-menu-subcontainer'>
           {
@@ -133,7 +136,10 @@ export default function Browse() {
           {
             filteredExerciseData.map((exerciseDataItem, index) => 
                 <div key={index}> 
-                    <WorkoutShellItemFlag exerciseDataItem={ exerciseDataItem }/>
+                    <WorkoutShellItemFlag 
+                      exerciseDataItem={ exerciseDataItem }
+                      menuLastIdx={menuLastIdx}  
+                    />
                 </div>
             )
           }

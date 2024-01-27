@@ -1,5 +1,5 @@
 // Import React
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 // Import Components
 import WorkoutItem from './WorkoutItem'
 // Import Icons
@@ -8,9 +8,12 @@ import flagfull from '/public/flag-full.png'
 // Import CSS
 import './WorkoutShellItemFlag.scss'
 
-export default function WorkoutShellItemFlag( { exerciseDataItem } ) {
+export default function WorkoutShellItemFlag( { exerciseDataItem, menuLastIdx } ) {
     const [ completed, setCompleted ] = useState(false)
 
+    useEffect(() => {
+        setCompleted(false)
+    }, [menuLastIdx])
 
     return (
         <div 
