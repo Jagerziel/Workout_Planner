@@ -1,5 +1,7 @@
 // Import React
 import React, {useEffect, useState} from 'react'
+// Import Components
+import WorkoutShellItemFlag from '../components/workouts/WorkoutShellItemFlag.jsx';
 // Import CSS
 import './Browse.scss'
 // Import Redux
@@ -90,9 +92,15 @@ export default function Browse() {
   }
 
   function filterExercises ( exercises, tag ) {
-    const filteredData = exercises.filter((data) => {
-      if (data.type === tag) return data
-    })
+    let filteredData = []
+    
+    if ( tag === 'all' ) {
+      filteredData = exercises
+    } else {
+      filteredData = exercises.filter((data) => {
+        if (data.type === tag) return data
+      })
+    }
     setFilteredExerciseData(filteredData)
   }
 
@@ -121,7 +129,13 @@ export default function Browse() {
         </div>
       </div>
       <div className='Browse-workout-container'>
-        PLACEHOLDER FOR WORKOUTS
+        {
+          filteredExerciseData.map((exerciseDataItem, index) => 
+              <div key={index}> 
+                  <WorkoutShellItemFlag exerciseDataItem={ exerciseDataItem }/>
+              </div>
+          )
+        }
       </div>
     </div>
   )
