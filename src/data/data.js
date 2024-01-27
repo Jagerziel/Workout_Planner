@@ -1,7 +1,7 @@
 export const homeDirectory = [
     {
-        title: '12 Week Workout Plan',
-        navigation: 'twelvewkplan'
+        title: '16 Week Workout Plan',
+        navigation: 'sixteenwkplan'
     },
     {
         title: 'Custom Workout',
@@ -21,7 +21,7 @@ export const homeDirectory = [
     // },
 ]
 
-export const twelveWkDirectory = [
+export const sixteenWkDirectory = [
     {
         title: '1 - 4',
         navigation: 'wk0104'
