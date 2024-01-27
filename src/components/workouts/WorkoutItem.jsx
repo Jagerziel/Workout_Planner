@@ -81,7 +81,7 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                 className='WorkoutItem-content-container'
                 style={{
                     display: menu.none ? 'none' : 'block',
-                    overflow: menu.video ? 'hidden' : 'scroll'
+                    overflow: menu.video || menu.pics ? 'hidden' : 'scroll'
                 }}
             >
                 {
