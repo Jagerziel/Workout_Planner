@@ -146,7 +146,7 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                     <div>
                         {
                             exerciseDataItem.video !== "" ?
-                            <iframe width="300" height="" src={exerciseDataItem.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> :
+                            <iframe width="300" height="" src={exerciseDataItem.video} title="YouTube video player" loading='eager'></iframe> :
                             <div>Video Temporarily Unavailable</div>
                         }
                     </div> 
@@ -186,3 +186,10 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         </div>
     )
 }
+
+
+/*
+IFRAME ORIGINAL SUGGESTED EDITED CODE - TRIMMED BUT NOT FULLY TESTED FOR ERRORS
+
+<iframe width="300" height="" src={exerciseDataItem.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+*/

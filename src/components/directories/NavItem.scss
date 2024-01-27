@@ -1,5 +1,6 @@
 .NavItem-container {
     border: 2px solid var(--primary-color);
+    box-sizing: border-box;
     border-radius: 10px;
     width: 150px;
     height: 150px;

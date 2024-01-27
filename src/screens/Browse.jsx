@@ -104,8 +104,6 @@ export default function Browse() {
     setFilteredExerciseData(filteredData)
   }
 
-  console.log(filteredExerciseData.length)
-
   return (
     <div className='Browse-container'>
       <div className='Browse-title'>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.scss'
-import HomeImg from './images/home.png'
+import HomeImg from '/public/home.png'
 import { useNavigate } from 'react-router'
 
 export default function Navbar() {
