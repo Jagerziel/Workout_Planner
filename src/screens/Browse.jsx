@@ -129,13 +129,15 @@ export default function Browse() {
         </div>
       </div>
       <div className='Browse-workout-container'>
-        {
-          filteredExerciseData.map((exerciseDataItem, index) => 
-              <div key={index}> 
-                  <WorkoutShellItemFlag exerciseDataItem={ exerciseDataItem }/>
-              </div>
-          )
-        }
+        <div className='Browse-workout-subcontainer'>
+          {
+            filteredExerciseData.map((exerciseDataItem, index) => 
+                <div key={index}> 
+                    <WorkoutShellItemFlag exerciseDataItem={ exerciseDataItem }/>
+                </div>
+            )
+          }
+        </div>
       </div>
     </div>
   )
