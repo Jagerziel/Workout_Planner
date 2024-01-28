@@ -4,7 +4,7 @@
 
 .WorkoutItem-title-container {
     border: 5px solid  rgba(200, 200, 200, 0.47);
-    height: 80px;
+    height: 56px;
     box-sizing: border-box;
     border-radius: 7px;
     padding: 10px;
@@ -16,6 +16,7 @@
 }
 
 .WorkoutItem-title {
+    font-size: 1rem;
     padding: 0;
     margin: 0;
 }
@@ -24,18 +25,20 @@
     // border: 1px solid red;
     display: flex;
     justify-content: left;
-    height: 50px;
+    height: 40px;
 }
 
 .WorkoutItem-note-title {
     font-weight: bold;
     width: 50px;
+    font-size: 0.8rem;
 }
 
 .WorkoutItem-note-content {
     padding-left: 5px;
     justify-content: left;
     text-align: left;
+    font-size: 0.8rem;
 }
 
 .WorkoutItem-sets-reps-container {
@@ -172,7 +175,7 @@
 }
 
 .WorkoutItem-video-container {
-    border: 2px solid red;
+    // border: 2px solid red;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
