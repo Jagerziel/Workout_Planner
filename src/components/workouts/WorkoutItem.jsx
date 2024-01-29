@@ -143,7 +143,7 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                 }
                 {
                     menu.video ? 
-                    <div>
+                    <div className='WorkoutItem-video-container'>
                         {
                             exerciseDataItem.video !== "" ?
                             <iframe width="300" height="" src={exerciseDataItem.video} title="YouTube video player" loading='eager'></iframe> :
