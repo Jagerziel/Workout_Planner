@@ -9,8 +9,6 @@ export default function About() {
       <p>For developers: Feel free to fork/clone and edit for your own specific workouts.  This website is front-end only.</p>
       <p>Hope it helps!</p>
       <p>--Jagerziel</p>
-    
-    
     </div>
   )
 }

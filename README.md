@@ -5,10 +5,24 @@ Deployed site: https://workoutplanner2024.netlify.app
 
 # Pages
 - Home: Allows the selection of the following menus
+
+![Home Page](/public/RM-home01.png)
+
 - 16-Week Plan: Full workout plan developed by Mr. Charlie 
+
+![Home Page](/public/RM-16W01.png)
+
+![Home Page](/public/RM-16W02.png)
+
 - Custom: UNDER CONSTRUCTION
+
 - Browse: Allows the browsing of all workouts
+
+![Home Page](/public/RM-browse01.png)
+
 - About: Light description of the site's intent
+
+![Home Page](/public/RM-about01.png)
 
 # Technical Notes
 The Workout Planner website was constructed using React and Vite.
