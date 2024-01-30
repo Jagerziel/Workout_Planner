@@ -17,7 +17,7 @@ export default function WorkoutShellItem( { exerciseDataItem } ) {
             className='WorkoutShellItem-container'
             style={{
                 border: completed ? '2px solid rgb(31,120,50)' : '2px solid white',
-                backgroundColor: completed ? '#2e492f' : '',
+                backgroundColor: completed ? '#2e492f' : '#242424',
             }}
         >
             <WorkoutItem exerciseDataItem={ exerciseDataItem }/>
