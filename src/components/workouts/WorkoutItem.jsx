@@ -38,11 +38,6 @@ export default function WorkoutItem( { exerciseDataItem } ) {
 
     // console.log(menu)
 
-    function convertImage ( url ) {
-        const newUrl = new URL(url, import.meta.url).href
-        return newUrl
-    }
-
     return (
         <div className='WorkoutItem-container'>
             <div className='WorkoutItem-title-container'>
@@ -125,10 +120,6 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                                     src={exerciseDataItem.img[imgArr.currIdx]}
                                     className='WorkoutItem-img-item'
                                 /> */}
-                                <img 
-                                    src={convertImage(exerciseDataItem.img[imgArr.currIdx])}
-                                    className='WorkoutItem-img-item'
-                                />
                                 <div 
                                     className='WorkoutItem-img-arrow-left-container'
                                     onClick={() => handleArrow('left')}

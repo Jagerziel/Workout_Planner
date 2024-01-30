@@ -19,7 +19,7 @@ export default function Wk0912() {
             title: "Day 1",
             workouts: [0,2,4,7,8,11,12,13,14,15,16],
             rest: false,
-            show: true,
+            show: false,
         },
         {
             title: "Day 2",
