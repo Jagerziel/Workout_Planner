@@ -19,7 +19,7 @@ export default function Wk0508() {
             title: "Day 1",
             workouts: [0,74,76,78,79,82,83,13,14,15,16],
             rest: false,
-            show: true,
+            show: false,
         },
         {
             title: "Day 2",
