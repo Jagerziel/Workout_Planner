@@ -38,14 +38,12 @@ Components were structured to be reusable where possible.
 - Google image searches for exercise graphics
 
 ## Dependencies
+- framer-motion
+- redux
 - react
 - react-dom
 - react-router-dom
-- react-helmet
-- node-sass
-- recharts
-- framer-motion
-- firebase
+- sass
 
 # Future Features
 - TBC
