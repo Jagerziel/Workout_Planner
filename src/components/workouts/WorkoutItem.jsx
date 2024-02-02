@@ -39,12 +39,6 @@ export default function WorkoutItem( { exerciseDataItem } ) {
     }
 
     // Substitution for CSS 'object-fit: contain' which will not work properly on Safari Browser
-    // function getMeta ( url , callbackFunc ) {
-    //     const img = new Image() // Define new img
-    //     img.onload = () => callbackFunc(null, img); // Load image within callback function
-    //     img.onerror = (error) => callbackFunc(error); // Handle error if url is invalid
-    //     img.src = url; // Set source of image as the url 
-    // }
 
     // Load Image Meta Data
     async function getMeta ( url ) {
@@ -62,11 +56,15 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         const imgWidth = img.naturalWidth
         const imgHeight = img.naturalHeight
         const imgAspectRatio = imgWidth / imgHeight
+        let modifier = ""
         console.log(imgWidth + ' ' + imgHeight + ' ' + aspectRatio)
         if (imgAspectRatio > aspectRatio) {
             console.log('wider')
+            return [ 320 / imgAspectRatio, 168 / imgAspectRatio ] // [width, height]
         } else {
             console.log('taller')
+            modifier = 168 / imgHeight
+            return [ imgWidth * modifier, imgHeight * modifier ] // [width, height]
         }
     }
 
@@ -157,7 +155,22 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                                         src={exerciseDataItem.img[imgArr.currIdx]}
                                         className='WorkoutItem-img-item'
                                         onLoad={() => handleImgDimensions(exerciseDataItem.img[imgArr.currIdx])}
+                                        style={{
+                                            // width: `${handleImgDimensions(exerciseDataItem.img[imgArr.currIdx][0])}px`,
+                                            // height: `${handleImgDimensions(exerciseDataItem.img[imgArr.currIdx][1])}px`
+                                        }}
                                     />
+                                    {/* <div
+                                        style={{
+                                            border: '1px solid red',
+                                            boxSizing: 'border-box',
+                                            width: '320px',
+                                            height: '168px',
+                                            overflow: 'scroll',
+                                        }}
+                                    >
+                                        <div>HI</div>
+                                    </div> */}
                                 </div>
                                 <div 
                                     className='WorkoutItem-img-arrow-left-container'
