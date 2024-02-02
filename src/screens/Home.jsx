@@ -12,9 +12,6 @@ export default function Home() {
   // Redux Data
   const homeDirectoryData = useSelector((state) => state.homeDirectory.data)
 
-  // Determine number of columns
-  const [ cols, setCols ] = useState(10)
-
   // Size of Window
   const [size, setSize] = useState({
     x: window.innerWidth,

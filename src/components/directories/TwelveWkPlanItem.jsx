@@ -1,8 +1,8 @@
 import React from 'react'
-import './TwelveWkPlanItem.scss'
+import './SixteenPlanItem.scss'
 
-export default function TwelveWkPlanItem() {
+export default function SixteenPlanItem() {
   return (
-    <div className='TwelveWkPlanItem-container'>TwelveWkPlanItem</div>
+    <div className='SixteenPlanItem-container'>SixteenPlanItem</div>
   )
 }
