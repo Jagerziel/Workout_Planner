@@ -119,10 +119,10 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                             exerciseDataItem.img.length > 0 ?
                             <div className='WorkoutItem-img-subcontainer'>
                                 <div className='WorkoutItem-img-display-holder'>
-                                    <img 
+                                    {/* <img 
                                         src={exerciseDataItem.img[imgArr.currIdx]}
                                         className='WorkoutItem-img-item'
-                                    />
+                                    /> */}
                                 </div>
                                 <div 
                                     className='WorkoutItem-img-arrow-left-container'
