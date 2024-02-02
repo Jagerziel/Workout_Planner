@@ -44,8 +44,8 @@
 
 .Wk0116-workout-item-container {
     // border: 2px solid red;
-    // margin-top: 10px;
-    // margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     width: 100%;
     // border: 2px solid green;
     // box-sizing: border-box;
@@ -59,7 +59,7 @@
     max-width: calc(var(--m) * 340px + (var(--g)) * (var(--m) - 1));
     gap: var(--g);
     // width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
-    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    // height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
     grid-template-columns: repeat(var(--m), auto);  
 }
 
