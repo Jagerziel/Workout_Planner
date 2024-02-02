@@ -3,9 +3,10 @@ import React, { useState } from 'react'
 // Import Components
 import RestItem from '../../components/workouts/RestItem.jsx'
 import WorkoutShellItem from '../../components/workouts/WorkoutShellItem.jsx'
-
 // Import CSS
 import './Wk0116.scss'
+// Import Framer Motion
+import PageTransitionFade from '../../hooks/framer-motion/PageTransitionFade.jsx'
 
 // Import State Management
 import { useSelector, useDispatch } from "react-redux";
@@ -60,54 +61,56 @@ export default function Wk0104() {
     ])
 
     return (
-        <div className='Wk0116-container'>
-            <div className='Wk0116-title'>Weeks 1 - 4</div>
-            {
-                workoutIdx.map(( data , index ) => (
-                    <div 
-                        className='Wk0116-workout-container'
-                        key={index}
-                    >
+        <PageTransitionFade>
+            <div className='Wk0116-container'>
+                <div className='Wk0116-title'>Weeks 1 - 4</div>
+                {
+                    workoutIdx.map(( data , index ) => (
                         <div 
-                            className='Wk0116-workout-day'
-                            style={{
-                                margin: data.show ? '0 0 5px 0' : '0 0 15px 0',
-                                border: `3px solid ${data.show ? 'rgba(140, 140, 140, 0.47)' : 'rgba(255, 255, 255, 0.37)'}`,
-                                backgroundColor: data.show ? 'rgba(255, 255, 255, 0.87)' : 'rgba(255, 255, 255, 0.47)'
-
-                            }}
-                            onClick={() => {
-                                let shallowData = workoutIdx
-                                shallowData[index].show = !shallowData[index].show
-                                setWorkoutIdx([...shallowData])
-                            }} 
+                            className='Wk0116-workout-container'
+                            key={index}
                         >
-                            {`${data.title} (${data.show ? ' - ' : ' + '})`}
-                        </div>
-                        {
-                            data.rest ? 
                             <div 
-                                className='Wk0116-rest-item-container'
-                                style={{display: data.show ? "flex" : "none"}}
+                                className='Wk0116-workout-day'
+                                style={{
+                                    margin: data.show ? '0 0 5px 0' : '0 0 15px 0',
+                                    border: `3px solid ${data.show ? 'rgba(140, 140, 140, 0.47)' : 'rgba(255, 255, 255, 0.37)'}`,
+                                    backgroundColor: data.show ? 'rgba(255, 255, 255, 0.87)' : 'rgba(255, 255, 255, 0.47)'
+
+                                }}
+                                onClick={() => {
+                                    let shallowData = workoutIdx
+                                    shallowData[index].show = !shallowData[index].show
+                                    setWorkoutIdx([...shallowData])
+                                }} 
                             >
-                                <RestItem /> 
-                            </div> :
-                            <div 
-                                className='Wk0116-workout-item-container'
-                                style={{display: data.show ? "grid" : "none"}}
-                            >
-                                {
-                                    data.workouts.map((workoutsArr, index) => 
-                                        <div key={index}> 
-                                            <WorkoutShellItem exerciseDataItem={ exerciseData[workoutsArr] }/>
-                                        </div>
-                                    )
-                                }
+                                {`${data.title} (${data.show ? ' - ' : ' + '})`}
                             </div>
-                        }
-                    </div>
-                ))
-            }
-        </div>
+                            {
+                                data.rest ? 
+                                <div 
+                                    className='Wk0116-rest-item-container'
+                                    style={{display: data.show ? "flex" : "none"}}
+                                >
+                                    <RestItem /> 
+                                </div> :
+                                <div 
+                                    className='Wk0116-workout-item-container'
+                                    style={{display: data.show ? "grid" : "none"}}
+                                >
+                                    {
+                                        data.workouts.map((workoutsArr, index) => 
+                                            <div key={index}> 
+                                                <WorkoutShellItem exerciseDataItem={ exerciseData[workoutsArr] }/>
+                                            </div>
+                                        )
+                                    }
+                                </div>
+                            }
+                        </div>
+                    ))
+                }
+            </div>
+        </PageTransitionFade>
     )
 }

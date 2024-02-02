@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react'
 import './Home.scss'
 // Import Components
 import NavItem from '../components/directories/NavItem.jsx';
+// Import Framer Motion
+import PageTransitionFade from '../hooks/framer-motion/PageTransitionFade.jsx';
 
 // State Management
 import { useSelector, useDispatch } from "react-redux";
@@ -43,14 +45,16 @@ export default function Home() {
   }
 
   return (
-    <div className='Home-container'>
-      <div className='HomeItems-container'
-        style={{
-          '--m': mediaQuery(homeDirectoryData.length)
-        }}
-      >
-        {homeDirectoryData.map((data, index) => <NavItem data={data} key={index} />)}
+    <PageTransitionFade>
+      <div className='Home-container'>
+        <div className='HomeItems-container'
+          style={{
+            '--m': mediaQuery(homeDirectoryData.length)
+          }}
+        >
+          {homeDirectoryData.map((data, index) => <NavItem data={data} key={index} />)}
+        </div>
       </div>
-    </div>
+    </PageTransitionFade>
   )
 }
