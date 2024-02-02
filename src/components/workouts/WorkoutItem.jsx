@@ -19,6 +19,8 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         imgArrMaxIdx: exerciseDataItem.img.length - 1
     })
 
+    const [ imgDimensions, setImgDimensions ] = useState([])
+
     const menuItems = ['desc', 'pics', 'video']
     const menuItemNames = ['Description', 'Images', 'Video']
 
@@ -35,6 +37,38 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         if ( direction ===  'left') setImgArr({...imgArr, currIdx: imgArr.currIdx - 1})
         if ( direction ===  'right') setImgArr({...imgArr, currIdx: imgArr.currIdx + 1})
     }
+
+    // Substitution for CSS 'object-fit: contain' which will not work properly on Safari Browser
+
+    // Load Image Meta Data
+    async function getMeta ( url ) {
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => resolve(img);
+            img.onerror = (error) => reject(error);
+            img.src = url;
+        });
+    }
+
+    // Log Image Dimensions
+    async function handleImgDimensions ( url , aspectRatio = 4/2.13) {
+        const img = await getMeta( url )
+        const imgWidth = img.naturalWidth
+        const imgHeight = img.naturalHeight
+        const imgAspectRatio = imgWidth / imgHeight
+        let modifier = ""
+        console.log(imgWidth + ' ' + imgHeight + ' ' + aspectRatio)
+        if (imgAspectRatio > aspectRatio) {
+            console.log('wider')
+            return [ 320 / imgAspectRatio, 168 / imgAspectRatio ] // [width, height]
+        } else {
+            console.log('taller')
+            modifier = 168 / imgHeight
+            return [ imgWidth * modifier, imgHeight * modifier ] // [width, height]
+        }
+    }
+
+
 
     // console.log(menu)
 
@@ -120,7 +154,23 @@ export default function WorkoutItem( { exerciseDataItem } ) {
                                     <img 
                                         src={exerciseDataItem.img[imgArr.currIdx]}
                                         className='WorkoutItem-img-item'
+                                        onLoad={() => handleImgDimensions(exerciseDataItem.img[imgArr.currIdx])}
+                                        style={{
+                                            // width: `${handleImgDimensions(exerciseDataItem.img[imgArr.currIdx][0])}px`,
+                                            // height: `${handleImgDimensions(exerciseDataItem.img[imgArr.currIdx][1])}px`
+                                        }}
                                     />
+                                    {/* <div
+                                        style={{
+                                            border: '1px solid red',
+                                            boxSizing: 'border-box',
+                                            width: '320px',
+                                            height: '168px',
+                                            overflow: 'scroll',
+                                        }}
+                                    >
+                                        <div>HI</div>
+                                    </div> */}
                                 </div>
                                 <div 
                                     className='WorkoutItem-img-arrow-left-container'
