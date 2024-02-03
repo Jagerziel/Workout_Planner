@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 // Import CSS
 
 // Export ComponentTransitionFade Function
-export default function ComponentTransitionFade( { children , componentIdx, duration = .25 } ) {
+export default function ComponentTransitionFade( { children , componentIdx } ) {
     const animations = {
         initial: { opacity: 0 , x: 0 },
         animate: { opacity: 1 , x: 0 },
@@ -25,7 +25,7 @@ export default function ComponentTransitionFade( { children , componentIdx, dura
             animate="animate"
             exit="exit"
             transition={ { 
-                duration: duration , 
+                duration: .25 , 
                 ease: "linear", 
                 type: "tween" , 
             } }

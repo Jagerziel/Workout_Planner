@@ -7,7 +7,6 @@ import WorkoutShellItem from '../../components/workouts/WorkoutShellItem.jsx'
 import './Wk0116.scss'
 // Import Framer Motion
 import PageTransitionFade from '../../hooks/framer-motion/PageTransitionFade.jsx'
-import ComponentTransitionFade from '../../hooks/framer-motion/ComponentTransitionFade.jsx'
 
 // Import State Management
 import { useSelector, useDispatch } from "react-redux";
@@ -91,13 +90,19 @@ export default function Wk0104() {
                                 data.rest ? 
                                 <div 
                                     className='Wk0116-rest-item-container'
-                                    style={{display: data.show ? "flex" : "none"}}
+                                    style={{
+                                        display: data.show ? "flex" : "none",
+                                        animation: data.show ? "inAnimation 250ms ease-in" : "outAnimation 0ms ease-out"
+                                    }}
                                 >
                                     <RestItem /> 
                                 </div> :
                                 <div 
                                     className='Wk0116-workout-item-container'
-                                    style={{display: data.show ? "grid" : "none"}}
+                                    style={{
+                                        display: data.show ? "grid" : "none",
+                                        animation: data.show ? "inAnimation 250ms ease-in" : "outAnimation 0ms ease-out"
+                                    }}
                                 >
                                     {
                                         data.workouts.map((workoutsArr, index) => 

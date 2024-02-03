@@ -6,6 +6,7 @@ import WorkoutShellItemFlag from '../components/workouts/WorkoutShellItemFlag.js
 import './Browse.scss'
 // Import Framer Motion
 import PageTransitionFade from '../hooks/framer-motion/PageTransitionFade.jsx';
+import ComponentTransitionFade from '../hooks/framer-motion/ComponentTransitionFade.jsx';
 // Import Redux
 import { useSelector, useDispatch } from "react-redux";
 
@@ -133,18 +134,18 @@ export default function Browse() {
           </div>
         </div>
         <div className='Browse-workout-container'>
-          <div className='Browse-workout-subcontainer'>
-            {
-              filteredExerciseData.map((exerciseDataItem, index) => 
-                  <div key={index}> 
-                      <WorkoutShellItemFlag 
-                        exerciseDataItem={ exerciseDataItem }
-                        menuLastIdx={menuLastIdx}  
-                      />
-                  </div>
-              )
-            }
-          </div>
+              <div className='Browse-workout-subcontainer'>
+                {
+                  filteredExerciseData.map((exerciseDataItem, index) => 
+                    <div key={index}> 
+                        <WorkoutShellItemFlag 
+                          exerciseDataItem={ exerciseDataItem }
+                          menuLastIdx={menuLastIdx}  
+                        />
+                    </div>
+                  )
+                }
+              </div>
         </div>
       </div>
     </PageTransitionFade>
