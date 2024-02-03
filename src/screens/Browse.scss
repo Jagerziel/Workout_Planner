@@ -17,7 +17,7 @@
     border: 2px solid white;
     border-radius: 7px;
     background-color: rgba(255, 255, 255, 0.87);
-    height: 60px;
+    height: 48px;
     padding: 0 5px 0 5px;
     box-sizing: border-box;
     --x: 6; /* number of columns */
@@ -50,17 +50,18 @@
     background: #242424;
     box-sizing: border-box;
     border-radius: 7px;
-    height: 50px;
-    width: 130px;
+    height: 34px;
+    width: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    user-select: none;
 }
 
 .Browse-menu-item-title {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
 
 .Browse-workout-container {
@@ -112,7 +113,6 @@
 
 @media screen and (max-width: 1450px) {
     .Browse-menu-container {
-        justify-content: left;
         --x: 3; /* number of columns */
     }
     .Browse-workout-container {

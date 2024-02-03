@@ -4,7 +4,7 @@
 
 .WorkoutItem-title-container {
     border: 5px solid  rgba(200, 200, 200, 0.47);
-    height: 56px;
+    height: 50px;
     box-sizing: border-box;
     border-radius: 7px;
     padding: 10px;
@@ -16,7 +16,7 @@
 }
 
 .WorkoutItem-title {
-    font-size: 1rem;
+    font-size: .85rem;
     padding: 0;
     margin: 0;
 }
@@ -31,14 +31,14 @@
 .WorkoutItem-note-title {
     font-weight: bold;
     width: 50px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 
 .WorkoutItem-note-content {
     padding-left: 5px;
     justify-content: left;
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 
 .WorkoutItem-sets-reps-container {
@@ -56,12 +56,14 @@
 .WorkoutItem-sets-title {
     font-weight: bold;
     width: 50px;
+    font-size: .85rem;
 }
 
 .WorkoutItem-sets-content {
     padding-left: 5px;
     justify-content: left;
     text-align: left;
+    font-size: .85rem;
 }
 
 .WorkoutItem-reps-container {
@@ -74,17 +76,19 @@
 .WorkoutItem-reps-title {
     font-weight: bold;
     width: 50px;
+    font-size: .85rem;
 }
 
 .WorkoutItem-reps-content {
     padding-left: 5px;
     justify-content: left;
     text-align: left;
+    font-size: .85rem;
 }
 
 .WorkoutItem-menu-container {
     // border: 2px solid red;
-    margin: 5px 0 5px 0,
+    margin: 0px 0 5px 0,
 }
 
 .WorkoutItem-menu-container {
@@ -95,7 +99,7 @@
 .WorkoutItem-menu-button {
     border-radius: 7px;
     width: 97px;
-    height: 32px;
+    height: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,6 +108,7 @@
 
 .WorkoutItem-menu-button-text {
     font-weight: 600;
+    font-size: .8rem;
 }
 
 .WorkoutItem-content-container {
@@ -224,4 +229,5 @@
     margin-left: 8px;
     font-weight: 600;
     margin-top: 3px;
+    font-size: .8rem;
 }
