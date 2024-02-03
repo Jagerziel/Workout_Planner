@@ -4,6 +4,9 @@ import React, {useEffect, useState} from 'react'
 import WorkoutShellItemFlag from '../components/workouts/WorkoutShellItemFlag.jsx';
 // Import CSS
 import './Browse.scss'
+// Import Framer Motion
+import PageTransitionFade from '../hooks/framer-motion/PageTransitionFade.jsx';
+import ComponentTransitionFade from '../hooks/framer-motion/ComponentTransitionFade.jsx';
 // Import Redux
 import { useSelector, useDispatch } from "react-redux";
 
@@ -105,44 +108,52 @@ export default function Browse() {
   }
 
   return (
-    <div className='Browse-container'>
-      <div className='Browse-title'>
-        Browse Workouts
-      </div>
-      <div className='Browse-menu-container'>
-        <div className='Browse-menu-subcontainer'>
-          {
-            menu.map((menuData, index) => 
-              <div 
-                className='Browse-menu-item-container'
-                key={index}
-                onClick={() => handleMenuSelection(menuData, index)}
-                style={{
-                  border: `3px solid ${menuData.selected ? '#242424' : '#cacaca91'}`,
-                  backgroundColor: menuData.selected ? 'rgba(255, 255, 255, 0.87)' : '#242424',
-                  color: menuData.selected ? 'rgba(0, 0, 0, 1)' : 'rgba(255, 255, 255, 1)'
-                }}
-              >
-                <div className='Browse-menu-item-title'>{menuData.title}</div>
-              </div>
-            )
-          }
+    <PageTransitionFade>
+      <div className='Browse-container'>
+        <div className='Browse-title'>
+          Browse Workouts
         </div>
-      </div>
-      <div className='Browse-workout-container'>
-        <div className='Browse-workout-subcontainer'>
-          {
-            filteredExerciseData.map((exerciseDataItem, index) => 
-                <div key={index}> 
-                    <WorkoutShellItemFlag 
-                      exerciseDataItem={ exerciseDataItem }
-                      menuLastIdx={menuLastIdx}  
-                    />
+        <div className='Browse-menu-container'>
+          <div className='Browse-menu-subcontainer'>
+            {
+              menu.map((menuData, index) => 
+                <div 
+                  className='Browse-menu-item-container'
+                  key={index}
+                  onClick={() => handleMenuSelection(menuData, index)}
+                  style={{
+                    border: `3px solid ${menuData.selected ? '#242424' : '#cacaca91'}`,
+                    backgroundColor: menuData.selected ? 'rgba(255, 255, 255, 0.87)' : '#242424',
+                    color: menuData.selected ? 'rgba(0, 0, 0, 1)' : 'rgba(255, 255, 255, 1)'
+                  }}
+                >
+                  <div className='Browse-menu-item-title'>{menuData.title}</div>
                 </div>
-            )
-          }
+              )
+            }
+          </div>
+        </div>
+        <div className='Browse-workout-container'>
+              <div className='Browse-workout-subcontainer'
+                  key={Math.random()}
+                  style={{
+                    animation: "inAnimation 500ms ease-in" 
+                  }}>
+                {
+                  filteredExerciseData.map((exerciseDataItem, index) => 
+                    <div 
+                      key={index}
+                    > 
+                        <WorkoutShellItemFlag 
+                          exerciseDataItem={ exerciseDataItem }
+                          menuLastIdx={ menuLastIdx }  
+                        />
+                    </div>
+                  )
+                }
+              </div>
         </div>
       </div>
-    </div>
+    </PageTransitionFade>
   )
 }

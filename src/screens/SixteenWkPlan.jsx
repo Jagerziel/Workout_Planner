@@ -6,14 +6,18 @@ import './SixteenWkPlan.scss'
 import NavItem from '../components/directories/NavItem.jsx';
 // Import Data
 import { sixteenWkDirectory } from '../data/data.js';
+// Import Framer Motion
+import PageTransitionFade from '../hooks/framer-motion/PageTransitionFade.jsx';
 
 export default function SixteenWkPlan() {
 
   return (
-    <div className='SixteenWkPlan-container'>
-      <div className='SixteenWkPlanItems-container'>
-        {sixteenWkDirectory.map((data, index) => <NavItem data={data} key={index} />)}
+    <PageTransitionFade>
+      <div className='SixteenWkPlan-container'>
+        <div className='SixteenWkPlanItems-container'>
+          {sixteenWkDirectory.map((data, index) => <NavItem data={data} key={index} />)}
+        </div>
       </div>
-    </div>
+    </PageTransitionFade>
   )
 }

@@ -44,12 +44,11 @@
 
 .Wk0116-workout-item-container {
     // border: 2px solid red;
+    // box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 20px;
     width: 100%;
     height: fit-content;
-    // border: 2px solid green;
-    // box-sizing: border-box;
     justify-items: center;
     --s: 1;
     --n: 100; /* number of rows*/
@@ -108,3 +107,25 @@
         --m: 1; /* number of columns */
     }
 }
+
+// Animations
+@keyframes inAnimation {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  @keyframes outAnimation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
