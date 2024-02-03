@@ -134,13 +134,19 @@ export default function Browse() {
           </div>
         </div>
         <div className='Browse-workout-container'>
-              <div className='Browse-workout-subcontainer'>
+              <div className='Browse-workout-subcontainer'
+                  key={Math.random()}
+                  style={{
+                    animation: "inAnimation 500ms ease-in" 
+                  }}>
                 {
                   filteredExerciseData.map((exerciseDataItem, index) => 
-                    <div key={index}> 
+                    <div 
+                      key={index}
+                    > 
                         <WorkoutShellItemFlag 
                           exerciseDataItem={ exerciseDataItem }
-                          menuLastIdx={menuLastIdx}  
+                          menuLastIdx={ menuLastIdx }  
                         />
                     </div>
                   )
