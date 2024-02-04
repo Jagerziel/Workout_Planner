@@ -39,7 +39,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XEJOFQCu5BYcfosjb7rD7OD8HTfW-LMnVQ&usqp=CAU"], // array
+        img: ["https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif", "https://s3assets.skimble.com/assets/2287143/image_iphone.jpg","https://qph.cf2.quoracdn.net/main-qimg-b1ddc31c1e22635f9d45c3b10f5821ef-lq"], // array
         video: "https://www.youtube.com/embed/jRUC6IVav30?si=kKASVz4bWEPKtuZB", // url
         addtl_reqs: "",
         superset: false,
@@ -62,7 +62,7 @@ export const exerciseData = [
         description03: "",
         description04: "",
         description05: "",
-        img: ["https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XEJOFQCu5BYcfosjb7rD7OD8HTfW-LMnVQ&usqp=CAU"], // array
+        img: ["https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif", "https://s3assets.skimble.com/assets/2287143/image_iphone.jpg","https://qph.cf2.quoracdn.net/main-qimg-b1ddc31c1e22635f9d45c3b10f5821ef-lq"], // array
         video: "https://www.youtube.com/embed/jRUC6IVav30?si=kKASVz4bWEPKtuZB", // url
         addtl_reqs: "",
         superset: false,

@@ -1,5 +1,5 @@
 // Import React
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 // Import Components
 import ArrowImg from '../img_components/ArrowImg.jsx'
 // Import CSS
@@ -13,12 +13,12 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         pics: false,
         video: false
     })
-
+    // Track images and current image selected
     const [ imgArr, setImgArr ] = useState({
         currIdx: 0,
         imgArrMaxIdx: exerciseDataItem.img.length - 1
     })
-
+    // Check if note box is extended
     const [ noteBoxExtended, setNoteBoxExtended ] = useState(false)
 
     const menuItems = ['desc', 'pics', 'video']
@@ -38,7 +38,7 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         if ( direction ===  'right') setImgArr({...imgArr, currIdx: imgArr.currIdx + 1})
     }
 
-    console.log(noteBoxExtended)
+    // console.log(noteBoxExtended)
 
     return (
         <div className='WorkoutItem-container'>
