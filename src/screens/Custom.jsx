@@ -21,7 +21,7 @@ export default function Custom() {
   ]
 
   function handleCustomizeWorkout () {
-    // navigate('browse')
+    navigate('browse')
     console.log('navigation to browse button clicked')
   }
 
