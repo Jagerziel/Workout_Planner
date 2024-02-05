@@ -77,20 +77,41 @@ $navbar-height: 3.7rem;
     width: 100%;
     flex: 1 1 auto;
     overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    
+    // justify-items: center;
+    // --s: 1;
+    // --n: 100; /* number of rows*/
+    // --m: 6; /* number of columns */
+    // --g: 10px; /* control the gap */
+    // --f: 1.5; /* control the scale factor */
+    // display: grid;
+    // max-width: calc(var(--m) * 340px + (var(--g)) * (var(--m) - 1));
+    // gap: var(--g);
+    // // width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    // height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    // grid-template-columns: repeat(var(--m), auto);  
+}
+
+.CustomBrowse-exercise-subcontainer {
+    border: 2px solid rgb(128, 64, 0);
+    box-sizing: border-box;
+    width: 100%;
     justify-items: center;
+    align-items: flex-start;
+    height: fit-content;
     --s: 1;
-    --n: 100; /* number of rows*/
+    --n: 1; /* number of rows*/
     --m: 6; /* number of columns */
     --g: 10px; /* control the gap */
     --f: 1.5; /* control the scale factor */
     display: grid;
     max-width: calc(var(--m) * 340px + (var(--g)) * (var(--m) - 1));
     gap: var(--g);
-    // width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
-    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
-    grid-template-columns: repeat(var(--m), auto);  
-
-
+    // // width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    // // height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto-fit);  
 }
 
 
@@ -133,7 +154,7 @@ $navbar-height: 3.7rem;
     .CustomBrowse-menu-container {
         --x: 5; /* number of columns */
     }
-    .CustomBrowse-exercise-container {
+    .CustomBrowse-exercise-subcontainer {
         --m: 5; /* number of columns */
     }
     .CustomBrowse-bottom-container {
@@ -145,7 +166,7 @@ $navbar-height: 3.7rem;
     .CustomBrowse-menu-container {
         --x: 4; /* number of columns */
     }
-    .CustomBrowse-exercise-container {
+    .CustomBrowse-exercise-subcontainer {
         --m: 4; /* number of columns */
     }
     .CustomBrowse-bottom-container {
@@ -157,7 +178,7 @@ $navbar-height: 3.7rem;
     .CustomBrowse-menu-container {
         --x: 3; /* number of columns */
     }
-    .CustomBrowse-exercise-container {
+    .CustomBrowse-exercise-subcontainer {
         --m: 3; /* number of columns */
     }
     .CustomBrowse-bottom-container {
@@ -170,7 +191,7 @@ $navbar-height: 3.7rem;
         justify-content: left;
         --x: 2; /* number of columns */
     }
-    .CustomBrowse-exercise-container {
+    .CustomBrowse-exercise-subcontainer {
         --m: 2; /* number of columns */
     }
     .CustomBrowse-bottom-container {
@@ -183,7 +204,7 @@ $navbar-height: 3.7rem;
         justify-content: left;
         --x: 1; /* number of columns */
     }
-    .CustomBrowse-exercise-container {
+    .CustomBrowse-exercise-subcontainer {
         --m: 1; /* number of columns */
     }
     .CustomBrowse-bottom-container {

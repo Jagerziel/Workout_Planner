@@ -122,7 +122,7 @@ export default function CustomBrowse() {
     return (
         <div className='CustomBrowse-container'>
             <div className='CustomBrowse-title'>
-                Select Exercises for Custom Workout Day
+                Select Exercises for Custom Workout
             </div>
             <div className='CustomBrowse-menu-container'>
                 <div className='CustomBrowse-menu-subcontainer'>
@@ -145,14 +145,16 @@ export default function CustomBrowse() {
                 </div>
             </div>
             <div className='CustomBrowse-exercise-container'>
-                {
-                    filteredExerciseData.map((exerciseDataItem, index) => 
-                        <div key={index}>
-                            <WorkoutSelectItem />
-                        </div>
+                <div className='CustomBrowse-exercise-subcontainer'>
+                    {
+                        filteredExerciseData.map((exerciseDataItem, index) => 
+                            <div key={index}>
+                                <WorkoutSelectItem exerciseDataItem={exerciseDataItem}/>
+                            </div>
 
-                    )
-                }
+                        )
+                    }
+                </div>
             </div>
             <div className='CustomBrowse-bottom-container'>
                 <div 
