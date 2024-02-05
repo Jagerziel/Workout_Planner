@@ -8,19 +8,17 @@ import PageTransitionFade from '../hooks/framer-motion/PageTransitionFade.jsx'
 import { useSelector, useDispatch } from "react-redux";
 
 export default function Custom() {
-  const [ exercises, setExercises ] = useState([])
-  const [ selectedExercises, setSelectedExercises ] = useState([])
+  // Redux: Workout Data
+  const [selectedExercises, exerciseData] = useSelector((state) => state.customExerciseData.data)
+
   const createMenu = [
     "create new workout",
     "edit workout",
   ]
 
-  const test = ["apple", "pear"]
-  const [apple, pear] = test
-  console.log(apple)
+  // console.log(exerciseData)
 
-  // Redux: Workout Data
-  const exerciseData = useSelector((state) => state.exerciseData.data)
+
 
   return (
     <PageTransitionFade>
