@@ -106,9 +106,13 @@ export default function CustomBrowse() {
         setFilteredExerciseData(filteredData)
     }
 
+    function handleBack () {
+        navigate('/custom')
+    }
+
     function handleConfirm () {
         navigate('order')
-        console.log('navigation to browse button clicked')
+        // console.log('navigation to browse button clicked')
     }
 
     // console.log(filteredExerciseData)
@@ -116,7 +120,7 @@ export default function CustomBrowse() {
     return (
         <div className='CustomBrowse-container'>
             <div className='CustomBrowse-title'>
-                Browse Workouts
+                Select Exercises for Custom Workout Day
             </div>
             <div className='CustomBrowse-menu-container'>
                 <div className='CustomBrowse-menu-subcontainer'>
@@ -142,6 +146,12 @@ export default function CustomBrowse() {
 
             </div>
             <div className='CustomBrowse-bottom-container'>
+                <div 
+                    className='CustomBrowse-bottom-button'
+                    onClick={handleBack}
+                >
+                    Back
+                </div>
                 <div 
                     className='CustomBrowse-bottom-button'
                     onClick={handleConfirm}

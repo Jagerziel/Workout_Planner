@@ -13,6 +13,9 @@ export default function CustomOrder() {
     // Navigation 
     const navigate = useNavigate();
 
+    function handleBack () {
+        navigate('/custom/browse')
+    }
 
     function handleConfirm () {
         navigate('/custom')
@@ -28,6 +31,12 @@ export default function CustomOrder() {
 
             </div>
             <div className='CustomOrder-bottom-container'>
+                <div 
+                    className='CustomOrder-bottom-button'
+                    onClick={handleBack}
+                >
+                    Back
+                </div>
                 <div 
                     className='CustomOrder-bottom-button'
                     onClick={handleConfirm}
