@@ -23,6 +23,7 @@ $navbar-height: 3.7rem;
     border: 2px solid white;
     border-radius: 7px;
     background-color: rgba(255, 255, 255, 0.87);
+    min-height: 48px;
     height: 48px;
     padding: 0 5px 0 5px;
     box-sizing: border-box;
@@ -75,6 +76,21 @@ $navbar-height: 3.7rem;
     box-sizing: border-box;
     width: 100%;
     flex: 1 1 auto;
+    overflow-y: scroll;
+    justify-items: center;
+    --s: 1;
+    --n: 100; /* number of rows*/
+    --m: 6; /* number of columns */
+    --g: 10px; /* control the gap */
+    --f: 1.5; /* control the scale factor */
+    display: grid;
+    max-width: calc(var(--m) * 340px + (var(--g)) * (var(--m) - 1));
+    gap: var(--g);
+    // width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);  
+
+
 }
 
 
@@ -106,7 +122,7 @@ $navbar-height: 3.7rem;
     line-height: 40px;
     cursor: pointer;
     user-select: none;
-
+    margin-top: 20px;
     &:active {
         color: #a0a0a0;
         border: 2px solid #a0a0a0;
@@ -117,6 +133,9 @@ $navbar-height: 3.7rem;
     .CustomBrowse-menu-container {
         --x: 5; /* number of columns */
     }
+    .CustomBrowse-exercise-container {
+        --m: 5; /* number of columns */
+    }
     .CustomBrowse-bottom-container {
         --x: 5; /* number of columns */
     }
@@ -126,6 +145,9 @@ $navbar-height: 3.7rem;
     .CustomBrowse-menu-container {
         --x: 4; /* number of columns */
     }
+    .CustomBrowse-exercise-container {
+        --m: 4; /* number of columns */
+    }
     .CustomBrowse-bottom-container {
         --x: 4; /* number of columns */
     }
@@ -134,6 +156,9 @@ $navbar-height: 3.7rem;
 @media screen and (max-width: 1450px) {
     .CustomBrowse-menu-container {
         --x: 3; /* number of columns */
+    }
+    .CustomBrowse-exercise-container {
+        --m: 3; /* number of columns */
     }
     .CustomBrowse-bottom-container {
         --x: 3; /* number of columns */
@@ -145,6 +170,9 @@ $navbar-height: 3.7rem;
         justify-content: left;
         --x: 2; /* number of columns */
     }
+    .CustomBrowse-exercise-container {
+        --m: 2; /* number of columns */
+    }
     .CustomBrowse-bottom-container {
         --x: 2; /* number of columns */
     }
@@ -154,6 +182,9 @@ $navbar-height: 3.7rem;
     .CustomBrowse-menu-container {
         justify-content: left;
         --x: 1; /* number of columns */
+    }
+    .CustomBrowse-exercise-container {
+        --m: 1; /* number of columns */
     }
     .CustomBrowse-bottom-container {
         --x: 1; /* number of columns */

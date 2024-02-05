@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import { useNavigate, NavLink } from 'react-router-dom'
 // Import CSS
 import './CustomBrowse.scss'
+// Import Components
+import WorkoutSelectItem from '../../components/workouts/WorkoutSelectItem.jsx';
 // Import Redux
 import { useSelector, useDispatch } from "react-redux";
 
@@ -143,7 +145,14 @@ export default function CustomBrowse() {
                 </div>
             </div>
             <div className='CustomBrowse-exercise-container'>
+                {
+                    filteredExerciseData.map((exerciseDataItem, index) => 
+                        <div key={index}>
+                            <WorkoutSelectItem />
+                        </div>
 
+                    )
+                }
             </div>
             <div className='CustomBrowse-bottom-container'>
                 <div 
