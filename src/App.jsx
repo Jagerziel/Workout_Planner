@@ -37,7 +37,7 @@ function App() {
             <Route path="/browse" element={<Browse />} />
             <Route path="/custom" element={<Custom />} />
             <Route path="/custom/browse" element={<CustomBrowse />} />
-            <Route path="/custom/order" element={<CustomOrder />} />
+            <Route path="/custom/browse/order" element={<CustomOrder />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </div>

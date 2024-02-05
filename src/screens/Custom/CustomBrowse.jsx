@@ -1,5 +1,6 @@
 // Import React
 import React, { useState } from 'react'
+import { useNavigate, NavLink } from 'react-router-dom'
 // Import CSS
 import './CustomBrowse.scss'
 // Import Redux
@@ -9,6 +10,9 @@ export default function CustomBrowse() {
     // Redux: Workout Data
     const [selectedExercises, exerciseData] = useSelector((state) => state.customExerciseData.data)
     
+    // Navigation 
+    const navigate = useNavigate();
+
     const [ menu, setMenu ] = useState([
         {
           title: 'All',
@@ -102,6 +106,11 @@ export default function CustomBrowse() {
         setFilteredExerciseData(filteredData)
     }
 
+    function handleConfirm () {
+        navigate('order')
+        console.log('navigation to browse button clicked')
+    }
+
     // console.log(filteredExerciseData)
 
     return (
@@ -133,7 +142,12 @@ export default function CustomBrowse() {
 
             </div>
             <div className='CustomBrowse-bottom-container'>
-
+                <div 
+                    className='CustomBrowse-bottom-button'
+                    onClick={handleConfirm}
+                >
+                    Confirm
+                </div>
             </div>
         </div>
     )

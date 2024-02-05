@@ -77,22 +77,41 @@ $navbar-height: 3.7rem;
     flex: 1 1 auto;
 }
 
+
+
+
+
+
+
+
+
 .CustomBrowse-bottom-container {
     border: 2px solid red;
     box-sizing: border-box;
     width: 100%;
-    height: 40px;
-    background-color: blue;
+    height: 60px;
     --x: 6; /* number of columns */
     --gap: 10px; /* control the gap */
     width: calc(var(--x) * 340px + (var(--gap)) * (var(--x) - 1));
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
+.CustomBrowse-bottom-button {
+    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    line-height: 40px;
+    cursor: pointer;
+    user-select: none;
 
-
-
-
-
+    &:active {
+        color: #a0a0a0;
+        border: 2px solid #a0a0a0;
+    }
+}
 
 @media screen and (max-width: 2150px) {
     .CustomBrowse-menu-container {
