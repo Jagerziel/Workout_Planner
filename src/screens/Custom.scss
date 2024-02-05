@@ -1,0 +1,30 @@
+.Custom-container {
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+.Custom-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Custom-menu {
+    border: 2px solid red;
+    box-sizing: border-box;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover {
+        color: #a0a0a0;
+    }
+    &:active {
+        color: #a0a0a0;
+    }
+}
+
+.Custom-workout-container {
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0 0 0;
+}

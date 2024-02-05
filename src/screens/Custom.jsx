@@ -1,5 +1,6 @@
 // Import React
 import React, { useRef, useState } from 'react'
+import { useNavigate, NavLink } from 'react-router-dom'
 // Import CSS
 import './Custom.scss'
 // Import Framer Motion
@@ -11,14 +12,20 @@ export default function Custom() {
   // Redux: Workout Data
   const [selectedExercises, exerciseData] = useSelector((state) => state.customExerciseData.data)
 
+  // Navigation 
+  const navigate = useNavigate();
+
   const createMenu = [
-    "create new workout",
-    "edit workout",
+    "press here to create new workout",
+    "press here to edit current workout",
   ]
 
+  function handleCustomizeWorkout () {
+    // navigate('browse')
+    console.log('navigation to browse button clicked')
+  }
+
   // console.log(exerciseData)
-
-
 
   return (
     <PageTransitionFade>
@@ -26,7 +33,10 @@ export default function Custom() {
         <div className='Custom-title'>
           Customized Workout
         </div>
-        <div className='Custom-menu'>
+        <div 
+          className='Custom-menu'
+          onClick={handleCustomizeWorkout}
+        >
           {`(${selectedExercises.length === 0 ? createMenu[0] : createMenu[1]})`}
         </div>
         <div className='Custom-workout-container'>
