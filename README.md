@@ -46,7 +46,10 @@ Components were structured to be reusable where possible.
 - sass
 
 # Future Features
-- TBC
+- integrated backend with individual users
+- user authentication
+- ability to save personal workout plans (which is why redux was used/integrated before hand so the backbone of storing changes efficiently would already be in place)
+- give user ability to add their own workouts with images and videos (would possibly require integration of image and video hosting site)
 
 # Development Team
 

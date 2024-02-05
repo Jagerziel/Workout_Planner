@@ -21,6 +21,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -44,6 +45,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -67,6 +69,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -90,6 +93,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -113,6 +117,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -136,6 +141,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -159,6 +165,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -182,6 +189,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -205,6 +213,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -228,6 +237,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -251,6 +261,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -274,6 +285,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -297,6 +309,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -320,6 +333,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -343,6 +357,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -366,6 +381,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -389,6 +405,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -412,6 +429,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -435,6 +453,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -458,6 +477,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -481,6 +501,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -504,6 +525,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -527,6 +549,7 @@ export const exerciseData = [
         addtl_reqs: "https://www.youtube.com/embed/uJ4eA2wUXdw?si=qqMEz0aGhFfta7pH",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -550,6 +573,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -573,6 +597,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -596,6 +621,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -619,6 +645,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -642,6 +669,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -665,6 +693,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -688,6 +717,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -711,6 +741,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -734,6 +765,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -757,6 +789,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -780,6 +813,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -803,6 +837,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -826,6 +861,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -849,6 +885,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -872,6 +909,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -895,6 +933,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -918,6 +957,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -941,6 +981,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -964,6 +1005,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -987,6 +1029,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1102,6 +1145,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1125,6 +1169,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1148,6 +1193,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1171,6 +1217,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1194,6 +1241,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1217,6 +1265,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1240,6 +1289,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1263,6 +1313,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1286,6 +1337,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1309,6 +1361,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1332,6 +1385,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1355,6 +1409,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1378,6 +1433,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1401,6 +1457,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1424,6 +1481,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1447,6 +1505,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1470,6 +1529,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1493,6 +1553,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1516,6 +1577,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1539,6 +1601,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1562,6 +1625,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1585,6 +1649,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1608,6 +1673,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1631,6 +1697,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1654,6 +1721,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1677,6 +1745,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1700,6 +1769,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1723,6 +1793,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1746,6 +1817,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1769,6 +1841,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1792,6 +1865,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1815,6 +1889,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1838,6 +1913,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1861,6 +1937,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1884,6 +1961,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1907,6 +1985,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1930,6 +2009,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1953,6 +2033,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1976,6 +2057,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -1999,6 +2081,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2022,6 +2105,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2045,6 +2129,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2068,6 +2153,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2091,6 +2177,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2114,6 +2201,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2137,6 +2225,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2160,6 +2249,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2183,6 +2273,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: true,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2206,6 +2297,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2229,6 +2321,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2298,6 +2391,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2321,6 +2415,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2390,6 +2485,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2413,6 +2509,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2436,6 +2533,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2459,6 +2557,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2482,6 +2581,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2505,6 +2605,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2528,6 +2629,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2551,6 +2653,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2574,6 +2677,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2597,6 +2701,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2620,6 +2725,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2643,6 +2749,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2666,6 +2773,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2689,6 +2797,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2712,6 +2821,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2735,6 +2845,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2758,6 +2869,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2781,6 +2893,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2804,6 +2917,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2827,6 +2941,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2850,6 +2965,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
     {
@@ -2873,6 +2989,7 @@ export const exerciseData = [
         addtl_reqs: "",
         superset: false,
         circuit: false,
+        selected: false,
         completed: false,
     },
 ]
