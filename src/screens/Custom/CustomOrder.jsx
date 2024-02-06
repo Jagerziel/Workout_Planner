@@ -28,7 +28,7 @@ export default function CustomOrder() {
                 Order Workouts
             </div>
             <div className='CustomOrder-exercise-container'>
-
+                PLACEHOLDER
             </div>
             <div className='CustomOrder-bottom-container'>
                 <div 
