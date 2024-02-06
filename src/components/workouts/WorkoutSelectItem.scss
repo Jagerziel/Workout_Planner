@@ -10,4 +10,26 @@
 
 .WorkoutSelectItem-title {
     font-size: .7rem;
+    font-weight: 600;
+}
+
+.WorkoutSelectItem-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.WorkoutSelectItem-details {
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 100px;
+    height: 20px;
+    font-size: .7rem;
+    line-height: .7rem;
+}
+
+.WorkoutSelectItem-button {
+    border: 2px solid red;
+    box-sizing: border-box;
 }

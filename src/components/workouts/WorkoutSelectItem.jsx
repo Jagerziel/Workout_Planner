@@ -11,7 +11,9 @@ export default function WorkoutSelectItem( { exerciseDataItem } ) {
     }
 
 
-
+    function handleAdd () {
+        
+    }
 
     return (
         <div className='WorkoutSelectItem-container'>
@@ -20,6 +22,19 @@ export default function WorkoutSelectItem( { exerciseDataItem } ) {
                 onClick={handleExpandTitle}
             >
                 {`${exerciseDataItem.title}`}
+            </div>
+            <div className='WorkoutSelectItem-details-container'>
+                <div className='WorkoutSelectItem-details'>
+                    {`sets`}
+                </div>
+                <div 
+                    className='WorkoutSelectItem-details'
+                >
+                    {`reps`}
+                </div>
+                <div className='WorkoutSelectItem-button'>
+                    {`button`}
+                </div>
             </div>
         </div>
     )
