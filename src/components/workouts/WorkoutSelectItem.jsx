@@ -1,12 +1,26 @@
 // Import React
-import React from 'react'
+import React, { useState } from 'react'
 // Import CSS
 import './WorkoutSelectItem.scss'
 
 export default function WorkoutSelectItem( { exerciseDataItem } ) {
+    const [ titleExpanded, setTitleExpanded ] = useState(false)
+    
+    function handleExpandTitle () {
+        console.log('title clicked')
+    }
+
+
+
+
     return (
         <div className='WorkoutSelectItem-container'>
-            WorkoutSelectItem
+            <div 
+                className='WorkoutSelectItem-title'
+                onClick={handleExpandTitle}
+            >
+                {`${exerciseDataItem.title}`}
+            </div>
         </div>
     )
 }

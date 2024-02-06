@@ -2326,7 +2326,7 @@ export const exerciseData = [
     },
     {
         id: 97, // corresponds to index
-        title: "Jump in box: long jump, skater jump to right, jump back, skater jump to left (low reps) (CC)",
+        title: "Jump in box: long jump, skater jump right, jump back, skater jump left (low reps) (CC)",
         type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
@@ -2349,7 +2349,7 @@ export const exerciseData = [
     },
     {
         id: 98, // corresponds to index
-        title: "Jump in box: long jump, skater jump to right, jump back, skater jump to left (high reps) (CC)",
+        title: "Jump in box: long jump, skater jump right, jump back, skater jump left (high reps) (CC)",
         type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
         each: false, // true if one appendage (arms/legs), false if both
         each_type: "n/a", // arm, leg, side, n/a
