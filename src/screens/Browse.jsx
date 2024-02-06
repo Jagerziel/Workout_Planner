@@ -6,7 +6,6 @@ import WorkoutShellItemFlag from '../components/workouts/WorkoutShellItemFlag.js
 import './Browse.scss'
 // Import Framer Motion
 import PageTransitionFade from '../hooks/framer-motion/PageTransitionFade.jsx';
-import ComponentTransitionFade from '../hooks/framer-motion/ComponentTransitionFade.jsx';
 // Import Redux
 import { useSelector, useDispatch } from "react-redux";
 
