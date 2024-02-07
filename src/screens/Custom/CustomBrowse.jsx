@@ -149,7 +149,10 @@ export default function CustomBrowse() {
                     {
                         filteredExerciseData.map((exerciseDataItem, index) => 
                             <div key={index}>
-                                <WorkoutSelectItem exerciseDataItem={exerciseDataItem}/>
+                                <WorkoutSelectItem 
+                                    exerciseDataItem={exerciseDataItem} 
+                                    showSelect={false}    
+                                />
                             </div>
 
                         )
