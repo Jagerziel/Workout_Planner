@@ -12,7 +12,7 @@ export default function WorkoutSelectItem( { exerciseDataItem } ) {
 
 
     function handleAdd () {
-        
+
     }
 
     return (
@@ -24,16 +24,16 @@ export default function WorkoutSelectItem( { exerciseDataItem } ) {
                 {`${exerciseDataItem.title}`}
             </div>
             <div className='WorkoutSelectItem-details-container'>
-                <div className='WorkoutSelectItem-details'>
-                    {`sets`}
+                <div className='WorkoutSelectItem-details WorkoutSelectItem-sets'>
+                    {`Sets: ${exerciseDataItem.sets}`}
                 </div>
                 <div 
-                    className='WorkoutSelectItem-details'
+                    className='WorkoutSelectItem-details WorkoutSelectItem-reps'
                 >
-                    {`reps`}
+                    {`${exerciseDataItem.rep_type === "reps" ? `Reps: ${exerciseDataItem.reps}` : `Time: ${exerciseDataItem.time}`}${exerciseDataItem.each ? ` each ${exerciseDataItem.each_type}` : ""}`}
                 </div>
                 <div className='WorkoutSelectItem-button'>
-                    {`button`}
+                    {`+`}
                 </div>
             </div>
         </div>
