@@ -4,22 +4,24 @@ import React, { useState } from 'react'
 import './WorkoutSelectItem.scss'
 
 export default function WorkoutSelectItem( { exerciseDataItem } ) {
-    const [ titleExpanded, setTitleExpanded ] = useState(false)
+    const [ workoutAdded, setWorkoutAdded ] = useState(false)
     
-    function handleExpandTitle () {
-        console.log('title clicked')
-    }
-
-
     function handleAdd () {
+        setWorkoutAdded(prev => !prev)
 
     }
 
     return (
-        <div className='WorkoutSelectItem-container'>
+        <div 
+            className='WorkoutSelectItem-container'
+            style={{
+                border: workoutAdded ? '2px solid rgb(31,120,50)' : '2px solid white',
+                backgroundColor: workoutAdded ? '#2e492f' : '#242424',
+            }}
+        
+        >
             <div 
                 className='WorkoutSelectItem-title'
-                onClick={handleExpandTitle}
             >
                 {`${exerciseDataItem.title}`}
             </div>
@@ -32,8 +34,17 @@ export default function WorkoutSelectItem( { exerciseDataItem } ) {
                 >
                     {`${exerciseDataItem.rep_type === "reps" ? `Reps: ${exerciseDataItem.reps}` : `Time: ${exerciseDataItem.time}`}${exerciseDataItem.each ? ` each ${exerciseDataItem.each_type}` : ""}`}
                 </div>
-                <div className='WorkoutSelectItem-button'>
-                    {`+`}
+                <div 
+                    className='WorkoutSelectItem-button-container'
+                    onClick={() => handleAdd()}
+                    style={{
+                        // border: `2px solid ${workoutAdded ? '#FF0000' : 'white'}`,
+                        // backgroundColor: `${workoutAdded ? 'rgba(105, 0, 0, 1)' : '#242424'}`
+                    }}
+                >
+                    <div className='WorkoutSelectItem-button'>
+                        {`${workoutAdded ? '-' : '+'}`}
+                    </div>
                 </div>
             </div>
         </div>
