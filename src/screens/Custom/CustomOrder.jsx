@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import { useNavigate, NavLink } from 'react-router-dom'
 // Import CSS
 import './CustomOrder.scss'
+// Import Components
+import WorkoutSelectItem from '../../components/workouts/WorkoutSelectItem.jsx';
 // Import Redux
 import { useSelector, useDispatch } from "react-redux";
 
@@ -27,8 +29,24 @@ export default function CustomOrder() {
             <div className='CustomOrder-title'>
                 Order Workouts
             </div>
+            <div className='CustomOrder-subtitle'>
+                (Drag & Drop)
+            </div>
             <div className='CustomOrder-exercise-container'>
-                PLACEHOLDER
+                <div className='CustomOrder-exercise-subcontainer'>
+                    {
+                        selectedExercises.map((selectedIdx, index) => 
+                            <div key={index}>
+                                <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false}/>
+                                <div
+                                    style={{
+                                        marginTop: selectedIdx === selectedExercises[selectedExercises.length - 1] ? '0' : '10px'
+                                    }}
+                                ></div>
+                            </div>
+                        )
+                    }
+                </div>
             </div>
             <div className='CustomOrder-bottom-container'>
                 <div 

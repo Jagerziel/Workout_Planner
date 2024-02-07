@@ -19,11 +19,25 @@ $navbar-height: 3.7rem;
     font-weight: 600;
 }
 
+.CustomOrder-subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 .CustomOrder-exercise-container {
     border: 2px solid green;
     box-sizing: border-box;
     width: 100%;
     flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.CustomOrder-exercise-subcontainer {
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 340px;
 }
 
 .CustomOrder-bottom-container {

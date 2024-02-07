@@ -151,10 +151,9 @@ export default function CustomBrowse() {
                             <div key={index}>
                                 <WorkoutSelectItem 
                                     exerciseDataItem={exerciseDataItem} 
-                                    showSelect={false}    
+                                    showSelect={true}    
                                 />
                             </div>
-
                         )
                     }
                 </div>

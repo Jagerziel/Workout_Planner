@@ -52,8 +52,8 @@ export default function WorkoutSelectItem( { exerciseDataItem, showSelect } ) {
         <div 
             className='WorkoutSelectItem-container'
             style={{
-                border: selected ? '2px solid rgb(31,120,50)' : '2px solid white',
-                backgroundColor: selected ? '#2e492f' : '#242424',
+                border: selected && showSelect ? '2px solid rgb(31,120,50)' : '2px solid white',
+                backgroundColor: selected && showSelect ? '#2e492f' : '#242424',
             }}
         
         >
