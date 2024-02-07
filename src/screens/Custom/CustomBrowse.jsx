@@ -99,11 +99,11 @@ export default function CustomBrowse() {
         let filteredData = []
         
         if ( tag === 'all' ) {
-        filteredData = exercises
+            filteredData = exercises
         } else {
-        filteredData = exercises.filter((data) => {
-            if (data.type === tag) return data
-        })
+            filteredData = exercises.filter((data) => {
+                if (data.type === tag) return data
+            })
         }
         setFilteredExerciseData(filteredData)
     }
@@ -117,12 +117,12 @@ export default function CustomBrowse() {
         // console.log('navigation to browse button clicked')
     }
 
-    // console.log(filteredExerciseData)
+    console.log(selectedExercises)
 
     return (
         <div className='CustomBrowse-container'>
             <div className='CustomBrowse-title'>
-                Select Exercises for Custom Workout
+                {`Selected Exercises: ${selectedExercises.length}`}
             </div>
             <div className='CustomBrowse-menu-container'>
                 <div className='CustomBrowse-menu-subcontainer'>

@@ -18,18 +18,19 @@ export default function WorkoutSelectItem( { exerciseDataItem } ) {
     
     function handleAdd () {
         setWorkoutAdded(prev => !prev)
-        let newExerciseDataItem = {...exerciseDataItem, selected: !exerciseData[exerciseDataItem.id].selected}
         let exerciseDataShallowCopy = [...exerciseData]
         let selectedExercisesShallowCopy = [...selectedExercises]
-
-        if (!workoutAdded) {
+        
+        if (!selected) { // If not previously selected (i.e. added), add workout 
+            let newExerciseDataItem = {...exerciseDataItem, selected: true}
             exerciseDataShallowCopy[exerciseDataItem.id] = newExerciseDataItem
             selectedExercisesShallowCopy.push(exerciseDataItem.id)
-            dispatch(updateCustomExerciseData([selectedExercisesShallowCopy, exerciseDataShallowCopy]))
-
-            console.log([selectedExercisesShallowCopy, exerciseDataShallowCopy])
+            /* TEST OUTPUT */
+            // console.log([selectedExercisesShallowCopy, exerciseDataShallowCopy])
+            // console.log(selectedExercises)
         }
-        else {
+        else { // Otherwise, remove workout from selected list 
+            let newExerciseDataItem = {...exerciseDataItem, selected: false}
             exerciseDataShallowCopy[exerciseDataItem.id] = newExerciseDataItem
             let adjustedArray = []
             for (let i = 0; i < selectedExercisesShallowCopy.length; i++) {
@@ -37,12 +38,16 @@ export default function WorkoutSelectItem( { exerciseDataItem } ) {
                     adjustedArray.push(selectedExercisesShallowCopy[i])
                 }
             }
-            dispatch(updateCustomExerciseData([adjustedArray, exerciseDataShallowCopy]))
-
-            console.log([adjustedArray, exerciseDataShallowCopy])
+            selectedExercisesShallowCopy = adjustedArray
+            /* TEST OUTPUT */
+            // console.log([adjustedArray, exerciseDataShallowCopy])
+            // console.log(selectedExercises)
         }
+        dispatch(updateCustomExerciseData([selectedExercisesShallowCopy, exerciseDataShallowCopy]))
     }
-    
+    // console.log(selectedExercises)
+
+
     return (
         <div 
             className='WorkoutSelectItem-container'
