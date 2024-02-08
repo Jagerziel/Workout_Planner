@@ -5,6 +5,8 @@ import { useNavigate, NavLink } from 'react-router-dom'
 import './CustomOrder.scss'
 // Import Components
 import WorkoutSelectItem from '../../components/workouts/WorkoutSelectItem.jsx';
+// Import Functions
+import { isMobile } from '../../data/functions.js';
 // Import Redux
 import { useSelector, useDispatch } from "react-redux";
 import { updateCustomExerciseData } from '../../redux/reducers/customExerciseDataReducer.js';
@@ -22,15 +24,11 @@ export default function CustomOrder() {
     const navigate = useNavigate();
 
     function handleSort () {
-        let sortedListClone = [...sortedList]
-        // const temp = sortedListClone[dragExercise.current]
-        // sortedListClone[dragExercise.current] = sortedListClone[draggedOverExercise.current]
-        // sortedListClone[draggedOverExercise.current] = temp
+        let sortedListClone = [...sortedList] // Clone Sorted List (selected exercises)
+        let dragExerciseIdx = dragExercise.current // Store current drag exercise idx
+        let draggedOverExerciseIdx = draggedOverExercise.current // Store dragover exercise idx
         
-        let dragExerciseIdx = dragExercise.current
-        let draggedOverExerciseIdx = draggedOverExercise.current
-        const listLen = sortedListClone.length
-        
+        // Scenario 1: If dragExercise Idx is greater than draggedOverIdx
         if ( dragExerciseIdx > draggedOverExerciseIdx) {
             let section01 = sortedListClone.slice(0, draggedOverExerciseIdx) // 0 to dragOverIndex
             let section02 = sortedListClone[dragExerciseIdx] // insert dragged item
@@ -39,6 +37,7 @@ export default function CustomOrder() {
             sortedListClone = [...section01, section02, ...section03, ...section04]
         }
         
+        // Scenario 2: If dragExercise Idx is less than draggedOverIdx
         if ( dragExerciseIdx < draggedOverExerciseIdx) {
             let section01 = sortedListClone.slice(0, dragExerciseIdx) // 0 to dragged item
             let section02 = sortedListClone.slice(dragExerciseIdx + 1, draggedOverExerciseIdx + 1) // skip dragged item and continue thru dragged over item
@@ -46,10 +45,16 @@ export default function CustomOrder() {
             let section04 = sortedListClone.slice(draggedOverExerciseIdx + 1) // continue from item after draggedOver item and return remainder of array
             sortedListClone = [...section01, ...section02, section03, ...section04]
         }
+        // Store resorted list 
         setSortedList(sortedListClone)
+        // Store update in redux
         dispatch(updateCustomExerciseData([sortedListClone, exerciseData]))
     }
     
+    function handleSortMobile () {
+        
+    }
+
 
     function handleBack () {
         navigate('/custom/browse')
@@ -84,7 +89,7 @@ export default function CustomOrder() {
                                     onDragStart={() => dragExercise.current = index}
                                     onDragEnter={() => draggedOverExercise.current = index}
                                     onDragEnd={handleSort}
-                                    onDragOver={(e) => e.preventDefault()}
+                                    onDragOver={(e) => e.preventDefault()}         
                                 >
                                     <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
                                 </div>

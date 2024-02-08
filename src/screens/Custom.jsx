@@ -3,6 +3,8 @@ import React, { useRef, useState } from 'react'
 import { useNavigate, NavLink } from 'react-router-dom'
 // Import CSS
 import './Custom.scss'
+// Import Components
+import WorkoutShellItem from '../components/workouts/WorkoutShellItem.jsx'
 // Import Framer Motion
 import PageTransitionFade from '../hooks/framer-motion/PageTransitionFade.jsx'
 // Import Redux
@@ -40,7 +42,16 @@ export default function Custom() {
           {`(${selectedExercises.length === 0 ? createMenu[0] : createMenu[1]})`}
         </div>
         <div className='Custom-workout-container'>
-          CONTENT PLACEHOLDER
+          <div className='Custom-workout-subcontainer'>
+            {
+              selectedExercises.map((selectedIdx, index) => (
+                <div key={index}>
+                  <WorkoutShellItem exerciseDataItem={exerciseData[selectedIdx]}/>
+                </div>
+              ))
+            }
+
+          </div>
         </div>
       </div>
     </PageTransitionFade>
