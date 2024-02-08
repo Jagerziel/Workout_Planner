@@ -117,7 +117,7 @@ export default function CustomBrowse() {
         // console.log('navigation to browse button clicked')
     }
 
-    console.log(selectedExercises)
+    // console.log(selectedExercises)
 
     return (
         <div className='CustomBrowse-container'>

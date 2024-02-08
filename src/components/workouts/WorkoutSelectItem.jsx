@@ -6,7 +6,7 @@ import './WorkoutSelectItem.scss'
 import { useSelector, useDispatch } from "react-redux";
 import { updateCustomExerciseData } from '../../redux/reducers/customExerciseDataReducer.js';
 
-export default function WorkoutSelectItem( { exerciseDataItem, showSelect } ) {
+export default function WorkoutSelectItem( { exerciseDataItem, showSelect, order } ) {
     // Redux: Workout Data
     const [selectedExercises, exerciseData] = useSelector((state) => state.customExerciseData.data)
     // React Redux
@@ -81,7 +81,11 @@ export default function WorkoutSelectItem( { exerciseDataItem, showSelect } ) {
                             {`${selected ? '-' : '+'}`}
                         </div>
                     </div> :
-                    <div className='WorkoutSelectItem-button-placeholder'></div>
+                    <div className='WorkoutSelectItem-button-placeholder'>
+                        <div className='WorkoutSelectItem-button-placeholder-text'>
+                            {order + 1}
+                        </div>
+                    </div>
                 }
             </div>
         </div>

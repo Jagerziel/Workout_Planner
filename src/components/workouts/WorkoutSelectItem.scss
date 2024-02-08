@@ -63,4 +63,17 @@
 .WorkoutSelectItem-button-placeholder {
     height: 25px;
     aspect-ratio: 1/1;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.WorkoutSelectItem-button-placeholder-text {
+    font-size: .7rem;
+    box-sizing: border-box;
+    line-height: .7rem;
+
 }

@@ -7,6 +7,7 @@ import './CustomOrder.scss'
 import WorkoutSelectItem from '../../components/workouts/WorkoutSelectItem.jsx';
 // Import Redux
 import { useSelector, useDispatch } from "react-redux";
+import { updateCustomExerciseData } from '../../redux/reducers/customExerciseDataReducer.js';
 
 export default function CustomOrder() {
     // Redux: Workout Data
@@ -45,10 +46,8 @@ export default function CustomOrder() {
             let section04 = sortedListClone.slice(draggedOverExerciseIdx + 1) // continue from item after draggedOver item and return remainder of array
             sortedListClone = [...section01, ...section02, section03, ...section04]
         }
-
-        
-        
         setSortedList(sortedListClone)
+        dispatch(updateCustomExerciseData([sortedListClone, exerciseData]))
     }
     
 
@@ -87,7 +86,7 @@ export default function CustomOrder() {
                                     onDragEnd={handleSort}
                                     onDragOver={(e) => e.preventDefault()}
                                 >
-                                    <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false}/>
+                                    <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
                                 </div>
                                 <div
                                     style={{
