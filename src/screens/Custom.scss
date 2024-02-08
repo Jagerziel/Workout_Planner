@@ -1,0 +1,82 @@
+.Custom-container {
+    // border: 2px solid red;
+    box-sizing: border-box;
+}
+
+.Custom-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Custom-menu {
+    // border: 2px solid red;
+    box-sizing: border-box;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover {
+        color: #a0a0a0;
+    }
+    &:active {
+        color: #a0a0a0;
+    }
+}
+
+.Custom-workout-container {
+    // border: 2px solid red;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Custom-workout-subcontainer {
+    // border: 2px solid red;
+    box-sizing: border-box;
+    justify-items: center;
+    --s: 1;
+    --n: 100; /* number of rows*/
+    --m: 6; /* number of columns */
+    --g: 10px; /* control the gap */
+    --f: 1.5; /* control the scale factor */
+    display: grid;
+    max-width: calc(var(--m) * 340px + (var(--g)) * (var(--m) - 1));
+    gap: var(--g);
+    // width: calc(var(--m) * var(--s) + (var(--m) - 1) * var(--g));
+    height: calc(var(--n) * var(--s) + (var(--n) - 1) * var(--g));
+    grid-template-columns: repeat(var(--m), auto);  
+}
+
+
+@media screen and (max-width: 2150px) {
+    .Custom-workout-subcontainer {
+        --m: 5; /* number of columns */
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .Custom-workout-subcontainer {
+        --m: 4; /* number of columns */
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .Custom-workout-subcontainer {
+        --m: 3; /* number of columns */
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .Custom-workout-subcontainer {
+        --m: 2; /* number of columns */
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Custom-workout-subcontainer {
+        --m: 1; /* number of columns */
+    }
+}
+
+

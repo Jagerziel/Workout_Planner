@@ -26,6 +26,7 @@
     display: flex;
     justify-content: left;
     height: 40px;
+    cursor: pointer;
 }
 
 .WorkoutItem-note-title {
@@ -39,6 +40,7 @@
     justify-content: left;
     text-align: left;
     font-size: 0.75rem;
+    user-select: none;
 }
 
 .WorkoutItem-sets-reps-container {

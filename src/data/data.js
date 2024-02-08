@@ -70,11 +70,3 @@ export const weekDayDirectory = [
         day: "Day 7",
     }
 ]
-
-export const workoutTheme = [
-    "Upper",
-    "Lower",
-    "Agility",
-    "Core",
-    "Full Body"
-]

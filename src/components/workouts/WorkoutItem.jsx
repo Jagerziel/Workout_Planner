@@ -1,5 +1,5 @@
 // Import React
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 // Import Components
 import ArrowImg from '../img_components/ArrowImg.jsx'
 // Import CSS
@@ -13,13 +13,13 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         pics: false,
         video: false
     })
-
+    // Track images and current image selected
     const [ imgArr, setImgArr ] = useState({
         currIdx: 0,
         imgArrMaxIdx: exerciseDataItem.img.length - 1
     })
-
-    const [ imgDimensions, setImgDimensions ] = useState([])
+    // Check if note box is extended
+    const [ noteBoxExtended, setNoteBoxExtended ] = useState(false)
 
     const menuItems = ['desc', 'pics', 'video']
     const menuItemNames = ['Description', 'Images', 'Video']
@@ -38,16 +38,32 @@ export default function WorkoutItem( { exerciseDataItem } ) {
         if ( direction ===  'right') setImgArr({...imgArr, currIdx: imgArr.currIdx + 1})
     }
 
-    // console.log(menu)
+    // console.log(noteBoxExtended)
 
     return (
         <div className='WorkoutItem-container'>
             <div className='WorkoutItem-title-container'>
                 <h3 className='WorkoutItem-title'>{`${exerciseDataItem.title}`}</h3>
             </div>
-            <div className='WorkoutItem-note-container'>
+            <div 
+                className='WorkoutItem-note-container'
+                onClick={()=> setNoteBoxExtended((prev) => !prev)}
+                style={{
+                    height: noteBoxExtended ? '40px' : '20px',
+                }}
+            
+            >
                 <div className='WorkoutItem-note-title'>Note:</div>
-                <div className='WorkoutItem-note-content'>{exerciseDataItem.note === "" ? 'n/a' : exerciseDataItem.note}</div>
+                <div 
+                    className='WorkoutItem-note-content'
+                    style={{
+                        textOverflow: noteBoxExtended ? '' : 'ellipsis',
+                        overflow: noteBoxExtended ? 'visible' : 'hidden',
+                        whiteSpace: noteBoxExtended ? 'break-spaces' : 'nowrap'
+                    }}
+                >
+                    {exerciseDataItem.note === "" ? 'n/a' : exerciseDataItem.note}
+                </div>
             </div>
             <div className='WorkoutItem-sets-reps-container'>
                 <div className='WorkoutItem-sets-container'>
