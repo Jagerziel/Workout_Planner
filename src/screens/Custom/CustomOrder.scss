@@ -32,12 +32,23 @@ $navbar-height: 3.7rem;
     flex: 1 1 auto;
     display: flex;
     justify-content: center;
+    overflow: scroll;
 }
 
 .CustomOrder-exercise-subcontainer {
     border: 2px solid red;
     box-sizing: border-box;
     width: 340px;
+}
+
+// .CustomOrder-exercise-item-container {
+
+// }
+
+.CustomOrder-exercise-item-subcontainer {
+    &:hover {
+        cursor: grab;
+    }
 }
 
 .CustomOrder-bottom-container {
