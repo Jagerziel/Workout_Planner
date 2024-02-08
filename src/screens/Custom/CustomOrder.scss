@@ -51,6 +51,36 @@ $navbar-height: 3.7rem;
     }
 }
 
+.CustomOrder-exercise-item-subcontainer-mobile {
+    // border: 2px solid red;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.CustomOrder-exercise-item-triangle-container {
+    border: 2px solid orange;
+    box-sizing: border-box;
+    position: absolute;
+    height: 60px;
+    width: 30px;   
+    right: -30px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CustomOrder-exercise-item-triangle {
+    filter: invert(25%) sepia(11%) saturate(1502%) hue-rotate(72deg) brightness(91%) contrast(91%);
+    
+    &:active {
+        filter: invert(49%) sepia(95%) saturate(396%) hue-rotate(72deg) brightness(91%) contrast(93%);
+    }
+}
+
+
+
 .CustomOrder-bottom-container {
     // border: 2px solid red;
     box-sizing: border-box;

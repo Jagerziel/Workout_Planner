@@ -1,10 +1,11 @@
 // Import React
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useNavigate, NavLink } from 'react-router-dom'
 // Import CSS
 import './CustomOrder.scss'
 // Import Components
 import WorkoutSelectItem from '../../components/workouts/WorkoutSelectItem.jsx';
+import TriangleImg from '../../components/img_components/TriangleImg.jsx'
 // Import Functions
 import { isMobile } from '../../data/functions.js';
 // Import Redux
@@ -16,9 +17,17 @@ export default function CustomOrder() {
     const [selectedExercises, exerciseData] = useSelector((state) => state.customExerciseData.data)
     const dispatch = useDispatch()
 
+    const [ isMobileDevice, setIsMobileDevice ] = useState(true)
+
     const [ sortedList, setSortedList ] = useState(selectedExercises)
+
+    // For Desktop Devices
     const dragExercise = useRef(0)
     const draggedOverExercise = useRef(0)
+
+    // For Mobile Devices
+    const [ showTriangle, setShowTriangle ] = useState(false)
+    const [ itemSelected, setItemSelected ] = useState(false)
 
     // Navigation 
     const navigate = useNavigate();
@@ -51,10 +60,20 @@ export default function CustomOrder() {
         dispatch(updateCustomExerciseData([sortedListClone, exerciseData]))
     }
     
-    function handleSortMobile () {
-        
+    function handleSortMobile ( direction ) {
+        if ( direction === "up" ) {
+            console.log('up')
+        }
+        if ( direction === "down") {
+            console.log('down')
+        }
     }
 
+    // useEffect(() => {
+    //     setIsMobileDevice(isMobile())
+    //     console.log(isMobile())
+    // }, [])
+    // console.log(isMobile())
 
     function handleBack () {
         navigate('/custom/browse')
@@ -83,16 +102,42 @@ export default function CustomOrder() {
                                 key={index}
                                 className='CustomOrder-exercise-item-container'
                             >
-                                <div
-                                    className='CustomOrder-exercise-item-subcontainer'
-                                    draggable
-                                    onDragStart={() => dragExercise.current = index}
-                                    onDragEnter={() => draggedOverExercise.current = index}
-                                    onDragEnd={handleSort}
-                                    onDragOver={(e) => e.preventDefault()}         
-                                >
-                                    <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
-                                </div>
+                                {
+                                    isMobileDevice ? 
+                                    <div
+                                        className='CustomOrder-exercise-item-subcontainer-mobile'     
+                                    >
+                                        <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
+                                        <div 
+                                            className='CustomOrder-exercise-item-triangle-container'
+                                        >
+                                            <div 
+                                                className='CustomOrder-exercise-item-triangle'
+                                                onClick={() => handleSortMobile("up")}
+                                            >
+                                                <TriangleImg direction={"up"} />
+                                            </div>
+                                            <div 
+                                                className='CustomOrder-exercise-item-triangle'
+                                                onClick={() => handleSortMobile("down")}
+                                            >
+                                                <TriangleImg direction={"down"} />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    :
+                                    <div
+                                        className='CustomOrder-exercise-item-subcontainer'
+                                        draggable
+                                        onDragStart={() => dragExercise.current = index}
+                                        onDragEnter={() => draggedOverExercise.current = index}
+                                        onDragEnd={handleSort}
+                                        onDragOver={(e) => e.preventDefault()}         
+                                    >
+                                        <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
+                                    </div>
+                                }
                                 <div
                                     style={{
                                         marginTop: selectedIdx === sortedList[sortedList.length - 1] ? '0' : '10px'

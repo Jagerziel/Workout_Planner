@@ -17,14 +17,13 @@ export default function TriangleImg( { direction } ) {
     TriangleImgContainer: {
       // backgroundColor: '#242424',
       // borderRadius: '50%',
-      height: '30px',
+      height: '20px',
       aspectRatio: '1/1'
     },
     TriangleImg: {
-      height: '30px',
+      height: '20px',
       aspectRatio: '1/1',
-      transform: triangleDirectionVar,
-      // filter: 'invert(99%) sepia(11%) saturate(95%) hue-rotate(284deg) brightness(113%) contrast(100%)'
+      transform: triangleDirectionVar
     }
   }
 
