@@ -60,20 +60,24 @@ export default function CustomOrder() {
         dispatch(updateCustomExerciseData([sortedListClone, exerciseData]))
     }
     
-    function handleSortMobile ( direction ) {
-        if ( direction === "up" ) {
-            console.log('up')
+    function handleSortMobile ( direction, index ) {
+        let sortedListClone = [...sortedList] // Clone Sorted List (selected exercises)
+        let temp = sortedListClone[index] // temporarily hold value at index position
+        if ( direction === "up" ) { // Swap current item with item above
+            console.log(`up, index ${index}`)
+            sortedListClone[index] = sortedListClone[index - 1]
+            sortedListClone[index - 1] = temp
         }
-        if ( direction === "down") {
-            console.log('down')
+        if ( direction === "down") { // Swap current item with item below
+            console.log(`down, index ${index}`)
+            sortedListClone[index] = sortedListClone[index + 1]
+            sortedListClone[index + 1] = temp
         }
+        // Store resorted list 
+        setSortedList(sortedListClone)
+        // Store update in redux
+        dispatch(updateCustomExerciseData([sortedListClone, exerciseData]))
     }
-
-    // useEffect(() => {
-    //     setIsMobileDevice(isMobile())
-    //     console.log(isMobile())
-    // }, [])
-    // console.log(isMobile())
 
     function handleBack () {
         navigate('/custom/browse')
@@ -81,7 +85,6 @@ export default function CustomOrder() {
 
     function handleConfirm () {
         navigate('/custom')
-        console.log('navigation to browse button clicked')
     }
 
     // console.log(dragExercise, draggedOverExercise)
@@ -92,7 +95,7 @@ export default function CustomOrder() {
                 Order Workouts
             </div>
             <div className='CustomOrder-subtitle'>
-                (Drag & Drop)
+                {isMobile ? `(Select & Sort)` : `(Drag & Drop)`}
             </div>
             <div className='CustomOrder-exercise-container'>
                 <div className='CustomOrder-exercise-subcontainer'>
@@ -113,15 +116,23 @@ export default function CustomOrder() {
                                         >
                                             <div 
                                                 className='CustomOrder-exercise-item-triangle'
-                                                onClick={() => handleSortMobile("up")}
+                                                onClick={() => handleSortMobile("up", index)}
                                             >
-                                                <TriangleImg direction={"up"} />
+                                                {
+                                                    index !== 0 ? 
+                                                    <TriangleImg direction={"up"}/>
+                                                    : <div></div>
+                                                }
                                             </div>
                                             <div 
                                                 className='CustomOrder-exercise-item-triangle'
-                                                onClick={() => handleSortMobile("down")}
+                                                onClick={() => handleSortMobile("down", index)}
                                             >
-                                                <TriangleImg direction={"down"} />
+                                                {
+                                                    index !== sortedList.length - 1 ?
+                                                    <TriangleImg direction={"down"} />
+                                                    : <div></div>
+                                                }
                                             </div>
                                         </div>
                                     </div>
