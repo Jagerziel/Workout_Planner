@@ -17,7 +17,7 @@ export default function CustomOrder() {
     const [selectedExercises, exerciseData] = useSelector((state) => state.customExerciseData.data)
     const dispatch = useDispatch()
 
-    const [ isMobileDevice, setIsMobileDevice ] = useState(true)
+    const [ isMobileDevice, setIsMobileDevice ] = useState(false)
 
     const [ sortedList, setSortedList ] = useState(selectedExercises)
 
@@ -26,13 +26,12 @@ export default function CustomOrder() {
     const draggedOverExercise = useRef(0)
 
     // For Mobile Devices
-    const [ showTriangle, setShowTriangle ] = useState(false)
-    const [ itemSelected, setItemSelected ] = useState(false)
+    const [ itemSelected, setItemSelected ] = useState(0)
 
     // Navigation 
     const navigate = useNavigate();
 
-    function handleSort () {
+    function handleSortDesktop () {
         let sortedListClone = [...sortedList] // Clone Sorted List (selected exercises)
         let dragExerciseIdx = dragExercise.current // Store current drag exercise idx
         let draggedOverExerciseIdx = draggedOverExercise.current // Store dragover exercise idx
@@ -64,14 +63,14 @@ export default function CustomOrder() {
         let sortedListClone = [...sortedList] // Clone Sorted List (selected exercises)
         let temp = sortedListClone[index] // temporarily hold value at index position
         if ( direction === "up" ) { // Swap current item with item above
-            console.log(`up, index ${index}`)
             sortedListClone[index] = sortedListClone[index - 1]
             sortedListClone[index - 1] = temp
+            setItemSelected(index - 1)
         }
         if ( direction === "down") { // Swap current item with item below
-            console.log(`down, index ${index}`)
             sortedListClone[index] = sortedListClone[index + 1]
             sortedListClone[index + 1] = temp
+            setItemSelected(index + 1)
         }
         // Store resorted list 
         setSortedList(sortedListClone)
@@ -87,7 +86,9 @@ export default function CustomOrder() {
         navigate('/custom')
     }
 
-    // console.log(dragExercise, draggedOverExercise)
+    useEffect(() => {
+        setIsMobileDevice(isMobile())
+    }, [])
 
     return (
         <div className='CustomOrder-container'>
@@ -108,11 +109,18 @@ export default function CustomOrder() {
                                 {
                                     isMobileDevice ? 
                                     <div
-                                        className='CustomOrder-exercise-item-subcontainer-mobile'     
+                                        className='CustomOrder-exercise-item-subcontainer-mobile'
                                     >
-                                        <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
+                                        <div
+                                            onClick={(() => setItemSelected(index))}
+                                        >
+                                            <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
+                                        </div>
                                         <div 
                                             className='CustomOrder-exercise-item-triangle-container'
+                                            style={{
+                                                display: itemSelected === index ? 'flex' : 'none'
+                                            }}
                                         >
                                             <div 
                                                 className='CustomOrder-exercise-item-triangle'
@@ -143,7 +151,7 @@ export default function CustomOrder() {
                                         draggable
                                         onDragStart={() => dragExercise.current = index}
                                         onDragEnter={() => draggedOverExercise.current = index}
-                                        onDragEnd={handleSort}
+                                        onDragEnd={handleSortDesktop}
                                         onDragOver={(e) => e.preventDefault()}         
                                     >
                                         <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>

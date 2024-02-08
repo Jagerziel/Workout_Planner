@@ -114,7 +114,6 @@ export default function CustomBrowse() {
 
     function handleConfirm () {
         navigate('order')
-        // console.log('navigation to browse button clicked')
     }
 
     // console.log(selectedExercises)

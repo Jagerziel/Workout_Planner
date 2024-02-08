@@ -24,7 +24,6 @@ export default function Custom() {
 
   function handleCustomizeWorkout () {
     navigate('browse')
-    console.log('navigation to browse button clicked')
   }
 
   // console.log(exerciseData)

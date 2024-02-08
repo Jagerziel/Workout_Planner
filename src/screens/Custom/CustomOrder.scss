@@ -53,17 +53,18 @@ $navbar-height: 3.7rem;
 
 .CustomOrder-exercise-item-subcontainer-mobile {
     // border: 2px solid red;
-    box-sizing: border-box;
+    // box-sizing: border-box;
     position: relative;
 }
 
 .CustomOrder-exercise-item-triangle-container {
     border: 2px solid orange;
+    border-radius: 12px;
     box-sizing: border-box;
     position: absolute;
     height: 60px;
     width: 30px;   
-    right: -30px;
+    right: -33px;
     top: 0;
     display: flex;
     flex-direction: column;
