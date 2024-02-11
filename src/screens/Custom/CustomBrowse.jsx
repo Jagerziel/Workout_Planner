@@ -147,7 +147,13 @@ export default function CustomBrowse() {
                     </div>
                 </div>
                 <div className='CustomBrowse-exercise-container'>
-                    <div className='CustomBrowse-exercise-subcontainer'>
+                    <div 
+                        className='CustomBrowse-exercise-subcontainer'
+                        key={Math.random()}
+                        style={{
+                            animation: "inAnimation 500ms ease-in" 
+                        }}
+                    >
                         {
                             filteredExerciseData.map((exerciseDataItem, index) => 
                                 <div key={index}>
