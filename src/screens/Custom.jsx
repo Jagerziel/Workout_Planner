@@ -1,5 +1,5 @@
 // Import React
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import { useNavigate, NavLink } from 'react-router-dom'
 // Import CSS
 import './Custom.scss'

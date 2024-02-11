@@ -113,6 +113,18 @@ $navbar-height: 3.7rem;
     }
 }
 
+.CustomOrder-bottom-button-back {
+    &:hover {
+        background-color: rgba(246, 249, 53, 0.195);
+    }
+}
+
+.CustomOrder-bottom-button-confirm {
+    &:hover {
+        background-color: #2e492f;
+    }
+}
+
 @media screen and (max-width: 2150px) {
     .CustomOrder-bottom-container {
         --x: 5; /* number of columns */
