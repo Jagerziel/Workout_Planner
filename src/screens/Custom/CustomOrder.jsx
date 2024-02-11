@@ -6,6 +6,8 @@ import './CustomOrder.scss'
 // Import Components
 import WorkoutSelectItem from '../../components/workouts/WorkoutSelectItem.jsx';
 import TriangleImg from '../../components/img_components/TriangleImg.jsx'
+// Import Framer Motion
+import PageTransitionFade from '../../hooks/framer-motion/PageTransitionFade.jsx';
 // Import Functions
 import { isMobile } from '../../data/functions.js';
 // Import Redux
@@ -91,96 +93,98 @@ export default function CustomOrder() {
     }, [])
 
     return (
-        <div className='CustomOrder-container'>
-            <div className='CustomOrder-title'>
-                Order Workouts
-            </div>
-            <div className='CustomOrder-subtitle'>
-                {isMobile ? `(Select & Sort)` : `(Drag & Drop)`}
-            </div>
-            <div className='CustomOrder-exercise-container'>
-                <div className='CustomOrder-exercise-subcontainer'>
-                    {
-                        sortedList.map((selectedIdx, index) => 
-                            <div 
-                                key={index}
-                                className='CustomOrder-exercise-item-container'
-                            >
-                                {
-                                    isMobileDevice ? 
-                                    <div
-                                        className='CustomOrder-exercise-item-subcontainer-mobile'
-                                    >
+        <PageTransitionFade>
+            <div className='CustomOrder-container'>
+                <div className='CustomOrder-title'>
+                    Order Workouts
+                </div>
+                <div className='CustomOrder-subtitle'>
+                    {isMobile ? `(Select & Sort)` : `(Drag & Drop)`}
+                </div>
+                <div className='CustomOrder-exercise-container'>
+                    <div className='CustomOrder-exercise-subcontainer'>
+                        {
+                            sortedList.map((selectedIdx, index) => 
+                                <div 
+                                    key={index}
+                                    className='CustomOrder-exercise-item-container'
+                                >
+                                    {
+                                        isMobileDevice ? 
                                         <div
-                                            onClick={(() => setItemSelected(index))}
+                                            className='CustomOrder-exercise-item-subcontainer-mobile'
+                                        >
+                                            <div
+                                                onClick={(() => setItemSelected(index))}
+                                            >
+                                                <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
+                                            </div>
+                                            <div 
+                                                className='CustomOrder-exercise-item-triangle-container'
+                                                style={{
+                                                    display: itemSelected === index ? 'flex' : 'none'
+                                                }}
+                                            >
+                                                <div 
+                                                    className='CustomOrder-exercise-item-triangle'
+                                                    onClick={() => handleSortMobile("up", index)}
+                                                >
+                                                    {
+                                                        index !== 0 ? 
+                                                        <TriangleImg direction={"up"}/>
+                                                        : <div></div>
+                                                    }
+                                                </div>
+                                                <div 
+                                                    className='CustomOrder-exercise-item-triangle'
+                                                    onClick={() => handleSortMobile("down", index)}
+                                                >
+                                                    {
+                                                        index !== sortedList.length - 1 ?
+                                                        <TriangleImg direction={"down"} />
+                                                        : <div></div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        :
+                                        <div
+                                            className='CustomOrder-exercise-item-subcontainer'
+                                            draggable
+                                            onDragStart={() => dragExercise.current = index}
+                                            onDragEnter={() => draggedOverExercise.current = index}
+                                            onDragEnd={handleSortDesktop}
+                                            onDragOver={(e) => e.preventDefault()}         
                                         >
                                             <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
                                         </div>
-                                        <div 
-                                            className='CustomOrder-exercise-item-triangle-container'
-                                            style={{
-                                                display: itemSelected === index ? 'flex' : 'none'
-                                            }}
-                                        >
-                                            <div 
-                                                className='CustomOrder-exercise-item-triangle'
-                                                onClick={() => handleSortMobile("up", index)}
-                                            >
-                                                {
-                                                    index !== 0 ? 
-                                                    <TriangleImg direction={"up"}/>
-                                                    : <div></div>
-                                                }
-                                            </div>
-                                            <div 
-                                                className='CustomOrder-exercise-item-triangle'
-                                                onClick={() => handleSortMobile("down", index)}
-                                            >
-                                                {
-                                                    index !== sortedList.length - 1 ?
-                                                    <TriangleImg direction={"down"} />
-                                                    : <div></div>
-                                                }
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    :
+                                    }
                                     <div
-                                        className='CustomOrder-exercise-item-subcontainer'
-                                        draggable
-                                        onDragStart={() => dragExercise.current = index}
-                                        onDragEnter={() => draggedOverExercise.current = index}
-                                        onDragEnd={handleSortDesktop}
-                                        onDragOver={(e) => e.preventDefault()}         
-                                    >
-                                        <WorkoutSelectItem exerciseDataItem={exerciseData[selectedIdx]} showSelect={false} order={index}/>
-                                    </div>
-                                }
-                                <div
-                                    style={{
-                                        marginTop: selectedIdx === sortedList[sortedList.length - 1] ? '0' : '10px'
-                                    }}
-                                ></div>
-                            </div>
-                        )
-                    }
+                                        style={{
+                                            marginTop: selectedIdx === sortedList[sortedList.length - 1] ? '0' : '10px'
+                                        }}
+                                    ></div>
+                                </div>
+                            )
+                        }
+                    </div>
+                </div>
+                <div className='CustomOrder-bottom-container'>
+                    <div 
+                        className='CustomOrder-bottom-button'
+                        onClick={handleBack}
+                    >
+                        Back
+                    </div>
+                    <div 
+                        className='CustomOrder-bottom-button'
+                        onClick={handleConfirm}
+                    >
+                        Confirm
+                    </div>
                 </div>
             </div>
-            <div className='CustomOrder-bottom-container'>
-                <div 
-                    className='CustomOrder-bottom-button'
-                    onClick={handleBack}
-                >
-                    Back
-                </div>
-                <div 
-                    className='CustomOrder-bottom-button'
-                    onClick={handleConfirm}
-                >
-                    Confirm
-                </div>
-            </div>
-        </div>
+        </PageTransitionFade>
     )
 }

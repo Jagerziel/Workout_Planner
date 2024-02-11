@@ -5,6 +5,8 @@ import { useNavigate, NavLink } from 'react-router-dom'
 import './CustomBrowse.scss'
 // Import Components
 import WorkoutSelectItem from '../../components/workouts/WorkoutSelectItem.jsx';
+// Import Framer Motion
+import PageTransitionFade from '../../hooks/framer-motion/PageTransitionFade.jsx';
 // Import Redux
 import { useSelector, useDispatch } from "react-redux";
 
@@ -119,58 +121,60 @@ export default function CustomBrowse() {
     // console.log(selectedExercises)
 
     return (
-        <div className='CustomBrowse-container'>
-            <div className='CustomBrowse-title'>
-                {`Selected Exercises: ${selectedExercises.length}`}
-            </div>
-            <div className='CustomBrowse-menu-container'>
-                <div className='CustomBrowse-menu-subcontainer'>
-                    {
-                        menu.map((menuData, index) => 
-                            <div 
-                            className='CustomBrowse-menu-item-container'
-                            key={index}
-                            onClick={() => handleMenuSelection(menuData, index)}
-                            style={{
-                                border: `3px solid ${menuData.selected ? '#242424' : '#cacaca91'}`,
-                                backgroundColor: menuData.selected ? 'rgba(255, 255, 255, 0.87)' : '#242424',
-                                color: menuData.selected ? 'rgba(0, 0, 0, 1)' : 'rgba(255, 255, 255, 1)'
-                            }}
-                            >
-                            <div className='CustomBrowse-menu-item-title'>{menuData.title}</div>
-                            </div>
-                        )
-                    }
+        <PageTransitionFade>
+            <div className='CustomBrowse-container'>
+                <div className='CustomBrowse-title'>
+                    {`Selected Exercises: ${selectedExercises.length}`}
+                </div>
+                <div className='CustomBrowse-menu-container'>
+                    <div className='CustomBrowse-menu-subcontainer'>
+                        {
+                            menu.map((menuData, index) => 
+                                <div 
+                                className='CustomBrowse-menu-item-container'
+                                key={index}
+                                onClick={() => handleMenuSelection(menuData, index)}
+                                style={{
+                                    border: `3px solid ${menuData.selected ? '#242424' : '#cacaca91'}`,
+                                    backgroundColor: menuData.selected ? 'rgba(255, 255, 255, 0.87)' : '#242424',
+                                    color: menuData.selected ? 'rgba(0, 0, 0, 1)' : 'rgba(255, 255, 255, 1)'
+                                }}
+                                >
+                                <div className='CustomBrowse-menu-item-title'>{menuData.title}</div>
+                                </div>
+                            )
+                        }
+                    </div>
+                </div>
+                <div className='CustomBrowse-exercise-container'>
+                    <div className='CustomBrowse-exercise-subcontainer'>
+                        {
+                            filteredExerciseData.map((exerciseDataItem, index) => 
+                                <div key={index}>
+                                    <WorkoutSelectItem 
+                                        exerciseDataItem={exerciseDataItem} 
+                                        showSelect={true}    
+                                    />
+                                </div>
+                            )
+                        }
+                    </div>
+                </div>
+                <div className='CustomBrowse-bottom-container'>
+                    <div 
+                        className='CustomBrowse-bottom-button'
+                        onClick={handleBack}
+                    >
+                        Back
+                    </div>
+                    <div 
+                        className='CustomBrowse-bottom-button'
+                        onClick={handleConfirm}
+                    >
+                        Confirm
+                    </div>
                 </div>
             </div>
-            <div className='CustomBrowse-exercise-container'>
-                <div className='CustomBrowse-exercise-subcontainer'>
-                    {
-                        filteredExerciseData.map((exerciseDataItem, index) => 
-                            <div key={index}>
-                                <WorkoutSelectItem 
-                                    exerciseDataItem={exerciseDataItem} 
-                                    showSelect={true}    
-                                />
-                            </div>
-                        )
-                    }
-                </div>
-            </div>
-            <div className='CustomBrowse-bottom-container'>
-                <div 
-                    className='CustomBrowse-bottom-button'
-                    onClick={handleBack}
-                >
-                    Back
-                </div>
-                <div 
-                    className='CustomBrowse-bottom-button'
-                    onClick={handleConfirm}
-                >
-                    Confirm
-                </div>
-            </div>
-        </div>
+        </PageTransitionFade>
     )
 }
