@@ -168,13 +168,13 @@ export default function CustomBrowse() {
                 </div>
                 <div className='CustomBrowse-bottom-container'>
                     <div 
-                        className='CustomBrowse-bottom-button'
+                        className='CustomBrowse-bottom-button CustomBrowse-bottom-button-back'
                         onClick={handleBack}
                     >
                         Back
                     </div>
                     <div 
-                        className='CustomBrowse-bottom-button'
+                        className='CustomBrowse-bottom-button CustomBrowse-bottom-button-confirm'
                         onClick={handleConfirm}
                     >
                         Confirm

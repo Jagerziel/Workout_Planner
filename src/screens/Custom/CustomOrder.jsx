@@ -172,13 +172,13 @@ export default function CustomOrder() {
                 </div>
                 <div className='CustomOrder-bottom-container'>
                     <div 
-                        className='CustomOrder-bottom-button'
+                        className='CustomOrder-bottom-button CustomOrder-bottom-button-back'
                         onClick={handleBack}
                     >
                         Back
                     </div>
                     <div 
-                        className='CustomOrder-bottom-button'
+                        className='CustomOrder-bottom-button CustomOrder-bottom-button-confirm'
                         onClick={handleConfirm}
                     >
                         Confirm
