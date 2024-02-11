@@ -1,5 +1,5 @@
 // Import React
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useNavigate, NavLink } from 'react-router-dom'
 // Import CSS
 import './CustomBrowse.scss'
@@ -118,6 +118,11 @@ export default function CustomBrowse() {
         navigate('order')
     }
 
+    // Use Effect needed here so animation only triggers while selecting a menu but not when a user selects an exercise
+    useEffect(() => {
+        document.querySelector('.CustomBrowse-exercise-subcontainer').style.animation = 'inAnimation 500ms ease-in'
+    }, [menu])
+
     // console.log(selectedExercises)
 
     return (
@@ -149,10 +154,7 @@ export default function CustomBrowse() {
                 <div className='CustomBrowse-exercise-container'>
                     <div 
                         className='CustomBrowse-exercise-subcontainer'
-                        key={Math.random()}
-                        style={{
-                            animation: "inAnimation 500ms ease-in" 
-                        }}
+                        key={Math.random()} // Needed for Animation
                     >
                         {
                             filteredExerciseData.map((exerciseDataItem, index) => 
