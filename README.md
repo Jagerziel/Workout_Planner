@@ -1,5 +1,7 @@
 # Description
-Workout Planner is a website developed for my personal using a workout plan developed for strength building and agility training.  
+Workout Planner is a website developed for my personal use utilizing a workout plan developed for strength building and agility training.  The 16-week plan was put together by a professional for my specific goals.  As the original document was a word document that was not mobile-friendly, I decided to put all of the information into a website so I can use it at the gym and because... I can!  
+
+This repo is public so I'd encourage any developer who wants an easily editable site to clone this repo and make it your own.  
 
 Deployed site: https://workoutplanner2024.netlify.app
 
@@ -10,28 +12,38 @@ Deployed site: https://workoutplanner2024.netlify.app
 
 - 16-Week Plan: Full workout plan developed by Mr. Charlie 
 
-![Home Page](/public/RM-16W01.png)
+![16W Plan](/public/RM-16W01.png)
 
-![Home Page](/public/RM-16W02.png)
+![16W Plan](/public/RM-16W02.png)
 
-- Custom: UNDER CONSTRUCTION
+![16W Plan](/public/RM-16W03.png)
+
+- Custom: User can customize a workout for a day
+
+![Customize Workout](/public/RM-custom01.png)
+
+![Customize Workout](/public/RM-custom02.png)
+
+![Customize Workout](/public/RM-custom03.png)
 
 - Browse: Allows the browsing of all workouts
 
-![Home Page](/public/RM-browse01.png)
+![Browsing Page](/public/RM-browse01.png)
 
 - About: Light description of the site's intent
 
-![Home Page](/public/RM-about01.png)
+![About Page](/public/RM-about01.png)
 
 # Technical Notes
 The Workout Planner website was constructed using React and Vite.
 
-### Consolidated placement of routes
+## Consolidated placement of routes
 All routes can be found in the App.js file
 
-### Reusable Components
-Components were structured to be reusable where possible.  
+## Reusable Components
+
+### 
+
 
 ## Data
 - Workout plan developed by Mr. Charlie
@@ -92,11 +104,37 @@ Components were structured to be reusable where possible.
 },
 ```
 
+## Steps to Add Your Own Custom Plan
+
+1. Add your custom workouts to the `exercisedata.js` file
+2. If you're constructing something similar to a 16 week plan either edit the current 16 week plan files (`SixteenWkPlan.jsx`, `Wk0104.jsx`, `Wk0508.jsx`, `Wk0912.jsx`, `Wk1316.jsx`) or copy new ones.
+3. If copying new files, rename the files and add the routes in `app.js`.  Add the menu item in `data.js` to the HomeDirectory array.  If not copying files, skip this step.
+4. In your workout plan files (i.e. `Wk0104.jsx`, `Wk0508.jsx`, `Wk0912.jsx`, `Wk1316.jsx` or your newly created files) edit the workouts array in workoutIdx for each day.  
+
+```
+const [ workoutIdx, setWorkoutIdx ] = useState([
+        {
+            title: "Day 1",
+            workouts: [0,1,3,5,6,9,10,13,14,15,16],
+            rest: false,
+            show: false,
+        },
+        {
+            title: "Day 2",
+            workouts: [17,19,21,23,25,26,29,31,32,33],
+            rest: false,
+            show: false,
+        }, ...
+```
+5. **ENJOY YOUR WORKOUT!**
+
+
 # Future Features
 - integrated backend with individual users
 - user authentication
 - ability to save personal workout plans (which is why redux was used/integrated before hand so the backbone of storing changes efficiently would already be in place)
 - give user ability to add their own workouts with images and videos (would possibly require integration of image and video hosting site)
+- allow users to edit the number of sets and repos in all workouts
 
 # Development Team
 
