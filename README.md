@@ -40,14 +40,41 @@ The Workout Planner website was constructed using React and Vite.
 ## Consolidated placement of routes
 All routes can be found in the App.js file
 
+## Mobile Friendly
+This website was constructed to be mobile friendly and has been tested on both Firefox and Safari.  Full browser testing has not been done; however, if you notice any issues ***please raise an issue on this repo and I will review***.
+
 ## Reusable Components
 
-### 
+### Images
+I created a component for some icons that required color filters and rotations.  Rather than duplicating the code when an image needed to be styled or rotated, it made the most sense to format it once and build in functionality to have it rotate as needed.  It also allows for easy editing and styling down the road.
 
+### Workouts
+The workouts are broken into two parts:
+
+1. Workout Shell:  The shell contains the useState to *complete* or *flag* a workout. The state is stored in this component and affects the styling of the button, the shell, and the background.  It also passes down the exercise data for that specific item as a prop to the workout item.
+
+2. Workout Item: The item contains the data and structure of the component.  This includes the title, description, images, workout details, etc.
+
+There are two other types of files.  The first is a rest item, which is a simple component to be used for rest days and the second is the *Workout Selection Item*.
+
+The ***Workout Selection Item*** is a combined shell and item that is used on the customized workout page.  Both the selection and the details are contained within this component.  What differs here is that the state of selection is not just saved via `useState()` but `redux` as well.  The reason is because the workout state needs to be saved for multiple screens: viewing workout, selecting workout, reordering workout.  
 
 ## Data
-- Workout plan developed by Mr. Charlie
-- Google image searches for exercise graphics
+
+### Workout Plan
+Workout plan developed by Mr. Charlie who is a licensed physical therapist and former boxer.  Again this workout was constructed for my personal needs, body type, and injury history only.
+
+### Images and Videos
+All images and videos were taken from Google and YouTube, respectively
+
+### `data.js`
+This file contains directory arrays
+
+### `exerciseData.js`
+This file contains the exercises used on the website
+
+### `functions.js`
+This file contains functions that are used in multiple components
 
 ## Dependencies
 - framer-motion
@@ -61,12 +88,12 @@ All routes can be found in the App.js file
 
 ## Definitions
 - Any folder in the screens menu are sub-screens of the primary screen
-- Any component with the word 'shell' included is a component that contains the outside divs of a child component 
+- Any component with the word 'shell' included is a component that contains the outside divs and the parent of a child component 
 - Any component with the word 'item' included is a component that handles data mapped from an array
 
 ## Folder Arrangement
 - **public:** contains all images and svgs
-- **assets:** *not used*
+- **assets:** *not used - all items that would typically be contained in assets have been put in public*
 - **components:** contains all components that are part of a screen.  This could be a navbar, directory, workout item, etc.
 - **data:** contains raw data for application
 - **hooks:** contains custom hooks or 3rd party hooks (such as Framer Motion)
