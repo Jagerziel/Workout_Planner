@@ -1488,8 +1488,8 @@ export const exerciseData = [
         id: 62, // corresponds to index
         title: "Plyo switch squats (low reps)",
         type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
-        each: true, // true if one appendage (arms/legs), false if both
-        each_type: "leg", // arm, leg, side, n/a
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
         reps: "6-8",
         time: "n/a",
@@ -1512,8 +1512,8 @@ export const exerciseData = [
         id: 63, // corresponds to index
         title: "Plyo switch squats (high reps)",
         type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
-        each: true, // true if one appendage (arms/legs), false if both
-        each_type: "leg", // arm, leg, side, n/a
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
         reps: "12-15",
         time: "n/a",
@@ -2986,6 +2986,174 @@ export const exerciseData = [
         description05: "",
         img: ["https://fitnessprogramer.com/wp-content/uploads/2021/04/Turkish-Get-Up-Squat-style.gif", "https://fitnessvolt.com/wp-content/uploads/2022/02/Turkish-Get-Muscles-Worked-750x591.jpg"], // array
         video: "https://www.youtube.com/embed/sgd8n917Zv0?si=Rbjmz3OVIdQKBqgF", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        selected: false,
+        completed: false,
+    },
+    {
+        id: 125, // corresponds to index
+        title: "Jog (15 minutes)",
+        type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "15 minutes",
+        sets: "1",
+        note: "light continuous jog",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/07/Run.gif", "https://www.runtothefinish.com/wp-content/uploads/2021/05/running-muscles.jpg", "https://hips.hearstapps.com/hmg-prod/images/run-core-muscles-1646683825.jpg", "https://fitpage.in/wp-content/uploads/2021/02/physical-features-1024x576.jpg"], // array
+        video: "https://www.youtube.com/embed/7TC63HazZp8", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        selected: false,
+        completed: false,
+    },
+    {
+        id: 126, // corresponds to index
+        title: "Jog (3 miles)",
+        type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "3 miles",
+        sets: "1",
+        note: "light continuous jog",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/07/Run.gif", "https://www.runtothefinish.com/wp-content/uploads/2021/05/running-muscles.jpg", "https://hips.hearstapps.com/hmg-prod/images/run-core-muscles-1646683825.jpg", "https://fitpage.in/wp-content/uploads/2021/02/physical-features-1024x576.jpg"], // array
+        video: "https://www.youtube.com/embed/7TC63HazZp8", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        selected: false,
+        completed: false,
+    },
+    {
+        id: 127, // corresponds to index
+        title: "Jog (5 miles)",
+        type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "5 miles",
+        sets: "1",
+        note: "light continuous jog",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/07/Run.gif", "https://www.runtothefinish.com/wp-content/uploads/2021/05/running-muscles.jpg", "https://hips.hearstapps.com/hmg-prod/images/run-core-muscles-1646683825.jpg", "https://fitpage.in/wp-content/uploads/2021/02/physical-features-1024x576.jpg"], // array
+        video: "https://www.youtube.com/embed/7TC63HazZp8", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        selected: false,
+        completed: false,
+    },
+    {
+        id: 128, // corresponds to index
+        title: "Interval Running (3:30 / 1:30, 15 minutes)",
+        type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "15 minutes",
+        sets: "1",
+        note: "light jog for 3:30, sprint 75% top speed for 1:30",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/07/Run.gif", "https://www.runtothefinish.com/wp-content/uploads/2021/05/running-muscles.jpg", "https://hips.hearstapps.com/hmg-prod/images/run-core-muscles-1646683825.jpg", "https://fitpage.in/wp-content/uploads/2021/02/physical-features-1024x576.jpg"], // array
+        video: "https://www.youtube.com/embed/7TC63HazZp8", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        selected: false,
+        completed: false,
+    },
+    {
+        id: 129, // corresponds to index
+        title: "Interval Running (3:30 / 1:30, 3 miles)",
+        type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "3 miles",
+        sets: "1",
+        note: "light jog for 3:30, sprint 75% top speed for 1:30",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/07/Run.gif", "https://www.runtothefinish.com/wp-content/uploads/2021/05/running-muscles.jpg", "https://hips.hearstapps.com/hmg-prod/images/run-core-muscles-1646683825.jpg", "https://fitpage.in/wp-content/uploads/2021/02/physical-features-1024x576.jpg"], // array
+        video: "https://www.youtube.com/embed/7TC63HazZp8", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        selected: false,
+        completed: false,
+    },
+    {
+        id: 130, // corresponds to index
+        title: "Interval Running (3:30 / 1:30, 5 miles)",
+        type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "5 miles",
+        sets: "1",
+        note: "light jog for 3:30, sprint 75% top speed for 1:30",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/07/Run.gif", "https://www.runtothefinish.com/wp-content/uploads/2021/05/running-muscles.jpg", "https://hips.hearstapps.com/hmg-prod/images/run-core-muscles-1646683825.jpg", "https://fitpage.in/wp-content/uploads/2021/02/physical-features-1024x576.jpg"], // array
+        video: "https://www.youtube.com/embed/7TC63HazZp8", // url
+        addtl_reqs: "",
+        superset: false,
+        circuit: false,
+        selected: false,
+        completed: false,
+    },
+    {
+        id: 131, // corresponds to index
+        title: "Incline Walk (10 minutes)",
+        type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
+        rep_type: "time", // reps or time
+        reps: "n/a",
+        time: "10 minutes",
+        sets: "1",
+        note: "steep incline",
+        description01: "",
+        description02: "",
+        description03: "",
+        description04: "",
+        description05: "",
+        img: ["https://fitnessprogramer.com/wp-content/uploads/2021/06/Incline-Treadmill.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2023/04/incline-treadmill-muscles.png"], // array
+        video: "https://www.youtube.com/embed/38vUyIo69ww", // url
         addtl_reqs: "",
         superset: false,
         circuit: false,
