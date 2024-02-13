@@ -18,13 +18,13 @@ export default function Wk0104() {
     const [ workoutIdx, setWorkoutIdx ] = useState([
         {
             title: "Day 1",
-            workouts: [0,1,3,5,6,9,10,13,14,15,16, 125],
+            workouts: [0,1,3,5,6,9,10,13,14,15,16,125],
             rest: false,
             show: false,
         },
         {
             title: "Day 2",
-            workouts: [17,19,21,23,25,26,29,31,32,33, 128],
+            workouts: [17,19,21,23,25,26,29,31,32,33,128],
             rest: false,
             show: false,
         },
@@ -36,7 +36,7 @@ export default function Wk0104() {
         },
         {
             title: "Day 4",
-            workouts: [34,35,36,37,39,41,43,44,45,46, 125],
+            workouts: [34,35,36,37,39,41,43,44,45,46,125],
             rest: false,
             show: false,
         },
@@ -48,13 +48,13 @@ export default function Wk0104() {
         },
         {
             title: "Day 6",
-            workouts: [0,47,49,51,53,55,57,59, 128],
+            workouts: [0,47,49,51,53,55,57,59,128],
             rest: false,
             show: false,
         },
         {
             title: "Day 7",
-            workouts: [60,62,64,66,68,70,72,31,32,33, 131],
+            workouts: [60,62,64,66,68,70,72,31,32,33,131],
             rest: false,
             show: false,
         },
