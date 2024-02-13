@@ -18,13 +18,13 @@ export default function Wk1316() {
     const [ workoutIdx, setWorkoutIdx ] = useState([
         {
             title: "Day 1",
-            workouts: [0,75,77,80,81,84,85,13,14,15,16],
+            workouts: [0,75,77,80,81,84,85,13,14,15,16,125],
             rest: false,
             show: false,
         },
         {
             title: "Day 2",
-            workouts: [87,89,91,92,94,28,31,32,33],
+            workouts: [87,89,91,92,94,28,31,32,33,128],
             rest: false,
             show: false,
         },
@@ -36,19 +36,19 @@ export default function Wk1316() {
         },
         {
             title: "Day 4",
-            workouts: [34,35,36,96,98,100,102,103],
+            workouts: [34,35,36,96,98,100,102,103,125],
             rest: false,
             show: false,
         },
         {
             title: "Day 5",
-            workouts: [104,105,106,108,110,112],
+            workouts: [104,105,106,108,110,112,131],
             rest: false,
             show: false,
         },
         {
             title: "Day 6",
-            workouts: [0,114,116,118,120,122,124],
+            workouts: [0,114,116,118,120,122,124,128],
             rest: false,
             show: false,
         },
