@@ -1488,8 +1488,8 @@ export const exerciseData = [
         id: 62, // corresponds to index
         title: "Plyo switch squats (low reps)",
         type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
-        each: true, // true if one appendage (arms/legs), false if both
-        each_type: "leg", // arm, leg, side, n/a
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
         reps: "6-8",
         time: "n/a",
@@ -1512,8 +1512,8 @@ export const exerciseData = [
         id: 63, // corresponds to index
         title: "Plyo switch squats (high reps)",
         type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
-        each: true, // true if one appendage (arms/legs), false if both
-        each_type: "leg", // arm, leg, side, n/a
+        each: false, // true if one appendage (arms/legs), false if both
+        each_type: "n/a", // arm, leg, side, n/a
         rep_type: "reps", // reps or time
         reps: "12-15",
         time: "n/a",
