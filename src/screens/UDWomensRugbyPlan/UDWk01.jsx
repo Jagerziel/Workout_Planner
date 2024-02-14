@@ -17,44 +17,32 @@ export default function UDWk01() {
 
     const [ workoutIdx, setWorkoutIdx ] = useState([
         {
-            title: "Day 1",
-            workouts: [0,1,3,5,6,9,10,13,14,15,16,125],
-            rest: false,
-            show: false,
-        },
-        {
-            title: "Day 2",
-            workouts: [17,19,21,23,25,26,29,31,32,33,128],
-            rest: false,
-            show: false,
-        },
-        {
-            title: "Day 3",
+            title: "Max Effort Lower",
             workouts: [],
-            rest: true,
-            show: false,
-        },
-        {
-            title: "Day 4",
-            workouts: [34,35,36,37,39,41,43,44,45,46,125],
             rest: false,
             show: false,
         },
         {
-            title: "Day 5",
+            title: "Max Effort Upper",
             workouts: [],
-            rest: true,
-            show: false,
-        },
-        {
-            title: "Day 6",
-            workouts: [0,47,49,51,53,55,57,59,128],
             rest: false,
             show: false,
         },
         {
-            title: "Day 7",
-            workouts: [60,62,64,66,68,70,72,31,32,33,131],
+            title: "Stability (Optional)",
+            workouts: [],
+            rest: false,
+            show: false,
+        },
+        {
+            title: "Dynamic Lower",
+            workouts: [],
+            rest: false,
+            show: false,
+        },
+        {
+            title: "Dynamic Upper",
+            workouts: [],
             rest: false,
             show: false,
         },
@@ -63,7 +51,7 @@ export default function UDWk01() {
     return (
         <PageTransitionFade>
             <div className='UDWk0103-container'>
-                <div className='UDWk0103-title'>Weeks 1 - 4</div>
+                <div className='UDWk0103-title'>Week 1</div>
                 {
                     workoutIdx.map(( data , index ) => (
                         <div 
