@@ -3845,6 +3845,137 @@ export const exerciseData = [
     selected: false,
     completed: false,
   },
+  {
+    id: 138, // corresponds to index
+    title: "Incline Walk (15 minutes)",
+    type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "15 minutes",
+    sets: "1",
+    note: "steep incline",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/06/Incline-Treadmill.gif",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2023/04/incline-treadmill-muscles.png",
+    ], // array
+    video: "https://www.youtube.com/embed/38vUyIo69ww", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 139, // corresponds to index
+    title: "Kettlebell March",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "20",
+    time: "n/a",
+    sets: "2",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.nourishmovelove.com/wp-content/uploads/2022/11/marching-goblet-hold-core-workouts-with-weights.gif",
+    ], // array
+    video: "https://www.youtube.com/embed/sd6bu56nO9A", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 140, // corresponds to index
+    title: "Deadbug (with kettlebell hold)",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: true, // true if one appendage (arms/legs), false if both
+    each_type: "side", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "20",
+    time: "n/a",
+    sets: "2",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://purshape.com/wp-content/uploads/2021/05/Exercie-abdo-Kettlebell-Dead-Bug-a-une-jambe.png"
+    ], // array
+    video: "https://www.youtube.com/embed/y1XKOoWCSlo", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 141, // corresponds to index
+    title: "Reverse Nordic Curl",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "20",
+    time: "n/a",
+    sets: "2",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+        "https://fitnessvolt.com/wp-content/uploads/2022/10/Reverse-Nordic-Curl-Guide.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/GbpDfXXKuk0", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 142, // corresponds to index
+    title: "Rower (1,000m)",
+    type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "1,000 meters",
+    sets: "1",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+        "https://cdn.shopify.com/s/files/1/0100/2677/8681/files/rowing_machine_muscles_worked_480x480.gif?v=1687416209", "https://www.topiom.com/wp-content/uploads/2021/04/step-by-step-indoor-rowing-technique.jpg", "https://boxlifemagazine.com/wp-content/uploads//2022/11/image-10-1024x816.png"
+    ], // array
+    video: "https://www.youtube.com/embed/H0r_ZPXJLtg", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
 ];
 
 // console.log(`The last index should be: ${exerciseData.length - 1}`)
