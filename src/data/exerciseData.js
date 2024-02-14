@@ -3710,6 +3710,141 @@ export const exerciseData = [
     selected: false,
     completed: false,
   },
+  {
+    id: 133, // corresponds to index
+    title: "Barbell Box Squat",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "5",
+    time: "n/a",
+    sets: "5",
+    note: "",
+    description01: "if you do not feel comfortable with the barbell, use a kettlebell or dumbbell and hold it in a goblet position",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/05/box-squat-muscles-used.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2022/05/barbell-box-squat-1024x573.png", 
+    ], // array
+    video: "https://www.youtube.com/embed/rMEPHwNhQfo", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 134, // corresponds to index
+    title: "Romanian Deadlifts (Slow)",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "8",
+    time: "n/a",
+    sets: "5",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Romanian-Deadlift.gif", "https://fitnessvolt.com/wp-content/uploads/2019/11/deadlift-muscles-worked.jpg", "https://fitnessvolt.com/wp-content/uploads/2014/02/Stiff-Leg-Deadlift-1024x608.jpg" 
+    ], // array
+    video: "https://www.youtube.com/embed/7j-2w4-P14I", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 135, // corresponds to index
+    title: "Goblet squats (high reps, high sets)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "15",
+    time: "n/a",
+    sets: "5",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2023/01/Dumbbell-Goblet-Squat.gif",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/heel-elevated-goblet-squat.gif",
+      "https://homeworkouts.org/wp-content/uploads/anim-kettlebell-goblet-squats.gif",
+      "https://anabolicaliens.com/cdn/shop/articles/5fbc1c1889a1d8fc84f5808b_dumbbell-goblet-squat.png?v=1641750308",
+      "https://sportscienceinsider.com/wp-content/uploads/2023/09/What-muscles-do-goblet-squats-work.png",
+    ], // array
+    video: "https://www.youtube.com/embed/CkFzgR55gho?si=VU-3WP9-6hE6bT5B", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 136, // corresponds to index
+    title: "Ab Wheel",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "15",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://cdn.shopify.com/s/files/1/0075/4673/2662/files/ab-roller-exercise.gif", "https://i.pinimg.com/564x/09/99/15/0999156d2ed873b10c5434724443d6f4.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/rqiTPdK1c_I", // url
+    addtl_reqs: "",
+    superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 137, // corresponds to index
+    title: "Deadbug",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: true, // true if one appendage (arms/legs), false if both
+    each_type: "side", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "15",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/05/Dead-Bug.gif", "https://cdn.shopify.com/s/files/1/1633/7705/files/core_stabilization_480x480.jpg?v=1656877714"
+    ], // array
+    video: "https://www.youtube.com/embed/g_BYB0R-4Ws", // url
+    addtl_reqs: "",
+    superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
 ];
 
 // console.log(`The last index should be: ${exerciseData.length - 1}`)
