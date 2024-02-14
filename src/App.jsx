@@ -5,10 +5,11 @@ import './App.scss'
 import Navbar from './components/navbar/Navbar.jsx'
 import Home from './screens/Home.jsx' // Primary Menu
 import SixteenWkPlan from './screens/SixteenWkPlan.jsx' // Primary Menu
-import Wk0104 from './screens/SixteenWkPlan/Wk0104.jsx'
-import Wk0508 from './screens/SixteenWkPlan/Wk0508.jsx'
-import Wk0912 from './screens/SixteenWkPlan/Wk0912.jsx'
-import Wk1316 from './screens/SixteenWkPlan/Wk1316.jsx'
+  import Wk0104 from './screens/SixteenWkPlan/Wk0104.jsx'
+  import Wk0508 from './screens/SixteenWkPlan/Wk0508.jsx'
+  import Wk0912 from './screens/SixteenWkPlan/Wk0912.jsx'
+  import Wk1316 from './screens/SixteenWkPlan/Wk1316.jsx'
+import UDWomensRugbyPlan from './screens/UDWomensRugbyPlan.jsx'
 import Browse from './screens/Browse.jsx' // Primary Menu
 import Custom from './screens/Custom.jsx' // Primary Menu
 import CustomBrowse from './screens/Custom/CustomBrowse.jsx'
@@ -34,6 +35,7 @@ function App() {
             <Route path="/sixteenwkplan/wk0508" element={<Wk0508 />} />
             <Route path="/sixteenwkplan/wk0912" element={<Wk0912 />} />
             <Route path="/sixteenwkplan/wk1316" element={<Wk1316 />} />
+            <Route path="/udwomensrugbyplan" element={<UDWomensRugbyPlan />} />
             <Route path="/browse" element={<Browse />} />
             <Route path="/custom" element={<Custom />} />
             <Route path="/custom/browse" element={<CustomBrowse />} />
