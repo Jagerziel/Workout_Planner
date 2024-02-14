@@ -61,12 +61,12 @@ export default function UDWk02() {
 
   return (
     <PageTransitionFade>
-      <div className="Wk0116-container">
-        <div className="Wk0116-title">Weeks 5 - 8</div>
+      <div className="UDWk0103-container">
+        <div className="UDWk0103-title">Weeks 5 - 8</div>
         {workoutIdx.map((data, index) => (
-          <div className="Wk0116-workout-container" key={index}>
+          <div className="UDWk0103-workout-container" key={index}>
             <div
-              className="Wk0116-workout-day"
+              className="UDWk0103-workout-day"
               style={{
                 margin: data.show ? "0 0 5px 0" : "0 0 15px 0",
                 border: `3px solid ${
@@ -88,7 +88,7 @@ export default function UDWk02() {
             </div>
             {data.rest ? (
               <div
-                className="Wk0116-rest-item-container"
+                className="UDWk0103-rest-item-container"
                 style={{
                   display: data.show ? "flex" : "none",
                   animation: data.show
@@ -100,7 +100,7 @@ export default function UDWk02() {
               </div>
             ) : (
               <div
-                className="Wk0116-workout-item-container"
+                className="UDWk0103-workout-item-container"
                 style={{
                   display: data.show ? "grid" : "none",
                   animation: data.show

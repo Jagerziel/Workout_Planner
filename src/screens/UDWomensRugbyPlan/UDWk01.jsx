@@ -62,16 +62,16 @@ export default function UDWk01() {
 
     return (
         <PageTransitionFade>
-            <div className='Wk0116-container'>
-                <div className='Wk0116-title'>Weeks 1 - 4</div>
+            <div className='UDWk0103-container'>
+                <div className='UDWk0103-title'>Weeks 1 - 4</div>
                 {
                     workoutIdx.map(( data , index ) => (
                         <div 
-                            className='Wk0116-workout-container'
+                            className='UDWk0103-workout-container'
                             key={index}
                         >
                             <div 
-                                className='Wk0116-workout-day'
+                                className='UDWk0103-workout-day'
                                 style={{
                                     margin: data.show ? '0 0 5px 0' : '0 0 15px 0',
                                     border: `3px solid ${data.show ? 'rgba(140, 140, 140, 0.47)' : 'rgba(255, 255, 255, 0.37)'}`,
@@ -89,7 +89,7 @@ export default function UDWk01() {
                             {
                                 data.rest ? 
                                 <div 
-                                    className='Wk0116-rest-item-container'
+                                    className='UDWk0103-rest-item-container'
                                     style={{
                                         display: data.show ? "flex" : "none",
                                         animation: data.show ? "inAnimation 250ms ease-in" : "outAnimation 0ms ease-out"
@@ -98,7 +98,7 @@ export default function UDWk01() {
                                     <RestItem /> 
                                 </div> :
                                 <div 
-                                    className='Wk0116-workout-item-container'
+                                    className='UDWk0103-workout-item-container'
                                     style={{
                                         display: data.show ? "grid" : "none",
                                         animation: data.show ? "inAnimation 250ms ease-in" : "outAnimation 0ms ease-out"
