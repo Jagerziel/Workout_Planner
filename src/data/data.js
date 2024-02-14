@@ -4,6 +4,10 @@ export const homeDirectory = [
         navigation: 'sixteenwkplan'
     },
     {
+        title: 'UD Girls Rugby Workout',
+        navigation: 'sixteenwkplan'
+    },
+    {
         title: 'Custom Workout',
         navigation: 'custom'
     },
@@ -22,6 +26,25 @@ export const homeDirectory = [
 ]
 
 export const sixteenWkDirectory = [
+    {
+        title: '1 - 4',
+        navigation: 'wk0104'
+    },
+    {
+        title: '5 - 8',
+        navigation: 'wk0508'
+    },
+    {
+        title: '9 - 12',
+        navigation: 'wk0912'
+    },
+    {
+        title: '13 - 16',
+        navigation: 'wk1316'
+    },
+]
+
+export const udGirlsRugbyDirectory = [
     {
         title: '1 - 4',
         navigation: 'wk0104'
