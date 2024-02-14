@@ -50,7 +50,7 @@ export default function UDWk03() {
     return (
         <PageTransitionFade>
         <div className="UDWk0103-container">
-            <div className="UDWk0103-title">Weeks 3</div>
+            <div className="UDWk0103-title">Week 3</div>
             {workoutIdx.map((data, index) => (
             <div className="UDWk0103-workout-container" key={index}>
                 <div
