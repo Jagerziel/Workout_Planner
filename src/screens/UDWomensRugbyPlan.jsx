@@ -1,15 +1,15 @@
 // Import React
 import React, { useState, useEffect } from 'react'
 // Import CSS
-import './UDGirlsRugbyPlan.scss'
+import './UDWomensRugbyPlan.scss'
 // Import Components
 import NavItem from '../components/directories/NavItem.jsx';
 // Import Data
-import { udGirlsRugbyDirectory } from '../data/data.js';
+import { udWomensRugbyDirectory } from '../data/data.js';
 // Import Framer Motion
 import PageTransitionFade from '../hooks/framer-motion/PageTransitionFade.jsx';
 
-export default function UDGirlsRugbyPlan() {
+export default function UDWomensRugbyPlan() {
 
   // Size of Window
   const [size, setSize] = useState({
@@ -43,14 +43,14 @@ export default function UDGirlsRugbyPlan() {
 
   return (
     <PageTransitionFade>
-      <div className='UDGirlsRugbyPlan-container'>
+      <div className='UDWomensRugbyPlan-container'>
         <div 
-          className='UDGirlsRugbyPlanItems-container'
+          className='UDWomensRugbyPlanItems-container'
           style={{
-            '--m': mediaQuery(udGirlsRugbyDirectory.length)
+            '--m': mediaQuery(udWomensRugbyDirectory.length)
           }}
         >
-          {udGirlsRugbyDirectory.map((data, index) => <NavItem data={data} key={index} />)}
+          {udWomensRugbyDirectory.map((data, index) => <NavItem data={data} key={index} />)}
         </div>
       </div>
     </PageTransitionFade>
