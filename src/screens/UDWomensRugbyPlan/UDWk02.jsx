@@ -23,21 +23,21 @@ export default function UDWk02() {
     },
     {
       title: "Max Effort Upper",
-      workouts: [143,166,145,167,168,69],
+      workouts: [143, 166, 145, 167, 168, 69],
       rest: false,
       show: false,
     },
     {
       title: "Stability (Optional)",
-      workouts: [138,170,171,172,142],
+      workouts: [138, 170, 171, 172, 142],
       rest: false,
-      show: true,
+      show: false,
     },
     {
       title: "Dynamic Lower",
-      workouts: [],
+      workouts: [173,150,151,152,174,154,175],
       rest: false,
-      show: false,
+      show: true,
     },
     {
       title: "Dynamic Upper",

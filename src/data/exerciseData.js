@@ -4243,7 +4243,7 @@ export const exerciseData = [
   },
   {
     id: 152, // corresponds to index
-    title: "Box step ups",
+    title: "Box step ups (SS)",
     type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
     each: true, // true if one appendage (arms/legs), false if both
     each_type: "leg", // arm, leg, side, n/a
@@ -4270,7 +4270,7 @@ export const exerciseData = [
   },
   {
     id: 153, // corresponds to index
-    title: "Sit ups",
+    title: "Sit ups (4 x 20) (SS)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4323,7 +4323,7 @@ export const exerciseData = [
   },
   {
     id: 155, // corresponds to index
-    title: "Weighted calf raises (high sets, high reps)",
+    title: "Weighted calf raises (4 x 25)",
     type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4815,6 +4815,85 @@ export const exerciseData = [
     description05: "",
     img: ["https://i.pinimg.com/originals/1e/85/28/1e852849a9962bd17f7b03c0bb525282.jpg"], // array
     video: "https://www.youtube.com/embed/Olx_XiJq_oY", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 173, // corresponds to index
+    title: "Front squat (high sets, low reps)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "3",
+    time: "n/a",
+    sets: "6",
+    note: "slow and controlled, challenging weight",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: ["https://www.kettlebellkings.com/cdn/shop/articles/Front_Squats.gif?v=1694617488", "https://i.pinimg.com/736x/d2/02/f1/d202f1f5a2352404bf14a7332599aaf0.jpg", "https://sportscienceinsider.com/wp-content/uploads/2023/08/What-muscles-do-front-squats-work-with-title.png"], // array
+    video: "https://www.youtube.com/embed/I5GaxSYLCSc", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 174, // corresponds to index
+    title: "Sit ups (4 x 25) (SS)",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "25",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessvolt.com/wp-content/uploads/2021/07/janda-sit-up-muscle-worked-750x476.jpg",
+      "https://chunkfitness.com/sites/default/files/sit-ups-standard_0.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/GunV4WOrIm0", // url
+    addtl_reqs: "",
+    superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 175, // corresponds to index
+    title: "Weighted calf raises (4 x 20)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "20",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzyNxzWjDBQNVQp5YUhFcOhZFjK6BMTCqIg&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjWfbrJJOUlDrggUVSrWD0wEV3IagKrjpoaA&usqp=CAU",
+    ], // array
+    video: "https://www.youtube.com/embed/c5Kv6-fnTj8?si=2IOs4ZmAAJFP0tuu", // url
     addtl_reqs: "",
     superset: false,
     circuit: false,
