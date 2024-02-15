@@ -3572,7 +3572,7 @@ export const exerciseData = [
   },
   {
     id: 128, // corresponds to index
-    title: "Interval Running (3:30 / 1:30, 15 minutes)",
+    title: "Interval running (3:30 / 1:30, 15 minutes)",
     type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3601,7 +3601,7 @@ export const exerciseData = [
   },
   {
     id: 129, // corresponds to index
-    title: "Interval Running (3:30 / 1:30, 3 miles)",
+    title: "Interval running (3:30 / 1:30, 3 miles)",
     type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3630,7 +3630,7 @@ export const exerciseData = [
   },
   {
     id: 130, // corresponds to index
-    title: "Interval Running (3:30 / 1:30, 5 miles)",
+    title: "Interval running (3:30 / 1:30, 5 miles)",
     type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3659,7 +3659,7 @@ export const exerciseData = [
   },
   {
     id: 131, // corresponds to index
-    title: "Incline Walk (10 minutes)",
+    title: "Incline walk (10 minutes)",
     type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3686,7 +3686,7 @@ export const exerciseData = [
   },
   {
     id: 132, // corresponds to index
-    title: "Seated Box Jump",
+    title: "Seated box jump",
     type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3712,7 +3712,7 @@ export const exerciseData = [
   },
   {
     id: 133, // corresponds to index
-    title: "Barbell Box Squat",
+    title: "Barbell box squat",
     type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3738,7 +3738,7 @@ export const exerciseData = [
   },
   {
     id: 134, // corresponds to index
-    title: "Romanian Deadlifts (Slow)",
+    title: "Romanian deadlifts (Slow)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3795,7 +3795,7 @@ export const exerciseData = [
   },
   {
     id: 136, // corresponds to index
-    title: "Ab Wheel",
+    title: "Ab wheel",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3847,7 +3847,7 @@ export const exerciseData = [
   },
   {
     id: 138, // corresponds to index
-    title: "Incline Walk (15 minutes)",
+    title: "Incline walk (15 minutes)",
     type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3874,7 +3874,7 @@ export const exerciseData = [
   },
   {
     id: 139, // corresponds to index
-    title: "Kettlebell March",
+    title: "Kettlebell march",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3926,7 +3926,7 @@ export const exerciseData = [
   },
   {
     id: 141, // corresponds to index
-    title: "Reverse Nordic Curl",
+    title: "Reverse nordic curl",
     type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3976,6 +3976,38 @@ export const exerciseData = [
     selected: false,
     completed: false,
   },
+  {
+    id: 143, // corresponds to index
+    title: "Hand release pushup (low reps)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "6-8",
+    time: "n/a",
+    sets: "3",
+    note: "weighted or banded",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.inspireusafoundation.org/wp-content/uploads/2023/06/plyometric-push-ups.gif",
+      "https://i.pinimg.com/originals/0f/34/3e/0f343e5f49ee783888500700e162f631.gif",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-xBtwjYfhyHM7tmPfBTVG517hxeSP5BxPSA&usqp=CAU",
+    ], // array
+    video: "https://www.youtube.com/embed/Y-uF4F3mQIs?si=vxX1-aPE_Z46emur", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+
+
+
 ];
 
 // console.log(`The last index should be: ${exerciseData.length - 1}`)

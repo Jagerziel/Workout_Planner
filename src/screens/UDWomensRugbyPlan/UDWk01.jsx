@@ -23,13 +23,13 @@ export default function UDWk01() {
     },
     {
       title: "Max Effort Upper",
-      workouts: [138,139,140,141,142],
+      workouts: [],
       rest: false,
       show: true,
     },
     {
       title: "Stability (Optional)",
-      workouts: [],
+      workouts: [138,139,140,141,142],
       rest: false,
       show: false,
     },
