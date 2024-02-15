@@ -4,7 +4,7 @@ export const homeDirectory = [
         navigation: 'sixteenwkplan'
     },
     {
-        title: 'UD Womens Rugby Workout',
+        title: "UD Women's Rugby Workout",
         navigation: 'udwomensrugbyplan'
     },
     {
