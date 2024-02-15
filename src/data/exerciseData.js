@@ -3769,7 +3769,7 @@ export const exerciseData = [
   },
   {
     id: 135, // corresponds to index
-    title: "Goblet squats (high reps, 5 sets)",
+    title: "Goblet squats (5 x 15)",
     type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3800,7 +3800,7 @@ export const exerciseData = [
   },
   {
     id: 136, // corresponds to index
-    title: "Ab wheel",
+    title: "Ab wheel (3 x 15)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3827,7 +3827,7 @@ export const exerciseData = [
   },
   {
     id: 137, // corresponds to index
-    title: "Deadbug",
+    title: "Deadbug (3 x 15)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: true, // true if one appendage (arms/legs), false if both
     each_type: "side", // arm, leg, side, n/a
@@ -4602,7 +4602,7 @@ export const exerciseData = [
   },
   {
     id: 165, // corresponds to index
-    title: "Goblet squats (medium reps, 5 sets)",
+    title: "Goblet squats (5 x 12)",
     type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4952,6 +4952,118 @@ export const exerciseData = [
     video: "https://www.youtube.com/embed/jRUC6IVav30?si=kKASVz4bWEPKtuZB", // url
     addtl_reqs: "",
     superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 178, // corresponds to index
+    title: "Squat (5 x 5)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "5",
+    time: "n/a",
+    sets: "5",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/05/Bodyweight-Squat.gif", "https://homeworkouts.org/wp-content/uploads/anim-sumo-squats.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2021/06/bodyweight-squat.gif", "https://modusx.de/wp-content/uploads/sumo-squat.jpg", "https://lh3.googleusercontent.com/Rtni9WvB4JNkqSbUON6kmbTA0LvfL61NFGCw-9u6f7Et-SSY2FzzPyF8yswfxqL_P1JcSYBtVc_VlZ4LW_jtSbNXHnrN-FvizH39dEyEgtztc6ZfkW7Y1RYUiT1u0XKCHzGFbuIS1T1onAqHL8fS7N0"
+    ], // array
+    video: "https://www.youtube.com/embed/xqvCmoLULNY", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 179, // corresponds to index
+    title: "Goblet squats (5 x 10)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "10",
+    time: "n/a",
+    sets: "5",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2023/01/Dumbbell-Goblet-Squat.gif",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/heel-elevated-goblet-squat.gif",
+      "https://homeworkouts.org/wp-content/uploads/anim-kettlebell-goblet-squats.gif",
+      "https://anabolicaliens.com/cdn/shop/articles/5fbc1c1889a1d8fc84f5808b_dumbbell-goblet-squat.png?v=1641750308",
+      "https://sportscienceinsider.com/wp-content/uploads/2023/09/What-muscles-do-goblet-squats-work.png",
+    ], // array
+    video: "https://www.youtube.com/embed/CkFzgR55gho?si=VU-3WP9-6hE6bT5B", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 180, // corresponds to index
+    title: "Ab wheel (3 x 10)",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "10",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://cdn.shopify.com/s/files/1/0075/4673/2662/files/ab-roller-exercise.gif",
+      "https://i.pinimg.com/564x/09/99/15/0999156d2ed873b10c5434724443d6f4.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/rqiTPdK1c_I", // url
+    addtl_reqs: "",
+    superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 181, // corresponds to index
+    title: "Deadbug (3 x 10)",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: true, // true if one appendage (arms/legs), false if both
+    each_type: "side", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "10",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/05/Dead-Bug.gif",
+      "https://cdn.shopify.com/s/files/1/1633/7705/files/core_stabilization_480x480.jpg?v=1656877714",
+    ], // array
+    video: "https://www.youtube.com/embed/g_BYB0R-4Ws", // url
+    addtl_reqs: "",
+    superset: true,
     circuit: false,
     selected: false,
     completed: false,

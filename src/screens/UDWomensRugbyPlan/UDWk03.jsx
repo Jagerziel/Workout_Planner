@@ -17,9 +17,9 @@ export default function UDWk03() {
     const [workoutIdx, setWorkoutIdx] = useState([
         {
             title: "Max Effort Lower",
-            workouts: [],
+            workouts: [132,178,164,179,180,181],
             rest: false,
-            show: false,
+            show: true,
         },
         {
             title: "Max Effort Upper",
