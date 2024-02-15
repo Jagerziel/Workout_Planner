@@ -5068,6 +5068,120 @@ export const exerciseData = [
     selected: false,
     completed: false,
   },
+  {
+    id: 182, // corresponds to index
+    title: "Bench press (5 x 5)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "5",
+    time: "n/a",
+    sets: "5",
+    note: "high weight, 2 min rest between sets",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Bench-Press.gif", "https://training.fit/wp-content/uploads/2020/02/bankdruecken-langhantel-flach-enger-griff.png", "https://fitnessvolt.com/wp-content/uploads/2020/09/bench-press-muscles-worked.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/SCVCLChPQFY", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 183, // corresponds to index
+    title: "Dumbbell front raises (3 x 10)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "10",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://newlife.com.cy/wp-content/uploads/2019/11/22331301-Dumbbell-Front-Raise-female_Shoulders_360-4.gif",
+      "https://www.aleanlife.com/wp-content/uploads/2023/02/dumbbell-front-raise.jpg",
+      "https://www.barbellfrontraise.com/wp-content/uploads/2022/05/how-to-perform-front-raise-dumbbells-correctly-1-291x300.png",
+    ], // array
+    video: "https://www.youtube.com/embed/sOcYlBI85hc", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 184, // corresponds to index
+    title: "Hammer curls (3 x 10)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "10",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/dumbbell-hammer-curl.gif",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/hammer-curl-alternatives.jpg",
+      "https://i.pinimg.com/originals/62/d7/91/62d79156e283e917195300298edc667c.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/P5sXHLmXmBM", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 185, // corresponds to index
+    title: "Rope pushdown (3 x 10)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "10",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/06/Rope-Pushdown.gif",
+      "https://www.hevyapp.com/wp-content/uploads/02001101-Cable-Pushdown-with-rope-attachment_Upper-Arms_small.jpg",
+      "https://www.bodybuildingmealplan.com/wp-content/uploads/Tricep-Pushdown-Muscles-Worked.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/vB5OHsJ3EME", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
 ];
 
 // console.log(`The last index should be: ${exerciseData.length - 1}`)
