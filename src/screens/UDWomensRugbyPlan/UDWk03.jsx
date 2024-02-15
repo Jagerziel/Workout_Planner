@@ -23,19 +23,19 @@ export default function UDWk03() {
     },
     {
       title: "Max Effort Upper",
-      workouts: [143,182,145,183,184,185],
+      workouts: [143, 182, 145, 183, 184, 185],
       rest: false,
       show: true,
     },
     {
-      title: "Stability (Optional)",
+      title: "Rest Day",
       workouts: [],
-      rest: false,
+      rest: true,
       show: false,
     },
     {
       title: "Dynamic Lower",
-      workouts: [],
+      workouts: [186,150,151,187,174,154,155],
       rest: false,
       show: false,
     },

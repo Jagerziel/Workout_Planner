@@ -4160,7 +4160,7 @@ export const exerciseData = [
   },
   {
     id: 149, // corresponds to index
-    title: "Tempo squat",
+    title: "Tempo squat (6 x 3)",
     type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -5178,6 +5178,59 @@ export const exerciseData = [
     video: "https://www.youtube.com/embed/vB5OHsJ3EME", // url
     addtl_reqs: "",
     superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 186, // corresponds to index
+    title: "Tempo squat (6 x 2)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "3",
+    time: "n/a",
+    sets: "6",
+    note: "lower weight for a 3 count, pause for a 2 count, drive the bar upward in a 1 count",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://images.squarespace-cdn.com/content/v1/5f4d96f02006d865ddeb8c4a/1615700440734-ZIFMBFN9FOE8BBN8SR3O/TEMP+INFOGRAPHIC+SQUAT+social+and+blog.png",
+    ], // array
+    video: "https://www.youtube.com/embed/Uk2ft1Ky7Fk", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 187, // corresponds to index
+    title: "Box step ups (time) (SS)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: true, // true if one appendage (arms/legs), false if both
+    each_type: "leg", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "30 seconds",
+    sets: "4",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/08/step-up-1024x504.png",
+      "https://i.pinimg.com/474x/3f/89/58/3f8958be95329be9e176b26b6c522f0e.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/PHGUzLhhsbQ", // url
+    addtl_reqs: "",
+    superset: true,
     circuit: false,
     selected: false,
     completed: false,
