@@ -3701,7 +3701,8 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://cdn.oxygenmag.com/wp-content/uploads/2016/05/seated-box-jump.jpg?width=730", "https://www.fitpro.com/blog/wp-content/uploads/2021/11/E6832_556786.jpg"
+      "https://cdn.oxygenmag.com/wp-content/uploads/2016/05/seated-box-jump.jpg?width=730",
+      "https://www.fitpro.com/blog/wp-content/uploads/2021/11/E6832_556786.jpg",
     ], // array
     video: "https://www.youtube.com/embed/64OAo8kINPQ", // url
     addtl_reqs: "",
@@ -3721,13 +3722,15 @@ export const exerciseData = [
     time: "n/a",
     sets: "5",
     note: "",
-    description01: "if you do not feel comfortable with the barbell, use a kettlebell or dumbbell and hold it in a goblet position",
+    description01:
+      "if you do not feel comfortable with the barbell, use a kettlebell or dumbbell and hold it in a goblet position",
     description02: "",
     description03: "",
     description04: "",
     description05: "",
     img: [
-      "https://www.inspireusafoundation.org/wp-content/uploads/2022/05/box-squat-muscles-used.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2022/05/barbell-box-squat-1024x573.png", 
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/05/box-squat-muscles-used.gif",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/05/barbell-box-squat-1024x573.png",
     ], // array
     video: "https://www.youtube.com/embed/rMEPHwNhQfo", // url
     addtl_reqs: "",
@@ -3753,7 +3756,9 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Romanian-Deadlift.gif", "https://fitnessvolt.com/wp-content/uploads/2019/11/deadlift-muscles-worked.jpg", "https://fitnessvolt.com/wp-content/uploads/2014/02/Stiff-Leg-Deadlift-1024x608.jpg" 
+      "https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Romanian-Deadlift.gif",
+      "https://fitnessvolt.com/wp-content/uploads/2019/11/deadlift-muscles-worked.jpg",
+      "https://fitnessvolt.com/wp-content/uploads/2014/02/Stiff-Leg-Deadlift-1024x608.jpg",
     ], // array
     video: "https://www.youtube.com/embed/7j-2w4-P14I", // url
     addtl_reqs: "",
@@ -3810,7 +3815,8 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://cdn.shopify.com/s/files/1/0075/4673/2662/files/ab-roller-exercise.gif", "https://i.pinimg.com/564x/09/99/15/0999156d2ed873b10c5434724443d6f4.jpg"
+      "https://cdn.shopify.com/s/files/1/0075/4673/2662/files/ab-roller-exercise.gif",
+      "https://i.pinimg.com/564x/09/99/15/0999156d2ed873b10c5434724443d6f4.jpg",
     ], // array
     video: "https://www.youtube.com/embed/rqiTPdK1c_I", // url
     addtl_reqs: "",
@@ -3836,7 +3842,8 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://fitnessprogramer.com/wp-content/uploads/2021/05/Dead-Bug.gif", "https://cdn.shopify.com/s/files/1/1633/7705/files/core_stabilization_480x480.jpg?v=1656877714"
+      "https://fitnessprogramer.com/wp-content/uploads/2021/05/Dead-Bug.gif",
+      "https://cdn.shopify.com/s/files/1/1633/7705/files/core_stabilization_480x480.jpg?v=1656877714",
     ], // array
     video: "https://www.youtube.com/embed/g_BYB0R-4Ws", // url
     addtl_reqs: "",
@@ -3915,7 +3922,7 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://purshape.com/wp-content/uploads/2021/05/Exercie-abdo-Kettlebell-Dead-Bug-a-une-jambe.png"
+      "https://purshape.com/wp-content/uploads/2021/05/Exercie-abdo-Kettlebell-Dead-Bug-a-une-jambe.png",
     ], // array
     video: "https://www.youtube.com/embed/y1XKOoWCSlo", // url
     addtl_reqs: "",
@@ -3941,7 +3948,7 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-        "https://fitnessvolt.com/wp-content/uploads/2022/10/Reverse-Nordic-Curl-Guide.jpg"
+      "https://fitnessvolt.com/wp-content/uploads/2022/10/Reverse-Nordic-Curl-Guide.jpg",
     ], // array
     video: "https://www.youtube.com/embed/GbpDfXXKuk0", // url
     addtl_reqs: "",
@@ -3967,7 +3974,9 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-        "https://cdn.shopify.com/s/files/1/0100/2677/8681/files/rowing_machine_muscles_worked_480x480.gif?v=1687416209", "https://www.topiom.com/wp-content/uploads/2021/04/step-by-step-indoor-rowing-technique.jpg", "https://boxlifemagazine.com/wp-content/uploads//2022/11/image-10-1024x816.png"
+      "https://cdn.shopify.com/s/files/1/0100/2677/8681/files/rowing_machine_muscles_worked_480x480.gif?v=1687416209",
+      "https://www.topiom.com/wp-content/uploads/2021/04/step-by-step-indoor-rowing-technique.jpg",
+      "https://boxlifemagazine.com/wp-content/uploads//2022/11/image-10-1024x816.png",
     ], // array
     video: "https://www.youtube.com/embed/H0r_ZPXJLtg", // url
     addtl_reqs: "",
@@ -3993,7 +4002,8 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://i.pinimg.com/originals/97/5f/e8/975fe8a1b20c0dc5aee556013de888d3.gif", "https://static.wixstatic.com/media/20336d_aff3d41a872f4bbaaaee58a1a4836c33~mv2.jpg/v1/fill/w_575,h_541,al_c,lg_1,q_80,enc_auto/20336d_aff3d41a872f4bbaaaee58a1a4836c33~mv2.jpg",
+      "https://i.pinimg.com/originals/97/5f/e8/975fe8a1b20c0dc5aee556013de888d3.gif",
+      "https://static.wixstatic.com/media/20336d_aff3d41a872f4bbaaaee58a1a4836c33~mv2.jpg/v1/fill/w_575,h_541,al_c,lg_1,q_80,enc_auto/20336d_aff3d41a872f4bbaaaee58a1a4836c33~mv2.jpg",
     ], // array
     video: "https://www.youtube.com/embed/kfnMuP5JgIw", // url
     addtl_reqs: "",
@@ -4013,13 +4023,17 @@ export const exerciseData = [
     time: "n/a",
     sets: "5",
     note: "2 minute rest between sets",
-    description01: "if you do not feel comfortable with the barbell, use a kettlebell or dumbbell",
-    description02: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description01:
+      "if you do not feel comfortable with the barbell, use a kettlebell or dumbbell",
+    description02:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
     description03: "",
     description04: "",
     description05: "",
     img: [
-      "https://fitnessprogramer.com/wp-content/uploads/2022/07/Barbell-Floor-Press.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/dumbbell-floor-press.gif", "https://pump-app.s3.eu-west-2.amazonaws.com/exercise-assets/36681101-Dumbbell-Lying-on-Floor-Chest-Press_Chest_small.jpg"
+      "https://fitnessprogramer.com/wp-content/uploads/2022/07/Barbell-Floor-Press.gif",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/dumbbell-floor-press.gif",
+      "https://pump-app.s3.eu-west-2.amazonaws.com/exercise-assets/36681101-Dumbbell-Lying-on-Floor-Chest-Press_Chest_small.jpg",
     ], // array
     video: "https://www.youtube.com/embed/9vYCwtHkWgI", // url
     addtl_reqs: "",
@@ -4075,7 +4089,9 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://newlife.com.cy/wp-content/uploads/2019/11/22331301-Dumbbell-Front-Raise-female_Shoulders_360-4.gif", "https://www.aleanlife.com/wp-content/uploads/2023/02/dumbbell-front-raise.jpg", "https://www.barbellfrontraise.com/wp-content/uploads/2022/05/how-to-perform-front-raise-dumbbells-correctly-1-291x300.png"
+      "https://newlife.com.cy/wp-content/uploads/2019/11/22331301-Dumbbell-Front-Raise-female_Shoulders_360-4.gif",
+      "https://www.aleanlife.com/wp-content/uploads/2023/02/dumbbell-front-raise.jpg",
+      "https://www.barbellfrontraise.com/wp-content/uploads/2022/05/how-to-perform-front-raise-dumbbells-correctly-1-291x300.png",
     ], // array
     video: "https://www.youtube.com/embed/sOcYlBI85hc", // url
     addtl_reqs: "",
@@ -4086,7 +4102,7 @@ export const exerciseData = [
   },
   {
     id: 147, // corresponds to index
-    title: "Hammer Curls",
+    title: "Hammer curls",
     type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4102,7 +4118,9 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/dumbbell-hammer-curl.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/hammer-curl-alternatives.jpg", "https://i.pinimg.com/originals/62/d7/91/62d79156e283e917195300298edc667c.jpg"
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/dumbbell-hammer-curl.gif",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/hammer-curl-alternatives.jpg",
+      "https://i.pinimg.com/originals/62/d7/91/62d79156e283e917195300298edc667c.jpg",
     ], // array
     video: "https://www.youtube.com/embed/P5sXHLmXmBM", // url
     addtl_reqs: "",
@@ -4113,7 +4131,7 @@ export const exerciseData = [
   },
   {
     id: 148, // corresponds to index
-    title: "Rope Pushdown",
+    title: "Rope pushdown",
     type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4129,7 +4147,9 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://fitnessprogramer.com/wp-content/uploads/2021/06/Rope-Pushdown.gif", "https://www.hevyapp.com/wp-content/uploads/02001101-Cable-Pushdown-with-rope-attachment_Upper-Arms_small.jpg", "https://www.bodybuildingmealplan.com/wp-content/uploads/Tricep-Pushdown-Muscles-Worked.jpg"
+      "https://fitnessprogramer.com/wp-content/uploads/2021/06/Rope-Pushdown.gif",
+      "https://www.hevyapp.com/wp-content/uploads/02001101-Cable-Pushdown-with-rope-attachment_Upper-Arms_small.jpg",
+      "https://www.bodybuildingmealplan.com/wp-content/uploads/Tricep-Pushdown-Muscles-Worked.jpg",
     ], // array
     video: "https://www.youtube.com/embed/vB5OHsJ3EME", // url
     addtl_reqs: "",
@@ -4138,8 +4158,218 @@ export const exerciseData = [
     selected: false,
     completed: false,
   },
-
-
+  {
+    id: 149, // corresponds to index
+    title: "Tempo squat",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "3",
+    time: "n/a",
+    sets: "6",
+    note: "lower weight for a 3 count, pause for a 2 count, drive the bar upward in a 1 count",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://images.squarespace-cdn.com/content/v1/5f4d96f02006d865ddeb8c4a/1615700440734-ZIFMBFN9FOE8BBN8SR3O/TEMP+INFOGRAPHIC+SQUAT+social+and+blog.png",
+    ], // array
+    video: "https://www.youtube.com/embed/Uk2ft1Ky7Fk", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 150, // corresponds to index
+    title: "Bulgarian split squat (low sets)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: true, // true if one appendage (arms/legs), false if both
+    each_type: "leg", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "8",
+    time: "n/a",
+    sets: "2",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/05/Dumbbell-Bulgarian-Split-Squat.gif",
+      "https://cdn.shopify.com/s/files/1/0449/8453/3153/files/bulgarian-split-spuat_600x600.gif?v=1694400525",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/heel-elevated-bulgarian-split-squat-1024x570.png",
+      "https://modusx.de/wp-content/uploads/bulgarian-split-squat.jpg",
+      "https://static.wixstatic.com/media/ea496f_50773f0f6eef48bcb93c0ece60720f6a~mv2.jpg/v1/fill/w_740,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea496f_50773f0f6eef48bcb93c0ece60720f6a~mv2.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/QD4P9Di7L20", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 151, // corresponds to index
+    title: "HIIT bike sprints (1:40 / 0:20, 8 minutes)",
+    type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "8 minutes",
+    sets: "1",
+    note: "easy pace for 1:40, sprint for 20 seconds",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.garagegymreviews.com/wp-content/uploads/what-muscles-does-cycling-work.png",
+      "https://wpassets.trainingpeaks.com/wp-content/uploads/2023/07/31165628/Screenshot-2023-07-13-at-4.13.23-PM-1024x673.png",
+    ], // array
+    video: "https://www.youtube.com/embed/zUJCXydLsTs", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 152, // corresponds to index
+    title: "Box step ups",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: true, // true if one appendage (arms/legs), false if both
+    each_type: "leg", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "15",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/08/step-up-1024x504.png",
+      "https://i.pinimg.com/474x/3f/89/58/3f8958be95329be9e176b26b6c522f0e.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/PHGUzLhhsbQ", // url
+    addtl_reqs: "",
+    superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 153, // corresponds to index
+    title: "Sit ups",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "20",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: ["https://fitnessvolt.com/wp-content/uploads/2021/07/janda-sit-up-muscle-worked-750x476.jpg", "https://chunkfitness.com/sites/default/files/sit-ups-standard_0.jpg"], // array
+    video: "https://www.youtube.com/embed/GunV4WOrIm0", // url
+    addtl_reqs: "",
+    superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 154, // corresponds to index
+    title: "Terror squats",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: true, // true if one appendage (arms/legs), false if both
+    each_type: "side", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "10",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: ["https://i.ytimg.com/vi/pVWQPeipFR4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGIgYihiMA8=&rs=AOn4CLCypB_yi6UruwhWrezgSO2mTlaltg"], // array
+    video: "https://www.youtube.com/embed/pVWQPeipFR4", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 155, // corresponds to index
+    title: "Weighted calf raises (high sets, high reps)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "25",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzyNxzWjDBQNVQp5YUhFcOhZFjK6BMTCqIg&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjWfbrJJOUlDrggUVSrWD0wEV3IagKrjpoaA&usqp=CAU",
+    ], // array
+    video: "https://www.youtube.com/embed/c5Kv6-fnTj8?si=2IOs4ZmAAJFP0tuu", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 156, // corresponds to index
+    title: "Tempo bench",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "3",
+    time: "n/a",
+    sets: "6",
+    note: "lower weight for a 3 count, pause for a 2 count, drive the bar upward in a 1 count",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://images.squarespace-cdn.com/content/v1/5f4d96f02006d865ddeb8c4a/1615700440734-ZIFMBFN9FOE8BBN8SR3O/TEMP+INFOGRAPHIC+SQUAT+social+and+blog.png",
+    ], // array
+    video: "https://www.youtube.com/embed/Uk2ft1Ky7Fk", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
 ];
 
 // console.log(`The last index should be: ${exerciseData.length - 1}`)
