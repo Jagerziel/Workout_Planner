@@ -41,9 +41,9 @@ export default function UDWk01() {
     },
     {
       title: "Dynamic Upper",
-      workouts: [],
+      workouts: [156,157,158,159,160,161,162],
       rest: false,
-      show: true,
+      show: false,
     },
   ]);
 

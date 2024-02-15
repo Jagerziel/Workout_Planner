@@ -4346,7 +4346,7 @@ export const exerciseData = [
   },
   {
     id: 156, // corresponds to index
-    title: "Tempo bench",
+    title: "Tempo bench press",
     type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4361,9 +4361,172 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://images.squarespace-cdn.com/content/v1/5f4d96f02006d865ddeb8c4a/1615700440734-ZIFMBFN9FOE8BBN8SR3O/TEMP+INFOGRAPHIC+SQUAT+social+and+blog.png",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2021/03/bench-press-muscles.jpg", "https://cdn.shopify.com/s/files/1/1633/7705/files/bench_press_muscles_worked_480x480.jpg?v=1628761920",
     ], // array
-    video: "https://www.youtube.com/embed/Uk2ft1Ky7Fk", // url
+    video: "https://www.youtube.com/embed/Bae-rDzTIcw", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 157, // corresponds to index
+    title: "Seated overhead dumbbell press (low sets)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "12",
+    time: "n/a",
+    sets: "2",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://newlife.com.cy/wp-content/uploads/2019/12/22371301-Dumbbell-Seated-Shoulder-Press-female_Shoulders_720.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShDPru1dHSn5tXG-LcbKuyHzXVHfeMnXlSWg&usqp=CAU", "https://i.pinimg.com/originals/05/ac/10/05ac106c598d26544c08e0041eed6ec9.jpg"
+      ,
+    ], // array
+    video: "https://www.youtube.com/embed/HzIiNhHhhtA", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 158, // corresponds to index
+    title: "HIIT rower sprints (1:40 / 0:20, 8 minutes)",
+    type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "8 minutes",
+    sets: "1",
+    note: "easy pace for 1:40, sprint for 20 seconds",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://cdn.shopify.com/s/files/1/0100/2677/8681/files/rowing_machine_muscles_worked_480x480.gif?v=1687416209",
+      "https://www.topiom.com/wp-content/uploads/2021/04/step-by-step-indoor-rowing-technique.jpg",
+      "https://boxlifemagazine.com/wp-content/uploads//2022/11/image-10-1024x816.png",
+    ], // array
+    video: "https://www.youtube.com/embed/H0r_ZPXJLtg", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 159, // corresponds to index
+    title: "Medicine ball slams",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "30 seconds",
+    sets: "4",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2022/06/Medicine-ball-Overhead-Slam-exercise.gif", "https://cdn.shopify.com/s/files/1/2714/5476/files/25451101-Medicine-Ball-Overhead-Slam-_female__Back_small_2a61bde8-ef03-49a8-b977-7a84c4d0222b_480x480.png?v=1675114473", "https://cdn.shopifycdn.net/s/files/1/2350/9323/files/sdsd_480x480.png?v=1626081712"
+    ], // array
+    video: "https://www.youtube.com/embed/k9W6g9LvXDI", // url
+    addtl_reqs: "",
+    superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 160, // corresponds to index
+    title: "High plank (30 seconds)",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "30 seconds",
+    sets: "4",
+    note: "20 second rest between sets",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitliferegime.com/wp-content/uploads/2021/10/High-Plank.webp"
+    ], // array
+    video: "https://www.youtube.com/embed/CIJt5fafEr8", // url
+    addtl_reqs: "",
+    superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 161, // corresponds to index
+    title: "Interval running (1:40 / 0:20, 8 minutes)",
+    type: "cardio", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "8 minutes",
+    sets: "1",
+    note: "walk for 1:40, sprint for 0:20",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/07/Run.gif",
+      "https://www.runtothefinish.com/wp-content/uploads/2021/05/running-muscles.jpg",
+      "https://hips.hearstapps.com/hmg-prod/images/run-core-muscles-1646683825.jpg",
+      "https://fitpage.in/wp-content/uploads/2021/02/physical-features-1024x576.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/7TC63HazZp8", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 162, // corresponds to index
+    title: "Burpees",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "10",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://i.pinimg.com/originals/cc/59/a0/cc59a0af9e97cbbc18ee93fbf32e4dac.gif", "https://fitnessvolt.com/wp-content/uploads/2021/02/burpee.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/dZgVxmf6jkA", // url
     addtl_reqs: "",
     superset: false,
     circuit: false,
