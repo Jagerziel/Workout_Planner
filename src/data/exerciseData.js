@@ -3983,10 +3983,62 @@ export const exerciseData = [
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
     rep_type: "reps", // reps or time
-    reps: "6-8",
+    reps: "2",
     time: "n/a",
-    sets: "3",
-    note: "weighted or banded",
+    sets: "5",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://i.pinimg.com/originals/97/5f/e8/975fe8a1b20c0dc5aee556013de888d3.gif", "https://static.wixstatic.com/media/20336d_aff3d41a872f4bbaaaee58a1a4836c33~mv2.jpg/v1/fill/w_575,h_541,al_c,lg_1,q_80,enc_auto/20336d_aff3d41a872f4bbaaaee58a1a4836c33~mv2.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/kfnMuP5JgIw", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 144, // corresponds to index
+    title: "Floor Press",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "5",
+    time: "n/a",
+    sets: "5",
+    note: "2 minute rest between sets",
+    description01: "if you do not feel comfortable with the barbell, use a kettlebell or dumbbell",
+    description02: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2022/07/Barbell-Floor-Press.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/dumbbell-floor-press.gif", "https://pump-app.s3.eu-west-2.amazonaws.com/exercise-assets/36681101-Dumbbell-Lying-on-Floor-Chest-Press_Chest_small.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/9vYCwtHkWgI", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 145, // corresponds to index
+    title: "Dumbbell flat bench press (low sets, high reps)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "12",
+    time: "n/a",
+    sets: "2",
+    note: "",
     description01:
       "3 seconds on the 'negative' or 'eccentric' portion of the rep",
     description02: "",
@@ -3994,18 +4046,98 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://www.inspireusafoundation.org/wp-content/uploads/2023/06/plyometric-push-ups.gif",
-      "https://i.pinimg.com/originals/0f/34/3e/0f343e5f49ee783888500700e162f631.gif",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-xBtwjYfhyHM7tmPfBTVG517hxeSP5BxPSA&usqp=CAU",
+      "https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif",
+      "https://s3assets.skimble.com/assets/2287143/image_iphone.jpg",
+      "https://qph.cf2.quoracdn.net/main-qimg-b1ddc31c1e22635f9d45c3b10f5821ef-lq",
     ], // array
-    video: "https://www.youtube.com/embed/Y-uF4F3mQIs?si=vxX1-aPE_Z46emur", // url
+    video: "https://www.youtube.com/embed/jRUC6IVav30?si=kKASVz4bWEPKtuZB", // url
     addtl_reqs: "",
     superset: false,
     circuit: false,
     selected: false,
     completed: false,
   },
-
+  {
+    id: 146, // corresponds to index
+    title: "Dumbbell front raises",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "20",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://newlife.com.cy/wp-content/uploads/2019/11/22331301-Dumbbell-Front-Raise-female_Shoulders_360-4.gif", "https://www.aleanlife.com/wp-content/uploads/2023/02/dumbbell-front-raise.jpg", "https://www.barbellfrontraise.com/wp-content/uploads/2022/05/how-to-perform-front-raise-dumbbells-correctly-1-291x300.png"
+    ], // array
+    video: "https://www.youtube.com/embed/sOcYlBI85hc", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 147, // corresponds to index
+    title: "Hammer Curls",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "20",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/dumbbell-hammer-curl.gif", "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/hammer-curl-alternatives.jpg", "https://i.pinimg.com/originals/62/d7/91/62d79156e283e917195300298edc667c.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/P5sXHLmXmBM", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 148, // corresponds to index
+    title: "Rope Pushdown",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "20",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/06/Rope-Pushdown.gif", "https://www.hevyapp.com/wp-content/uploads/02001101-Cable-Pushdown-with-rope-attachment_Upper-Arms_small.jpg", "https://www.bodybuildingmealplan.com/wp-content/uploads/Tricep-Pushdown-Muscles-Worked.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/vB5OHsJ3EME", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
 
 
 ];

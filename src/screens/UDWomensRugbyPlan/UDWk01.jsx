@@ -23,7 +23,7 @@ export default function UDWk01() {
     },
     {
       title: "Max Effort Upper",
-      workouts: [],
+      workouts: [143,144,145,146,147,148],
       rest: false,
       show: true,
     },
