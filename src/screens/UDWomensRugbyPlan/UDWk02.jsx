@@ -17,21 +17,21 @@ export default function UDWk02() {
   const [workoutIdx, setWorkoutIdx] = useState([
     {
       title: "Max Effort Lower",
-      workouts: [],
+      workouts: [132, 163, 164, 165, 136, 137],
       rest: false,
       show: false,
     },
     {
       title: "Max Effort Upper",
-      workouts: [],
+      workouts: [143,166,145,167,168,69],
       rest: false,
       show: false,
     },
     {
       title: "Stability (Optional)",
-      workouts: [],
+      workouts: [138,170,171,172,142],
       rest: false,
-      show: false,
+      show: true,
     },
     {
       title: "Dynamic Lower",

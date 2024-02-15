@@ -3741,7 +3741,7 @@ export const exerciseData = [
   },
   {
     id: 134, // corresponds to index
-    title: "Romanian deadlifts (Slow)",
+    title: "Romanian deadlifts (Slow, 5 sets)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3769,7 +3769,7 @@ export const exerciseData = [
   },
   {
     id: 135, // corresponds to index
-    title: "Goblet squats (high reps, high sets)",
+    title: "Goblet squats (high reps, 5 sets)",
     type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3988,7 +3988,7 @@ export const exerciseData = [
   {
     id: 143, // corresponds to index
     title: "Hand release pushup (low reps)",
-    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    type: "warmup", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
     rep_type: "reps", // reps or time
@@ -4073,7 +4073,7 @@ export const exerciseData = [
   },
   {
     id: 146, // corresponds to index
-    title: "Dumbbell front raises",
+    title: "Dumbbell front raises (3 x 20)",
     type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4102,7 +4102,7 @@ export const exerciseData = [
   },
   {
     id: 147, // corresponds to index
-    title: "Hammer curls",
+    title: "Hammer curls (3 x 20)",
     type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4131,7 +4131,7 @@ export const exerciseData = [
   },
   {
     id: 148, // corresponds to index
-    title: "Rope pushdown",
+    title: "Rope pushdown (3 x 20)",
     type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4284,7 +4284,10 @@ export const exerciseData = [
     description03: "",
     description04: "",
     description05: "",
-    img: ["https://fitnessvolt.com/wp-content/uploads/2021/07/janda-sit-up-muscle-worked-750x476.jpg", "https://chunkfitness.com/sites/default/files/sit-ups-standard_0.jpg"], // array
+    img: [
+      "https://fitnessvolt.com/wp-content/uploads/2021/07/janda-sit-up-muscle-worked-750x476.jpg",
+      "https://chunkfitness.com/sites/default/files/sit-ups-standard_0.jpg",
+    ], // array
     video: "https://www.youtube.com/embed/GunV4WOrIm0", // url
     addtl_reqs: "",
     superset: true,
@@ -4308,7 +4311,9 @@ export const exerciseData = [
     description03: "",
     description04: "",
     description05: "",
-    img: ["https://i.ytimg.com/vi/pVWQPeipFR4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGIgYihiMA8=&rs=AOn4CLCypB_yi6UruwhWrezgSO2mTlaltg"], // array
+    img: [
+      "https://i.ytimg.com/vi/pVWQPeipFR4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGIgYihiMA8=&rs=AOn4CLCypB_yi6UruwhWrezgSO2mTlaltg",
+    ], // array
     video: "https://www.youtube.com/embed/pVWQPeipFR4", // url
     addtl_reqs: "",
     superset: false,
@@ -4361,7 +4366,8 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://www.inspireusafoundation.org/wp-content/uploads/2021/03/bench-press-muscles.jpg", "https://cdn.shopify.com/s/files/1/1633/7705/files/bench_press_muscles_worked_480x480.jpg?v=1628761920",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2021/03/bench-press-muscles.jpg",
+      "https://cdn.shopify.com/s/files/1/1633/7705/files/bench_press_muscles_worked_480x480.jpg?v=1628761920",
     ], // array
     video: "https://www.youtube.com/embed/Bae-rDzTIcw", // url
     addtl_reqs: "",
@@ -4388,8 +4394,9 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://newlife.com.cy/wp-content/uploads/2019/12/22371301-Dumbbell-Seated-Shoulder-Press-female_Shoulders_720.gif", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShDPru1dHSn5tXG-LcbKuyHzXVHfeMnXlSWg&usqp=CAU", "https://i.pinimg.com/originals/05/ac/10/05ac106c598d26544c08e0041eed6ec9.jpg"
-      ,
+      "https://newlife.com.cy/wp-content/uploads/2019/12/22371301-Dumbbell-Seated-Shoulder-Press-female_Shoulders_720.gif",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShDPru1dHSn5tXG-LcbKuyHzXVHfeMnXlSWg&usqp=CAU",
+      "https://i.pinimg.com/originals/05/ac/10/05ac106c598d26544c08e0041eed6ec9.jpg",
     ], // array
     video: "https://www.youtube.com/embed/HzIiNhHhhtA", // url
     addtl_reqs: "",
@@ -4443,7 +4450,9 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://fitnessprogramer.com/wp-content/uploads/2022/06/Medicine-ball-Overhead-Slam-exercise.gif", "https://cdn.shopify.com/s/files/1/2714/5476/files/25451101-Medicine-Ball-Overhead-Slam-_female__Back_small_2a61bde8-ef03-49a8-b977-7a84c4d0222b_480x480.png?v=1675114473", "https://cdn.shopifycdn.net/s/files/1/2350/9323/files/sdsd_480x480.png?v=1626081712"
+      "https://fitnessprogramer.com/wp-content/uploads/2022/06/Medicine-ball-Overhead-Slam-exercise.gif",
+      "https://cdn.shopify.com/s/files/1/2714/5476/files/25451101-Medicine-Ball-Overhead-Slam-_female__Back_small_2a61bde8-ef03-49a8-b977-7a84c4d0222b_480x480.png?v=1675114473",
+      "https://cdn.shopifycdn.net/s/files/1/2350/9323/files/sdsd_480x480.png?v=1626081712",
     ], // array
     video: "https://www.youtube.com/embed/k9W6g9LvXDI", // url
     addtl_reqs: "",
@@ -4469,7 +4478,7 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://fitliferegime.com/wp-content/uploads/2021/10/High-Plank.webp"
+      "https://fitliferegime.com/wp-content/uploads/2021/10/High-Plank.webp",
     ], // array
     video: "https://www.youtube.com/embed/CIJt5fafEr8", // url
     addtl_reqs: "",
@@ -4524,9 +4533,288 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://i.pinimg.com/originals/cc/59/a0/cc59a0af9e97cbbc18ee93fbf32e4dac.gif", "https://fitnessvolt.com/wp-content/uploads/2021/02/burpee.jpg"
+      "https://i.pinimg.com/originals/cc/59/a0/cc59a0af9e97cbbc18ee93fbf32e4dac.gif",
+      "https://fitnessvolt.com/wp-content/uploads/2021/02/burpee.jpg",
     ], // array
     video: "https://www.youtube.com/embed/dZgVxmf6jkA", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 163, // corresponds to index
+    title: "Barbell deadlifts (low reps, 5 sets)",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "5",
+    time: "n/a",
+    sets: "5",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://newlife.com.cy/wp-content/uploads/2018/12/22141301-Barbell-Deadlift-female_Hips_720.gif",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxik80ubBNAq8l7y8SDS1csLPGPyCv1UOv6Q&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KlxMnhJpFRGQMHGU7EKbKHmFxDtYm9EwHA&usqp=CAU",
+    ], // array
+    video: "https://www.youtube.com/embed/1ZXobu7JvvE?si=C0IHqC3xWiV0altN", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 164, // corresponds to index
+    title: "Romanian deadlifts (Slow, 3 sets)",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "8",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Romanian-Deadlift.gif",
+      "https://fitnessvolt.com/wp-content/uploads/2019/11/deadlift-muscles-worked.jpg",
+      "https://fitnessvolt.com/wp-content/uploads/2014/02/Stiff-Leg-Deadlift-1024x608.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/7j-2w4-P14I", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 165, // corresponds to index
+    title: "Goblet squats (medium reps, 5 sets)",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "12",
+    time: "n/a",
+    sets: "5",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2023/01/Dumbbell-Goblet-Squat.gif",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/heel-elevated-goblet-squat.gif",
+      "https://homeworkouts.org/wp-content/uploads/anim-kettlebell-goblet-squats.gif",
+      "https://anabolicaliens.com/cdn/shop/articles/5fbc1c1889a1d8fc84f5808b_dumbbell-goblet-squat.png?v=1641750308",
+      "https://sportscienceinsider.com/wp-content/uploads/2023/09/What-muscles-do-goblet-squats-work.png",
+    ], // array
+    video: "https://www.youtube.com/embed/CkFzgR55gho?si=VU-3WP9-6hE6bT5B", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 166, // corresponds to index
+    title: "Glute bridge bench press",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "5",
+    time: "n/a",
+    sets: "5",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Hip-Thrust.gif",
+      "https://www.hertssportsvillage.co.uk/news-images/2023-Apr/hip-thrust--5180.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/Zp26q4BY5HE", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 167, // corresponds to index
+    title: "Dumbbell front raises (3 x 15)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "15",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://newlife.com.cy/wp-content/uploads/2019/11/22331301-Dumbbell-Front-Raise-female_Shoulders_360-4.gif",
+      "https://www.aleanlife.com/wp-content/uploads/2023/02/dumbbell-front-raise.jpg",
+      "https://www.barbellfrontraise.com/wp-content/uploads/2022/05/how-to-perform-front-raise-dumbbells-correctly-1-291x300.png",
+    ], // array
+    video: "https://www.youtube.com/embed/sOcYlBI85hc", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 168, // corresponds to index
+    title: "Hammer curls (3 x 15)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "15",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/dumbbell-hammer-curl.gif",
+      "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/hammer-curl-alternatives.jpg",
+      "https://i.pinimg.com/originals/62/d7/91/62d79156e283e917195300298edc667c.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/P5sXHLmXmBM", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 169, // corresponds to index
+    title: "Rope pushdown (3 x 15)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "15",
+    time: "n/a",
+    sets: "3",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/06/Rope-Pushdown.gif",
+      "https://www.hevyapp.com/wp-content/uploads/02001101-Cable-Pushdown-with-rope-attachment_Upper-Arms_small.jpg",
+      "https://www.bodybuildingmealplan.com/wp-content/uploads/Tricep-Pushdown-Muscles-Worked.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/vB5OHsJ3EME", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 170, // corresponds to index
+    title: "Reverse zercher lunge",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: true, // true if one appendage (arms/legs), false if both
+    each_type: "side", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "15",
+    time: "n/a",
+    sets: "2",
+    note: "",
+    description01:
+      "Reverse Zercher lunges do not need to be heavy, focus on engaging your core and keeping your balance",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://kkhealthyfit.files.wordpress.com/2017/05/zercher-reverse-lunge-2.jpg",
+    ], // array
+    video: "https://www.youtube.com/embed/bIQYq0m9b4M", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 171, // corresponds to index
+    title: "Single leg elevated bridge",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: true, // true if one appendage (arms/legs), false if both
+    each_type: "side", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "25",
+    time: "n/a",
+    sets: "2",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: ["https://www.burnthefatinnercircle.com/members/images/2025b.jpg"], // array
+    video: "https://www.youtube.com/embed/I7Zwyzr8COk", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 172, // corresponds to index
+    title: "Kettlebell front rack walk",
+    type: "core", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "20 steps",
+    sets: "3",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: ["https://i.pinimg.com/originals/1e/85/28/1e852849a9962bd17f7b03c0bb525282.jpg"], // array
+    video: "https://www.youtube.com/embed/Olx_XiJq_oY", // url
     addtl_reqs: "",
     superset: false,
     circuit: false,
