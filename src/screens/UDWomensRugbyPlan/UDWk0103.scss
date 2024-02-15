@@ -1,16 +1,16 @@
-.Wk0116-container {
+.UDWk0103-container {
     // border: 2px solid red;
     box-sizing: border-box;
     width: 100%;
 }
 
-.Wk0116-title {
+.UDWk0103-title {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.Wk0116-workout-day {
+.UDWk0103-workout-day {
     // border: 2px solid white;
     box-sizing: border-box;
     border-radius: 7px;
@@ -27,14 +27,14 @@
     max-width: calc(var(--m) * 340px + (var(--g)) * (var(--m) - 1));
 }
 
-.Wk0116-workout-container {
+.UDWk0103-workout-container {
     // border: 2px solid green;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.Wk0116-rest-item-container {
+.UDWk0103-rest-item-container {
     // border: 2px solid green;
     box-sizing: border-box;
     width: 100%;
@@ -43,7 +43,7 @@
     align-items: center;
 }
 
-.Wk0116-workout-item-container {
+.UDWk0103-workout-item-container {
     // border: 2px solid red;
     // box-sizing: border-box;
     margin-top: 10px;
@@ -65,46 +65,46 @@
 }
 
 @media screen and (max-width: 2150px) {
-    .Wk0116-workout-day {
+    .UDWk0103-workout-day {
         --m: 5; /* number of columns */
     }
-    .Wk0116-workout-item-container  {
+    .UDWk0103-workout-item-container  {
         --m: 5; /* number of columns */
     }
 }
 
 @media screen and (max-width: 1800px) {
-    .Wk0116-workout-day {
+    .UDWk0103-workout-day {
         --m: 4; /* number of columns */
     }
-    .Wk0116-workout-item-container  {
+    .UDWk0103-workout-item-container  {
         --m: 4; /* number of columns */
     }
 }
 
 @media screen and (max-width: 1450px) {
-    .Wk0116-workout-day {
+    .UDWk0103-workout-day {
         --m: 3; /* number of columns */
     }
-    .Wk0116-workout-item-container  {
+    .UDWk0103-workout-item-container  {
         --m: 3; /* number of columns */
     }
 }
 
 @media screen and (max-width: 1100px) {
-    .Wk0116-workout-day {
+    .UDWk0103-workout-day {
         --m: 2; /* number of columns */
     }
-    .Wk0116-workout-item-container  {
+    .UDWk0103-workout-item-container  {
         --m: 2; /* number of columns */
     }
 }
 
 @media screen and (max-width: 720px) {
-    .Wk0116-workout-day {
+    .UDWk0103-workout-day {
         --m: 1; /* number of columns */
     }
-    .Wk0116-workout-item-container  {
+    .UDWk0103-workout-item-container  {
         --m: 1; /* number of columns */
     }
 }

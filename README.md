@@ -10,7 +10,7 @@ Deployed site: https://workoutplanner2024.netlify.app
 
 ![Home Page](/public/RM-home01.png)
 
-- 16-Week Plan: Full workout plan developed by Mr. Charlie 
+- 16-Week Plan: Full workout plan developed by Mr. Charlie.  Note the University of Deleware Women's Rugby Plan follows a similar structure and has the same component functionality.
 
 ![16W Plan](/public/RM-16W01.png)
 
