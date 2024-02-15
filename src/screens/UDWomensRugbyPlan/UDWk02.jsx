@@ -37,11 +37,11 @@ export default function UDWk02() {
       title: "Dynamic Lower",
       workouts: [173,150,151,152,174,154,175],
       rest: false,
-      show: true,
+      show: false,
     },
     {
       title: "Dynamic Upper",
-      workouts: [],
+      workouts: [176,177,158,159,160,161,162],
       rest: false,
       show: false,
     },

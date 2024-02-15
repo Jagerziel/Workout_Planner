@@ -4435,7 +4435,7 @@ export const exerciseData = [
   },
   {
     id: 159, // corresponds to index
-    title: "Medicine ball slams",
+    title: "Medicine ball slams (SS)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4463,7 +4463,7 @@ export const exerciseData = [
   },
   {
     id: 160, // corresponds to index
-    title: "High plank (30 seconds)",
+    title: "High plank (30 seconds) (SS)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -4894,6 +4894,62 @@ export const exerciseData = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjWfbrJJOUlDrggUVSrWD0wEV3IagKrjpoaA&usqp=CAU",
     ], // array
     video: "https://www.youtube.com/embed/c5Kv6-fnTj8?si=2IOs4ZmAAJFP0tuu", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 176, // corresponds to index
+    title: "Barbell z press (high sets, low reps)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "3",
+    time: "n/a",
+    sets: "6",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/z-press.gif", "https://www.dmoose.com/cdn/shop/articles/Main_Image_1d9be8e0-24ca-41e2-bddf-99becc046972.jpg?v=1669910040", "https://fitnessvolt.com/wp-content/uploads/2019/12/overhead-press-anatomy-750x473.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/UvhxqM6flOw", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 177, // corresponds to index
+    title: "Dumbbell flat bench press (low sets, medium reps)",
+    type: "upper", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "12",
+    time: "n/a",
+    sets: "2",
+    note: "",
+    description01:
+      "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://newlife.com.cy/wp-content/uploads/2019/11/16241301-Dumbbell-Reverse-Bench-Press_Chest_360.gif",
+      "https://s3assets.skimble.com/assets/2287143/image_iphone.jpg",
+      "https://qph.cf2.quoracdn.net/main-qimg-b1ddc31c1e22635f9d45c3b10f5821ef-lq",
+    ], // array
+    video: "https://www.youtube.com/embed/jRUC6IVav30?si=kKASVz4bWEPKtuZB", // url
     addtl_reqs: "",
     superset: false,
     circuit: false,
