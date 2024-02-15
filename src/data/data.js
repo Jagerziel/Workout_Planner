@@ -8,7 +8,7 @@ export const homeDirectory = [
         navigation: 'udwomensrugbyplan'
     },
     {
-        title: 'Custom Workout',
+        title: 'Create Custom Workout',
         navigation: 'custom'
     },
     {

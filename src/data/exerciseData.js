@@ -5235,6 +5235,32 @@ export const exerciseData = [
     selected: false,
     completed: false,
   },
+  {
+    id: 188, // corresponds to index
+    title: "Jump squat - body weight (SS)",
+    type: "agility", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "time", // reps or time
+    reps: "n/a",
+    time: "30 seconds",
+    sets: "3",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/02/Jump-Squat.gif", "https://modusx.de/wp-content/uploads/squat-jump.jpg", "https://www.r3fitness.com.my/wp-content/uploads/2022/07/Artboard-1-2-1-800x800.png"
+    ], // array
+    video: "https://www.youtube.com/embed/QQWsscOgGkU", // url
+    addtl_reqs: "",
+    superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
 ];
 
 // console.log(`The last index should be: ${exerciseData.length - 1}`)
