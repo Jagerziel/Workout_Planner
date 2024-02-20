@@ -410,8 +410,8 @@ export const exerciseData = [
     id: 14, // corresponds to index
     title: "Bicep stretch (Upper Body)",
     type: "stretch", // warmup, upper, lower, core, agility, stretch, cardio
-    each: true, // true if one appendage (arms/legs), false if both
-    each_type: "arm", // arm, leg, side, n/a
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
     rep_type: "time", // reps or time
     reps: "n/a",
     time: "30 seconds",
