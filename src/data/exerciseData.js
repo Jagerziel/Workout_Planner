@@ -5268,11 +5268,11 @@ export const exerciseData = [
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
     rep_type: "reps", // reps or time
-    reps: "8",
+    reps: "6-8",
     time: "n/a",
     sets: "4",
     note: "",
-    description01: "",
+    description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
     description02: "",
     description03: "",
     description04: "",
@@ -5294,11 +5294,11 @@ export const exerciseData = [
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
     rep_type: "reps", // reps or time
-    reps: "8",
+    reps: "6-8",
     time: "n/a",
     sets: "4",
     note: "",
-    description01: "",
+    description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
     description02: "",
     description03: "",
     description04: "",
