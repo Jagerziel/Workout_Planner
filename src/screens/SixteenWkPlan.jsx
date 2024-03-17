@@ -11,22 +11,23 @@ import PageTransitionFade from '../hooks/framer-motion/PageTransitionFade.jsx';
 
 export default function SixteenWkPlan() {
 
+  /* MEDIA QUERY FOR CONTAINER SIZING */
   // Size of Window
   const [size, setSize] = useState({
     x: window.innerWidth,
     y: window.innerHeight
   })
-
-  // Function to update size when window is resized
+  
+  // Update size object when window is resized
   function updateSize () {
     setSize({
       x: window.innerWidth,
       y: window.innerHeight
     })
   }
-
+  
   useEffect(() => (window.onresize = updateSize), [])
-
+  
   // Customized media query for react to override CSS
   function mediaQuery ( columns ) {
     if (size.x > 1800) return columns < 10 ? columns : 10
@@ -40,6 +41,8 @@ export default function SixteenWkPlan() {
     else if (size.x > 360) return columns < 2 ? columns : 2
     else if (size.x >= 0) return columns < 1 ? columns : 1
   }
+  /* MEDIA QUERY FOR CONTAINER SIZING END */
+
 
   return (
     <PageTransitionFade>

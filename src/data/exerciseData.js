@@ -3800,7 +3800,7 @@ export const exerciseData = [
   },
   {
     id: 136, // corresponds to index
-    title: "Ab wheel (3 x 15)",
+    title: "Ab wheel (3 x 15) (SS)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -3827,7 +3827,7 @@ export const exerciseData = [
   },
   {
     id: 137, // corresponds to index
-    title: "Deadbug (3 x 15)",
+    title: "Deadbug (3 x 15) (SS)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: true, // true if one appendage (arms/legs), false if both
     each_type: "side", // arm, leg, side, n/a
@@ -5016,7 +5016,7 @@ export const exerciseData = [
   },
   {
     id: 180, // corresponds to index
-    title: "Ab wheel (3 x 10)",
+    title: "Ab wheel (3 x 10) (SS)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: false, // true if one appendage (arms/legs), false if both
     each_type: "n/a", // arm, leg, side, n/a
@@ -5043,7 +5043,7 @@ export const exerciseData = [
   },
   {
     id: 181, // corresponds to index
-    title: "Deadbug (3 x 10)",
+    title: "Deadbug (3 x 10) (SS)",
     type: "core", // warmup, upper, lower, core, agility, stretch, cardio
     each: true, // true if one appendage (arms/legs), false if both
     each_type: "side", // arm, leg, side, n/a
@@ -5257,6 +5257,58 @@ export const exerciseData = [
     video: "https://www.youtube.com/embed/QQWsscOgGkU", // url
     addtl_reqs: "",
     superset: true,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 189, // corresponds to index
+    title: "Machine hamstring curls",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "6-8",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/08/Seated-Leg-Curl.gif", "https://anabolicaliens.com/cdn/shop/articles/5fd7d1877ec308ebe3f92223_seated-hamstring-curl.png?v=1641744558"
+    ], // array
+    video: "https://www.youtube.com/embed/fK0uZ3KRZRI", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 190, // corresponds to index
+    title: "Overhead dumbbell squat",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "6-8",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01: "3 seconds on the 'negative' or 'eccentric' portion of the rep",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://s3.amazonaws.com/prod.skimble/assets/1003022/image_iphone.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/xzz1ynEF97k", // url
+    addtl_reqs: "",
+    superset: false,
     circuit: false,
     selected: false,
     completed: false,

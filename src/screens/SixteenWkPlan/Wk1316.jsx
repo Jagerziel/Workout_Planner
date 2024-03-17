@@ -24,7 +24,7 @@ export default function Wk1316() {
         },
         {
             title: "Day 2",
-            workouts: [87,89,91,92,94,28,31,32,33,128],
+            workouts: [87,89,91,189,94,28,31,32,33,128],
             rest: false,
             show: false,
         },
@@ -48,7 +48,7 @@ export default function Wk1316() {
         },
         {
             title: "Day 6",
-            workouts: [0,114,116,118,120,122,124,128],
+            workouts: [0,114,116,118,120,122,190,128],
             rest: false,
             show: false,
         },
