@@ -5261,6 +5261,58 @@ export const exerciseData = [
     selected: false,
     completed: false,
   },
+  {
+    id: 189, // corresponds to index
+    title: "Machine hamstring curls",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "8",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://fitnessprogramer.com/wp-content/uploads/2021/08/Seated-Leg-Curl.gif", "https://anabolicaliens.com/cdn/shop/articles/5fd7d1877ec308ebe3f92223_seated-hamstring-curl.png?v=1641744558"
+    ], // array
+    video: "https://www.youtube.com/embed/fK0uZ3KRZRI", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
+  {
+    id: 190, // corresponds to index
+    title: "Overhead dumbbell squat",
+    type: "lower", // warmup, upper, lower, core, agility, stretch, cardio
+    each: false, // true if one appendage (arms/legs), false if both
+    each_type: "n/a", // arm, leg, side, n/a
+    rep_type: "reps", // reps or time
+    reps: "8",
+    time: "n/a",
+    sets: "4",
+    note: "",
+    description01: "",
+    description02: "",
+    description03: "",
+    description04: "",
+    description05: "",
+    img: [
+      "https://s3.amazonaws.com/prod.skimble/assets/1003022/image_iphone.jpg"
+    ], // array
+    video: "https://www.youtube.com/embed/xzz1ynEF97k", // url
+    addtl_reqs: "",
+    superset: false,
+    circuit: false,
+    selected: false,
+    completed: false,
+  },
 ];
 
 // console.log(`The last index should be: ${exerciseData.length - 1}`)
