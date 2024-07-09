@@ -589,8 +589,9 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6ZikrlLe0DsP9KjUZvNaubEFfG_HSiFc9g&usqp=CAU",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXgA0seFmVmL4bBa_lKey3eBWuALUU3SKoQ&usqp=CAU",
+      "https://newlife.com.cy/wp-content/uploads/2018/12/22141301-Barbell-Deadlift-female_Hips_720.gif",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxik80ubBNAq8l7y8SDS1csLPGPyCv1UOv6Q&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KlxMnhJpFRGQMHGU7EKbKHmFxDtYm9EwHA&usqp=CAU",
     ], // array
     video: "https://www.youtube.com/embed/1ZXobu7JvvE?si=C0IHqC3xWiV0altN", // url
     addtl_reqs: "",
