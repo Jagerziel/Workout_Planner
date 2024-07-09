@@ -2119,7 +2119,7 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://liftingfaq.com/wp-content/uploads/2023/06/wide-grip-lat-pulldown.gif",
+      "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif",
       "https://fitnessvolt.com/wp-content/uploads/2023/07/lat-pulldown-750x584.png",
     ], // array
     video: "https://www.youtube.com/embed/trZQjegcRx0?si=hdXUnvvI0G0V5FnO", // url
@@ -2147,7 +2147,7 @@ export const exerciseData = [
     description04: "",
     description05: "",
     img: [
-      "https://liftingfaq.com/wp-content/uploads/2023/06/wide-grip-lat-pulldown.gif",
+      "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif",
       "https://fitnessvolt.com/wp-content/uploads/2023/07/lat-pulldown-750x584.png",
     ], // array
     video: "https://www.youtube.com/embed/trZQjegcRx0?si=hdXUnvvI0G0V5FnO", // url
